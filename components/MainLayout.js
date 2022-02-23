@@ -5,7 +5,7 @@ export function MainLayout({ children }) {
     <main className={styles.main}>
       {children}
       <h1 className={styles.title}>
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Welcome to <a href="https://nextjs.org">Автошкола!</a>
       </h1>
 
       <p className={styles.description}>
