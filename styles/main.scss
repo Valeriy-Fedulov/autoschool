@@ -1,3 +1,15 @@
 @import "./utils/variables";
 @import "./utils/mixins";
-@import "./utils//common";
+@import "./utils/common";
+
+@import "./layout/header.module";
+@import "./layout/category.module";
+@import "./layout/seven.module";
+@import "./layout/program.module";
+@import "./layout/education.module";
+@import "./layout/course.module";
+@import "./layout/page-section.module";
+@import "./layout/contacts.module";
+@import "./layout/gallery.module";
+@import "./layout/teachers.module";
+@import "./layout/footer.module";
