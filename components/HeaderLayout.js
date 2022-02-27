@@ -1,45 +1,21 @@
 import styles from "../styles/Home.module.scss";
 
-export function HeaderLayout({ children }) {
+export function HeaderLayout() {
   return (
-    <main className={styles.main}>
-      {children}
-      <h1 className={styles.title}>
-        Welcome to <a href="https://nextjs.org">Автошкола!</a>
-      </h1>
-
-      <p className={styles.description}>
-        Get started by editing{" "}
-        <code className={styles.code}>pages/index.js</code>
+    <header>
+      <p>УМОУСЦ ТСО України Курси водіїв м. Ужгород вул. Підгірна, 28</p>
+      <p>
+        Пн-Пт 10:00 - 18:00 + 38 (099)-318-3873 + 38 (066)-088-6500 + 38
+        (099)-151-7035 jaroslavafedulova@gmail.com
       </p>
-
-      <div className={styles.grid}>
-        <a href="https://nextjs.org/docs" className={styles.card}>
-          <h2>Documentation &rarr;</h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a href="https://nextjs.org/learn" className={styles.card}>
-          <h2>Learn &rarr;</h2>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
-        </a>
-
-        <a
-          href="https://github.com/vercel/next.js/tree/canary/examples"
-          className={styles.card}
-        >
-          <h2>Examples &rarr;</h2>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          className={styles.card}
-        >
-          <h2>Deploy &rarr;</h2>
-          <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
-        </a>
-      </div>
-    </main>
+      <p>Ласкаво просимо на курси</p>
+      <h1>Автошкола</h1>
+      <p>Пройди теоретичні та практичні заняття та отримай водійські права </p>
+      <h3>Ми навчаємо з гарантіею!</h3>
+      <p>
+        ТЕОРЕТИЧНІ ЗАНЯТТЯ стаціонарно та онлайн. ПРАКТИЧНІ ЗАНЯТТЯ -
+        ІНДИВІДУАЛЬНО З КОЖНИМ. Онлайн тести на сайті pdr.auto-tso.com
+      </p>
+    </header>
   );
 }

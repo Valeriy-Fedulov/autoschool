@@ -21,6 +21,7 @@ export default function Home() {
       </Head>
 
       <HeaderLayout></HeaderLayout>
+      <main></main>
     </div>
   );
 }
