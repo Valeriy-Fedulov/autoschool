@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
-import { MainLayout } from "../components/MainLayout";
-import styles from "../styles/Home.module.scss";
+import { HeaderLayout } from "../components/HeaderLayout";
+// import styles from "../styles/main.scss";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>AutoSchool</title>
         <meta
@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <MainLayout></MainLayout>
+      <HeaderLayout></HeaderLayout>
     </div>
   );
 }

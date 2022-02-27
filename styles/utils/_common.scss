@@ -10,6 +10,10 @@ p {
   padding: 0;
 }
 
+body {
+  font-family: $main-font;
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -19,7 +23,7 @@ p {
   font-family: $main-font;
   font-size: 12px;
   line-height: 1.17;
-  color: $movie-title-black-color;
+  // color: $movie-title-black-color;
   overflow-y: overlay;
 
   &.modal-open {

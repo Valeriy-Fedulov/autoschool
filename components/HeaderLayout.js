@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.scss";
 
-export function MainLayout({ children }) {
+export function HeaderLayout({ children }) {
   return (
     <main className={styles.main}>
       {children}
