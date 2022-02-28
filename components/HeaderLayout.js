@@ -1,9 +1,13 @@
-import styles from "../styles/Home.module.scss";
+import s from "../styles/layout/header.module.scss";
 
 export function HeaderLayout() {
   return (
     <header>
-      <p>УМОУСЦ ТСО України Курси водіїв м. Ужгород вул. Підгірна, 28</p>
+      <img className={s.logo} src="logo.jpg" width="45"></img>
+      <span>УМОУСЦ ТСО України</span>
+      <span>Курси водіїв</span>
+      <img src="location.svg" width="10"></img>
+      <span>м. Ужгород вул. Підгірна, 28</span>
       <p>
         Пн-Пт 10:00 - 18:00 + 38 (099)-318-3873 + 38 (066)-088-6500 + 38
         (099)-151-7035 jaroslavafedulova@gmail.com
