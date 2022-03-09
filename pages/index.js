@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import { HeaderLayout } from "../components/HeaderLayout";
-// import styles from "../styles/main.scss";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>AutoSchool</title>
@@ -22,7 +21,7 @@ export default function Home() {
       </Head>
 
       <HeaderLayout></HeaderLayout>
-      <main></main>
-    </div>
+      {/* <main></main> */}
+    </>
   );
 }

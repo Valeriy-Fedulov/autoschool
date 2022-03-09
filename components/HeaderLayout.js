@@ -2,9 +2,9 @@ import s from "../styles/layout/header.module.scss";
 
 export function HeaderLayout() {
   return (
-    <header>
-      <div className="container">
-        <img className={s.logo} src="logo.jpg" width="45"></img>
+    <header className="container">
+      <div>
+        {/* <img className={s.logo} src="logo.jpg" width="45"></img>
         <span>УМОУСЦ ТСО України</span>
         <span>Курси водіїв</span>
         <img className={s.location} src="location.svg" width="10"></img>
@@ -31,7 +31,7 @@ export function HeaderLayout() {
         <p>
           ТЕОРЕТИЧНІ ЗАНЯТТЯ стаціонарно та онлайн. ПРАКТИЧНІ ЗАНЯТТЯ -
           ІНДИВІДУАЛЬНО З КОЖНИМ. Онлайн тести на сайті pdr.auto-tso.com
-        </p>
+        </p> */}
       </div>
     </header>
   );
