@@ -5,7 +5,7 @@ export function HeaderLayout() {
     <header>
       <div className="container">
         <div className={s.page_header}>
-          <img className={s.logo} src="images\logo\logo.png" width="45"></img>
+          <img className={s.logo} src="images\logo\logo.png" width="45" s></img>
           <span className={s.logo_title}>УМОУСЦ ТСО України</span>
           <span className={s.logo_courses}>Курси водіїв</span>
           <img className={s.location} src="location.svg" width="10"></img>
@@ -14,6 +14,11 @@ export function HeaderLayout() {
           <img className={s.icon_menu} src="menu.svg"></img>
           <img className={s.icon_menu} src="theme.svg"></img>
         </div>
+        <img
+          className={s.bg_img}
+          src="images/background/header-background320.png"
+        ></img>
+        <img className={s.logo_car} src="images\logo\logo-car.png"></img>
         <img className={s.icon_contacts} src="time.svg"></img>
         <span className={s.shedule}>Пн-Пт 10:00 - 18:00</span>
         <img className={s.icon_contacts} src="phone.svg"></img>

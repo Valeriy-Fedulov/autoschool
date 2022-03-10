@@ -2,6 +2,17 @@
   padding-top: 15px;
 }
 
+.bg_img {
+  position: absolute;
+  left: 53.27%;
+  right: 0%;
+  top: 49.09%;
+  bottom: 28%;
+  width: 150px;
+
+  mix-blend-mode: lighten;
+}
+
 .logo {
   width: 45px;
 }
@@ -58,6 +69,11 @@
 
 .icon_menu {
   width: 25px;
+}
+
+.logo_car {
+  width: 80px;
+  mix-blend-mode: luminosity;
 }
 
 .icon_contacts {
