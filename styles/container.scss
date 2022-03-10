@@ -1,7 +1,8 @@
 .container {
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
 
   @include respond-above($mobile) {
     max-width: $mobile;
@@ -15,6 +16,8 @@
 
   @include respond-above($tablet) {
     max-width: $tablet;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   @include respond-above($desktop) {
@@ -23,5 +26,7 @@
 
   @include respond-above($big-desktop) {
     max-width: $big-desktop;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
