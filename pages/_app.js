@@ -1,3 +1,4 @@
+import "modern-normalize/modern-normalize.css";
 import Head from "next/head";
 import "../styles/main.scss";
 
