@@ -3,7 +3,7 @@ import s from "../styles/layout/header.module.scss";
 export function HeaderLayout() {
   return (
     <header className={s.pageHeader}>
-      <div className="container">
+      <div>
         <nav className={s.pageHeader__nav}>
           <div className={s.logo}>
             <img

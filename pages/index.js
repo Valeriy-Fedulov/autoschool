@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 import { HeaderLayout } from "../components/HeaderLayout";
+import { HeroLayout } from "../components/HeroLayout";
 
 export default function Home() {
   return (
@@ -21,7 +21,9 @@ export default function Home() {
       </Head>
 
       <HeaderLayout></HeaderLayout>
-      {/* <main></main> */}
+      <main>
+        <HeroLayout></HeroLayout>
+      </main>
     </>
   );
 }

@@ -1,0 +1,138 @@
+.bg__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 150px;
+
+  mix-blend-mode: lighten;
+}
+
+.hero__contacts {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-top: 82px;
+}
+
+.logo__car {
+  width: 80px;
+  mix-blend-mode: luminosity;
+}
+
+.shedule {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.shedule__item {
+  display: flex;
+}
+
+.shedule__item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.shedule__icon {
+  width: 10px;
+  margin-right: 5px;
+}
+
+.shedule__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.18;
+
+  color: #ffffff;
+}
+
+.sheduleTitle__items {
+  display: flex;
+  flex-direction: column;
+}
+
+.title_course {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1.18;
+  display: flex;
+  align-items: center;
+
+  color: #747d81;
+}
+
+.title_hero {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background: linear-gradient(180deg, #ffffff 31.75%, #1a3031 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.title_lessons {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.18;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.btn {
+  background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13cdc2 100%);
+  box-shadow: 0px 7px 20px -7px #00e0ff;
+  border-radius: 10px;
+  border-style: none;
+  padding: 10px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 1.22;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.icon_soc {
+  width: 15px;
+}
+
+.icon_title {
+  width: 20px;
+}
+
+.title_guarantee {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.2;
+
+  color: #ffffff;
+}
+
+.title_guaran_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #4abcec;
+}

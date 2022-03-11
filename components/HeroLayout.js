@@ -1,22 +1,38 @@
-import s from "../styles/layout/header.module.scss";
+import s from "../styles/layout/hero.module.scss";
 
-export function HeaderLayout() {
+export function HeroLayout() {
   return (
     <section>
       <div className="container">
         <img
-          className={s.bg_img}
+          className={s.bg__img}
           src="images/background/header-background320.png"
         ></img>
-        <img className={s.logo_car} src="images\logo\logo-car.png"></img>
-        <img className={s.icon_contacts} src="time.svg"></img>
-        <span className={s.shedule}>Пн-Пт 10:00 - 18:00</span>
-        <img className={s.icon_contacts} src="phone.svg"></img>
-        <p className={s.shedule}>
-          + 38 (099)-318-3873 + 38 (066)-088-6500 + 38 (099)-151-7035
-        </p>
-        <img className={s.icon_contacts} src="email.svg"></img>
-        <span className={s.shedule}> jaroslavafedulova@gmail.com</span>
+        <div className={s.hero__contacts}>
+          <img className={s.logo__car} src="images\logo\logo-car.png"></img>
+          <div className={s.shedule}>
+            <div className={s.shedule__item}>
+              <img className={s.shedule__icon} src="time.svg"></img>
+              <span className={s.shedule__title}>Пн-Пт 10:00 - 18:00</span>
+            </div>
+            <div className={s.shedule__item}>
+              <img className={s.shedule__icon} src="phone.svg"></img>
+              <p className={s.shedule__title}>
+                <div className={s.sheduleTitle__items}>
+                  <span className={s.phone__item}>+ 38 (099)-318-3873</span>
+                  <span>+ 38 (066)-088-6500</span>
+                  <span>+ 38 (099)-151-7035</span>
+                </div>
+              </p>
+            </div>
+            <div className={s.shedule__item}>
+              <img className={s.shedule__icon} src="email.svg"></img>
+              <span className={s.shedule__title}>
+                jaroslavafedulova@gmail.com
+              </span>
+            </div>
+          </div>
+        </div>
         <span className={s.title_course}>Ласкаво просимо на курси</span>
         <h1 className={s.title_hero}>Автошкола</h1>
         <p className={s.title_lessons}>
