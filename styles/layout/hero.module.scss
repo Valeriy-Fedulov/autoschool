@@ -9,9 +9,10 @@
 
 .hero__contacts {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
-  padding-top: 82px;
+  padding-top: 100px;
+  margin-bottom: 20px;
 }
 
 .logo__car {
@@ -52,24 +53,24 @@
   flex-direction: column;
 }
 
-.title_course {
+.title__course {
   font-style: normal;
   font-weight: 700;
   font-size: 11px;
   line-height: 1.18;
-  display: flex;
-  align-items: center;
 
   color: #747d81;
+  text-align: center;
 }
 
-.title_hero {
+.title__hero {
+  margin-bottom: 20px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
-  display: flex;
-  align-items: center;
+
   text-align: center;
 
   background: linear-gradient(180deg, #ffffff 31.75%, #1a3031 100%);
@@ -79,19 +80,20 @@
   text-fill-color: transparent;
 }
 
-.title_lessons {
+.title__lessons {
+  margin-bottom: 30px;
+  width: 155px;
   font-style: normal;
   font-weight: 500;
   font-size: 11px;
   line-height: 1.18;
-  display: flex;
-  align-items: center;
   text-align: center;
 
   color: #ffffff;
 }
 
 .btn {
+  width: 175px;
   background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13cdc2 100%);
   box-shadow: 0px 7px 20px -7px #00e0ff;
   border-radius: 10px;
@@ -102,8 +104,6 @@
   font-weight: 700;
   font-size: 9px;
   line-height: 1.22;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.25em;
   text-transform: uppercase;

@@ -33,9 +33,9 @@ export function HeroLayout() {
             </div>
           </div>
         </div>
-        <span className={s.title_course}>Ласкаво просимо на курси</span>
-        <h1 className={s.title_hero}>Автошкола</h1>
-        <p className={s.title_lessons}>
+        <p className={s.title__course}>Ласкаво просимо на курси</p>
+        <h1 className={s.title__hero}>Автошкола</h1>
+        <p className={s.title__lessons}>
           Пройди теоретичні та практичні заняття та отримай водійські права
         </p>
         <button className={s.btn}>Записатися онлайн на навчання</button>
