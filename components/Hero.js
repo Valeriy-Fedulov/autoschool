@@ -1,6 +1,6 @@
 import s from "../styles/layout/hero.module.scss";
 
-export function HeroLayout() {
+export function Hero() {
   return (
     <section>
       <div className="container">

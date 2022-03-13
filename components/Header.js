@@ -1,16 +1,19 @@
+import Image from "next/image";
 import s from "../styles/layout/header.module.scss";
 
-export function HeaderLayout() {
+export function Header() {
   return (
     <header className={s.pageHeader}>
       <div>
         <nav className={s.pageHeader__nav}>
           <div className={s.logo}>
-            <img
+            <Image
               className={s.logo__img}
-              src="images\logo\logo.png"
-              width="45"
-            ></img>
+              src="/images/logo/logo.png"
+              width={45}
+              height={63}
+              alt="Логотип ТСО України"
+            ></Image>
             <div className={s.title}>
               <span className={s.title__organization}>УМОУСЦ ТСО України</span>
               <span className={s.title__courses}>Курси водіїв</span>
