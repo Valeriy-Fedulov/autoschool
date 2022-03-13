@@ -1,3 +1,4 @@
+import Image from "next/image";
 import s from "../styles/layout/hero.module.scss";
 
 export default function Hero() {
@@ -5,14 +6,35 @@ export default function Hero() {
     <section>
       <div className="container">
         <div className={s.hero__contacts}>
-          <img className={s.logo__car} src="images\logo\logo-car.png"></img>
+          <div className={s.logo__car}>
+            <Image
+              src="/images/logo/logo-car.png"
+              width={80}
+              height={35}
+              alt="Логотип автомобіля"
+            ></Image>
+          </div>
           <div className={s.shedule}>
             <div className={s.shedule__item}>
-              <img className={s.shedule__icon} src="time.svg"></img>
+              <div className={s.shedule__icon}>
+                <Image
+                  src="/time.svg"
+                  width={10}
+                  height={10}
+                  alt="Іконка годинник"
+                ></Image>
+              </div>
               <span className={s.shedule__title}>Пн-Пт 10:00 - 18:00</span>
             </div>
             <div className={s.shedule__item}>
-              <img className={s.shedule__icon} src="phone.svg"></img>
+              <div className={s.shedule__icon}>
+                <Image
+                  src="/phone.svg"
+                  width={10}
+                  height={10}
+                  alt="Іконка телефон"
+                ></Image>
+              </div>
               <div className={s.shedule__title}>
                 <span>+ 38 (099)-318-3873</span>
                 <span>+ 38 (066)-088-6500</span>
@@ -20,7 +42,14 @@ export default function Hero() {
               </div>
             </div>
             <div className={s.shedule__item}>
-              <img className={s.shedule__icon} src="email.svg"></img>
+              <div className={s.shedule__icon}>
+                <Image
+                  src="/email.svg"
+                  width={10}
+                  height={10}
+                  alt="Іконка електронна пошта"
+                ></Image>
+              </div>
               <span className={s.shedule__title}>
                 jaroslavafedulova@gmail.com
               </span>
@@ -28,10 +57,14 @@ export default function Hero() {
           </div>
         </div>
         <div className={s.section__autoschool}>
-          <img
-            className={s.bg__img}
-            src="images/background/header-background320.png"
-          ></img>
+          <div className={s.bg__img}>
+            <Image
+              src="/images/background/header-background320.png"
+              width={150}
+              height={113}
+              alt="Фон автомобіль"
+            ></Image>
+          </div>
           <p className={s.title__course}>Ласкаво просимо на курси</p>
           <h1 className={s.title__hero}>Автошкола</h1>
           <p className={s.title__lessons}>
@@ -39,13 +72,41 @@ export default function Hero() {
           </p>
           <button className={s.btn}>Записатися онлайн на навчання</button>
           <div className={s.soc}>
-            <img className={s.soc__icon} src="viber.svg"></img>
-            <img className={s.soc__icon} src="facebook.svg"></img>
-            <img className={s.soc__icon} src="email.svg"></img>
+            <div className={s.soc__icon}>
+              <Image
+                src="/viber.svg"
+                width={15}
+                height={15}
+                alt="Viber"
+              ></Image>
+            </div>
+            <div className={s.soc__icon}>
+              <Image
+                src="/facebook.svg"
+                width={15}
+                height={15}
+                alt="Facebook"
+              ></Image>
+            </div>
+            <div className={s.soc__icon}>
+              <Image
+                src="/email.svg"
+                width={15}
+                height={15}
+                alt="Email"
+              ></Image>
+            </div>
           </div>
         </div>
         <button className={s.btn__guarantee}>
-          <img className={s.guarantee__icon} src="header-title.svg"></img>
+          <div className={s.guarantee__icon}>
+            <Image
+              src="/header-title.svg"
+              width={20}
+              height={20}
+              alt="Email"
+            ></Image>
+          </div>
         </button>
         <h3 className={s.guarantee__title}>Ми навчаємо з гарантією!</h3>
         <p className={s.guarantee_text}>

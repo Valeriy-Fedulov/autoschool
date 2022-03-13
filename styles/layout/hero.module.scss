@@ -18,6 +18,7 @@
 
   &__item {
     display: flex;
+    align-items: center;
   }
 
   &__item:not(:last-child) {
@@ -25,7 +26,9 @@
   }
 
   &__icon {
+    display: flex;
     width: 10px;
+    height: 10px;
     margin-right: 5px;
   }
 
