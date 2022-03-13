@@ -1,6 +1,6 @@
 import s from "../styles/layout/hero.module.scss";
 
-export function Hero() {
+export default function Hero() {
   return (
     <section>
       <div className="container">
@@ -13,13 +13,11 @@ export function Hero() {
             </div>
             <div className={s.shedule__item}>
               <img className={s.shedule__icon} src="phone.svg"></img>
-              <p className={s.shedule__title}>
-                <div className={s.sheduleTitle__items}>
-                  <span className={s.phone__item}>+ 38 (099)-318-3873</span>
-                  <span>+ 38 (066)-088-6500</span>
-                  <span>+ 38 (099)-151-7035</span>
-                </div>
-              </p>
+              <div className={s.shedule__title}>
+                <span>+ 38 (099)-318-3873</span>
+                <span>+ 38 (066)-088-6500</span>
+                <span>+ 38 (099)-151-7035</span>
+              </div>
             </div>
             <div className={s.shedule__item}>
               <img className={s.shedule__icon} src="email.svg"></img>

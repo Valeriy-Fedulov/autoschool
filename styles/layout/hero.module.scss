@@ -30,17 +30,15 @@
   }
 
   &__title {
+    display: flex;
+    flex-direction: column;
+
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
     line-height: 1.18;
 
     color: #ffffff;
-  }
-
-  &Title__items {
-    display: flex;
-    flex-direction: column;
   }
 }
 
