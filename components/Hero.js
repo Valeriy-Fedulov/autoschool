@@ -106,22 +106,26 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className={s.guarantee__btn}>
-          <div className={s.guarantee__icon}>
-            <Image
-              src="/header-title.svg"
-              width={20}
-              height={20}
-              alt="Email"
-              placeholder="bluer"
-            ></Image>
+        <div className={s.guarantee}>
+          <div className={s.guarantee__border}>
+            <div className={s.guarantee__btn}>
+              <div className={s.guarantee__icon}>
+                <Image
+                  src="/header-title.svg"
+                  width={20}
+                  height={20}
+                  alt="Email"
+                  placeholder="bluer"
+                ></Image>
+              </div>
+            </div>
           </div>
+          <h3 className={s.guarantee__title}>Ми навчаємо з гарантією!</h3>
+          <p className={s.guarantee_text}>
+            ТЕОРЕТИЧНІ ЗАНЯТТЯ стаціонарно та онлайн. ПРАКТИЧНІ ЗАНЯТТЯ -
+            ІНДИВІДУАЛЬНО З КОЖНИМ. Онлайн тести на сайті pdr.auto-tso.com
+          </p>
         </div>
-        <h3 className={s.guarantee__title}>Ми навчаємо з гарантією!</h3>
-        <p className={s.guarantee_text}>
-          ТЕОРЕТИЧНІ ЗАНЯТТЯ стаціонарно та онлайн. ПРАКТИЧНІ ЗАНЯТТЯ -
-          ІНДИВІДУАЛЬНО З КОЖНИМ. Онлайн тести на сайті pdr.auto-tso.com
-        </p>
       </div>
     </section>
   );
