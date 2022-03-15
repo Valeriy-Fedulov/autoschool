@@ -13,6 +13,7 @@ export default function Header() {
                 width={45}
                 height={63}
                 alt="Логотип ТСО України"
+                placeholder="blur"
               ></Image>
             </div>
             <div className={s.title}>
