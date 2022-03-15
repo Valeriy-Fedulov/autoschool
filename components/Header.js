@@ -13,7 +13,7 @@ export default function Header() {
                 width={45}
                 height={63}
                 alt="Логотип ТСО України"
-                placeholder="blur"
+                placeholder="bluer"
               ></Image>
             </div>
             <div className={s.title}>
@@ -26,6 +26,7 @@ export default function Header() {
                     width={10}
                     height={10}
                     alt="Іконка локація"
+                    placeholder="bluer"
                   ></Image>
                 </div>
                 <span className={s.location__city}>м. Ужгород</span>
@@ -40,6 +41,7 @@ export default function Header() {
                 width={25}
                 height={25}
                 alt="Іконка головне меню"
+                placeholder="bluer"
               ></Image>
             </div>
             <div className={s.menuNav__icon}>
@@ -48,6 +50,7 @@ export default function Header() {
                 width={25}
                 height={25}
                 alt="Іконка теми"
+                placeholder="bluer"
               ></Image>
             </div>
           </div>

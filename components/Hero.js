@@ -12,6 +12,7 @@ export default function Hero() {
               width={80}
               height={35}
               alt="Логотип автомобіля"
+              placeholder="bluer"
             ></Image>
           </div>
           <div className={s.shedule}>
@@ -22,6 +23,7 @@ export default function Hero() {
                   width={10}
                   height={10}
                   alt="Іконка годинник"
+                  placeholder="bluer"
                 ></Image>
               </div>
               <span className={s.shedule__title}>Пн-Пт 10:00 - 18:00</span>
@@ -33,6 +35,7 @@ export default function Hero() {
                   width={10}
                   height={10}
                   alt="Іконка телефон"
+                  placeholder="bluer"
                 ></Image>
               </div>
               <div className={s.shedule__title}>
@@ -48,6 +51,7 @@ export default function Hero() {
                   width={10}
                   height={10}
                   alt="Іконка електронна пошта"
+                  placeholder="bluer"
                 ></Image>
               </div>
               <span className={s.shedule__title}>
@@ -63,6 +67,7 @@ export default function Hero() {
               width={150}
               height={113}
               alt="Фон автомобіль"
+              placeholder="bluer"
             ></Image>
           </div>
           <p className={s.title__course}>Ласкаво просимо на курси</p>
@@ -78,6 +83,7 @@ export default function Hero() {
                 width={15}
                 height={15}
                 alt="Viber"
+                placeholder="bluer"
               ></Image>
             </div>
             <div className={s.soc__icon}>
@@ -86,6 +92,7 @@ export default function Hero() {
                 width={15}
                 height={15}
                 alt="Facebook"
+                placeholder="bluer"
               ></Image>
             </div>
             <div className={s.soc__icon}>
@@ -94,20 +101,22 @@ export default function Hero() {
                 width={15}
                 height={15}
                 alt="Email"
+                placeholder="bluer"
               ></Image>
             </div>
           </div>
         </div>
-        <button className={s.btn__guarantee}>
+        <div className={s.guarantee__btn}>
           <div className={s.guarantee__icon}>
             <Image
               src="/header-title.svg"
               width={20}
               height={20}
               alt="Email"
+              placeholder="bluer"
             ></Image>
           </div>
-        </button>
+        </div>
         <h3 className={s.guarantee__title}>Ми навчаємо з гарантією!</h3>
         <p className={s.guarantee_text}>
           ТЕОРЕТИЧНІ ЗАНЯТТЯ стаціонарно та онлайн. ПРАКТИЧНІ ЗАНЯТТЯ -
