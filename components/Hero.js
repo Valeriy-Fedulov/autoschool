@@ -4,7 +4,6 @@ import s from "../styles/layout/hero.module.scss";
 export default function Hero() {
   return (
     <section>
-      <div className="line"></div>
       <div className="container">
         <div className={s.hero__contacts}>
           <div className={s.logo__car}>
