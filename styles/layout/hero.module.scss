@@ -1,48 +1,9 @@
-.hero__contacts {
+.shedule__contacts {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding-top: 100px;
   padding-bottom: 20px;
-}
-
-.logo__car {
-  width: 80px;
-  mix-blend-mode: luminosity;
-}
-
-.shedule {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-
-  &__item {
-    display: flex;
-    align-items: center;
-  }
-
-  &__item:not(:last-child) {
-    margin-bottom: 5px;
-  }
-
-  &__icon {
-    display: flex;
-    width: 10px;
-    height: 10px;
-    margin-right: 5px;
-  }
-
-  &__title {
-    display: flex;
-    flex-direction: column;
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 1.18;
-
-    color: #ffffff;
-  }
 }
 
 .section__autoschool {

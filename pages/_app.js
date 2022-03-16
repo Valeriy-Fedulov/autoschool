@@ -26,6 +26,7 @@ export default function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </main>
       </Layout>
+      <div className="hr__shadow"></div>
     </>
   );
 }
