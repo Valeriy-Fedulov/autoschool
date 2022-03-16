@@ -15,6 +15,13 @@ export default function Footer() {
           <div className={s.footer__car}>
             <LogoCar />
           </div>
+          <div className={s.copyright}>
+            <div className={s.copyright__line}></div>
+            <p className={s.copyright__title}>
+              Copyright © 2022 УМОУСЦ ТСО України. All rights reserved
+            </p>
+            <div className={s.copyright__line}></div>
+          </div>
         </div>
       </div>
     </footer>
