@@ -4,6 +4,7 @@ import s from "../styles/layout/hero.module.scss";
 export default function Hero() {
   return (
     <section>
+      <div className="line"></div>
       <div className="container">
         <div className={s.hero__contacts}>
           <div className={s.logo__car}>
@@ -120,11 +121,13 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <h3 className={s.guarantee__title}>Ми навчаємо з гарантією!</h3>
-          <p className={s.guarantee_text}>
-            ТЕОРЕТИЧНІ ЗАНЯТТЯ стаціонарно та онлайн. ПРАКТИЧНІ ЗАНЯТТЯ -
-            ІНДИВІДУАЛЬНО З КОЖНИМ. Онлайн тести на сайті pdr.auto-tso.com
-          </p>
+          <div>
+            <h3 className={s.guarantee__title}>Ми навчаємо з гарантією!</h3>
+            <p className={s.guarantee__text}>
+              Теоретичні заняття стаціонарно та онлайн. Практичні заняття -
+              індивідуально з кожним. Онлайн тести на сайті pdr.auto-tso.com
+            </p>
+          </div>
         </div>
       </div>
     </section>
