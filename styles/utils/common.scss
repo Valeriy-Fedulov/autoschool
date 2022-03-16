@@ -11,7 +11,39 @@ p {
 }
 
 body {
+  margin: 0;
   font-family: $main-font;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  box-shadow: 0px 0px 15px rgba(0, 224, 255, 0.93), 0px 0px 15px #4ad9ec,
+    0px 0px 15px #00e0ff;
+  filter: blur(5px);
+}
+
+.hr__shadow {
+  width: 100%;
+  height: 0.1px;
+
+  background: #022637;
+
+  // border-image-source: linear-gradient(
+  //   270deg,
+  //   rgba(74, 207, 236, 0.21) 0%,
+  //   #32abc3 53.12%,
+  //   rgba(74, 197, 236, 0.23) 100%
+  // );
+
+  box-shadow: 0px 0px 5px rgba(0, 224, 255, 0.93), 0px 0px 5px #4ad9ec,
+    0px 0px 5px #00e0ff;
+  filter: blur(3px);
+
+  // background-color: #022335;
+  // background: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
 }
 
 .page {

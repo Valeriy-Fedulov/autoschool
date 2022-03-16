@@ -1,3 +1,24 @@
+.pageHeader {
+  position: absolute;
+  width: 100%;
+}
+
+.pageHeader__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
+}
+
+.menuNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menuNav__icon {
+  width: 25px;
+}
+
 // .page-header {
 //   height: 230px;
 
