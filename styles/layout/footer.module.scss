@@ -1,6 +1,6 @@
 .footer {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .footer__shedule {
@@ -18,8 +18,7 @@
 }
 
 .copyright__title {
-  flex-basis: auto;
-  width: auto;
+  margin: 0 3px;
   font-weight: 500;
   font-size: 9px;
   line-height: 2.33;
@@ -36,9 +35,13 @@
 }
 
 .copyright__line {
-  flex-basis: auto;
-  width: 100%;
+  flex-grow: 1;
   height: 0.1px;
   background: rgba(0, 224, 255, 0.2);
   transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+
+.footer__soc {
+  display: flex;
+  align-items: center;
 }

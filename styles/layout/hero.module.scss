@@ -79,20 +79,12 @@
   color: #ffffff;
 }
 
-.soc {
+.hero__soc {
   display: flex;
   flex-direction: column;
   position: absolute;
   right: 0;
   bottom: 0;
-
-  &__icon {
-    width: 15px;
-  }
-
-  &__icon:not(:last-child) {
-    margin-bottom: 10px;
-  }
 }
 
 .guarantee {

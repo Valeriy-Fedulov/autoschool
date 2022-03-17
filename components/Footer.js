@@ -2,6 +2,7 @@ import s from "../styles/layout/Footer.module.scss";
 import Logo from "./Logo";
 import LogoCar from "./LogoCar";
 import Shedule from "./Shedule";
+import Social from "./Social";
 
 export default function Footer() {
   return (
@@ -21,6 +22,9 @@ export default function Footer() {
               Copyright © 2022 УМОУСЦ ТСО України. All rights reserved
             </p>
             <div className={s.copyright__line}></div>
+          </div>
+          <div className={s.footer__soc}>
+            <Social />
           </div>
         </div>
       </div>
