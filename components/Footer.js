@@ -9,7 +9,9 @@ export default function Footer() {
     <footer>
       <div className="container">
         <div className={s.footer}>
-          <Logo />
+          <div className={s.footer__logo}>
+            <Logo />
+          </div>
           <div className={s.footer__shedule}>
             <Shedule />
           </div>
