@@ -27,10 +27,17 @@ export default function Shedule() {
             placeholder="bluer"
           ></Image>
         </div>
-        <div className={s.shedule__title}>
-          <span>+ 38 (099)-318-3873</span>
-          <span>+ 38 (066)-088-6500</span>
-          <span>+ 38 (099)-151-7035</span>
+        <div className={s.shedule__item}>
+          <div className={s.shedule__title}>
+            <span>
+              + 38 (099)<span className={s.shedule__number_one}>-318-</span>3873
+            </span>
+            <span>+ 38 (066)-088-6500</span>
+            <span>
+              + 38 (099)<span className={s.shedule__number_three}>-151-</span>
+              7035
+            </span>
+          </div>
         </div>
       </div>
       <div className={s.shedule__item}>

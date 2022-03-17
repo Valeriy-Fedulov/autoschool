@@ -2,6 +2,7 @@ import Image from "next/image";
 import s from "../styles/layout/Hero.module.scss";
 import LogoCar from "./LogoCar";
 import Shedule from "./Shedule";
+import Social from "./Social";
 
 export default function Hero() {
   return (
@@ -27,34 +28,8 @@ export default function Hero() {
             Пройди теоретичні та практичні заняття та отримай водійські права
           </p>
           <button className={s.btn}>Записатися онлайн на навчання</button>
-          <div className={s.soc}>
-            <div className={s.soc__icon}>
-              <Image
-                src="/viber.svg"
-                width={15}
-                height={15}
-                alt="Viber"
-                placeholder="bluer"
-              ></Image>
-            </div>
-            <div className={s.soc__icon}>
-              <Image
-                src="/facebook.svg"
-                width={15}
-                height={15}
-                alt="Facebook"
-                placeholder="bluer"
-              ></Image>
-            </div>
-            <div className={s.soc__icon}>
-              <Image
-                src="/email.svg"
-                width={15}
-                height={15}
-                alt="Email"
-                placeholder="bluer"
-              ></Image>
-            </div>
+          <div className={s.hero__soc}>
+            <Social />
           </div>
         </div>
         <div className={s.guarantee}>

@@ -16,6 +16,7 @@
   right: 0;
   bottom: 0;
   width: 150px;
+  height: 113px;
 
   mix-blend-mode: lighten;
 }
@@ -79,20 +80,12 @@
   color: #ffffff;
 }
 
-.soc {
+.hero__soc {
   display: flex;
   flex-direction: column;
   position: absolute;
   right: 0;
   bottom: 0;
-
-  &__icon {
-    width: 15px;
-  }
-
-  &__icon:not(:last-child) {
-    margin-bottom: 10px;
-  }
 }
 
 .guarantee {
@@ -125,6 +118,7 @@
 
 .guarantee__icon {
   width: 20px;
+  height: 20px;
 }
 
 .guarantee__title {
