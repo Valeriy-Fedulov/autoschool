@@ -21,7 +21,7 @@ export default function Footer() {
           <div className={s.copyright}>
             <div className={s.copyright__line}></div>
             <p className={s.copyright__title}>
-              Copyright © 2022 УМОУСЦ ТСО України. All rights reserved
+              Copyright © 2022 УМОУСЦ ТСО України. All rights reserved2
             </p>
             <div className={s.copyright__line}></div>
           </div>
