@@ -1,8 +1,8 @@
-import s from "../styles/layout/Footer.module.scss";
-import Logo from "./Logo";
-import LogoCar from "./LogoCar";
-import Shedule from "./Shedule";
-import Social from "./Social";
+import s from "../../styles/layout/Footer.module.scss";
+import Logo from "../Logo";
+import LogoCar from "../LogoCar";
+import Shedule from "../Shedule";
+import Social from "../Social";
 
 export default function Footer() {
   return (

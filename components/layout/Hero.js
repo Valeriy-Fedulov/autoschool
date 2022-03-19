@@ -1,8 +1,8 @@
 import Image from "next/image";
-import s from "../styles/layout/Hero.module.scss";
-import LogoCar from "./LogoCar";
-import Shedule from "./Shedule";
-import Social from "./Social";
+import s from "../../styles/layout/Hero.module.scss";
+import LogoCar from "../LogoCar";
+import Shedule from "../Shedule";
+import Social from "../Social";
 
 export default function Hero() {
   return (

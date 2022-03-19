@@ -1,6 +1,5 @@
 import Image from "next/image";
 import s from "../styles/components/Shedule.module.scss";
-import LogoCar from "./LogoCar";
 
 export default function Shedule() {
   return (

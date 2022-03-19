@@ -1,7 +1,5 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-import Header from "../components/Header";
-import Link from "next/link";
 import s from "../styles/Error.module.scss";
 
 export default function ErrorPage() {
