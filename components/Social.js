@@ -4,7 +4,6 @@ import s from "../styles/components/Social.module.scss";
 export default function Social() {
   return (
     <>
-      2
       <div className={s.soc__icon}>
         <Image
           src="/viber.svg"

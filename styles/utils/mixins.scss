@@ -1,9 +1,5 @@
 @use "sass:math";
 
-@mixin fix() {
-  padding: 0px;
-}
-
 // Grid
 @mixin grid($item-gap: 30px) {
   display: flex;

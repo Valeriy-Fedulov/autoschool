@@ -1,7 +1,3 @@
-.fix {
-  padding: 0;
-}
-
 .gallery {
   @extend %list;
   @include grid();

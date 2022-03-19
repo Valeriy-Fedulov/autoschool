@@ -1,10 +1,13 @@
-.fix {
-  padding: 0px;
-}
-
 .footer {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  padding-right: 55px;
+  margin-bottom: 10px;
 }
 
 .footer__shedule {
@@ -14,8 +17,40 @@
 .footer__car {
   display: flex;
   justify-content: center;
+  margin-bottom: 5px;
 }
 
-.fixbug {
-  padding: 0;
+.copyright {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.copyright__title {
+  margin: 0 3px;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 2.33;
+
+  background: linear-gradient(
+    180deg,
+    #ffffff 65.96%,
+    rgba(105, 104, 104, 0) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
+}
+
+.copyright__line {
+  flex-grow: 1;
+  height: 0.1px;
+  background: rgba(0, 224, 255, 0.2);
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+
+.footer__soc {
+  display: flex;
+  align-items: center;
 }

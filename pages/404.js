@@ -17,7 +17,7 @@ export default function ErrorPage() {
     <div className="container">
       <div className={s.error}>
         <div className={s.error__section}>
-          <h1 className={s.error__title}>Error 404 2</h1>
+          <h1 className={s.error__title}>Error 404</h1>
           <p className={s.error__text}>
             Будь ласка, поверніться на головну сторінку
           </p>

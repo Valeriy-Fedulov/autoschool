@@ -23,7 +23,7 @@ export default function Hero() {
             ></Image>
           </div>
           <p className={s.title__course}>Ласкаво просимо на курси</p>
-          <h1 className={s.title__hero}>Автошкола2</h1>
+          <h1 className={s.title__hero}>Автошкола</h1>
           <p className={s.title__lessons}>
             Пройди теоретичні та практичні заняття та отримай водійські права
           </p>
