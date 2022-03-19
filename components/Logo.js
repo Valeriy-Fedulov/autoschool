@@ -14,7 +14,7 @@ export default function Logo() {
         ></Image>
       </div>
       <div className={s.title}>
-        <span className={s.title__organization}>УМОУСЦ ТСО України</span>
+        <span className={s.title__organization}>УМОУСЦ ТСО України2</span>
         <span className={s.title__courses}>Курси водіїв</span>
         <div className={s.location}>
           <div className={s.location__icon}>

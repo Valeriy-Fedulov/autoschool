@@ -1,4 +1,7 @@
-@use 'sass:math';
+@use "sass:math";
+
+@mixin fix {
+}
 
 // Grid
 @mixin grid($item-gap: 30px) {

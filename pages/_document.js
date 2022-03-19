@@ -13,6 +13,7 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
+          2
           <Main />
           <NextScript />
         </body>

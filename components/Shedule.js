@@ -15,7 +15,7 @@ export default function Shedule() {
             placeholder="bluer"
           ></Image>
         </div>
-        <span className={s.shedule__title}>Пн-Пт 10:00 - 18:00</span>
+        <span className={s.shedule__title}>Пн-Пт 10:00 - 18:00 2</span>
       </div>
       <div className={s.shedule__item}>
         <div className={s.shedule__icon}>

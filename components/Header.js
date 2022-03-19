@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className={s.pageHeader}>
       <nav className={s.pageHeader__nav}>
-        <Logo />
+        <Logo />2
         <div className={s.menuNav}>
           <div className={s.menuNav__icon}>
             <Image
