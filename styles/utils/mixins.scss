@@ -1,6 +1,7 @@
 @use "sass:math";
 
-@mixin fix {
+@mixin fix() {
+  padding: 0px;
 }
 
 // Grid
