@@ -7,12 +7,15 @@ import PageSection from "../components/layout/PageSection";
 import Contacts from "../components/layout/Contacts";
 import Gallery from "../components/layout/Gallery";
 import Teachers from "../components/layout/Teachers";
+import Category from "../components/layout/Category";
 
 export default function Home() {
   return (
     <>
       <div className="hr__shadow"></div>
       <Hero />
+      <div className="hr__shadow"></div>
+      <Category />
       <div className="hr__shadow"></div>
       <Seven />
       <div className="hr__shadow"></div>

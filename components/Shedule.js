@@ -28,14 +28,14 @@ export default function Shedule() {
         </div>
         <div className={s.shedule__item}>
           <div className={s.shedule__title}>
-            <span>
+            <p>
               + 38 (099)<span className={s.shedule__number_one}>-318-</span>3873
-            </span>
-            <span>+ 38 (066)-088-6500</span>
-            <span>
+            </p>
+            <p>+ 38 (066)-088-6500</p>
+            <p>
               + 38 (099)<span className={s.shedule__number_three}>-151-</span>
               7035
-            </span>
+            </p>
           </div>
         </div>
       </div>

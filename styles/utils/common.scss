@@ -15,6 +15,28 @@ body {
   font-family: $main-font;
 }
 
+.page__sections {
+  padding: 20px 0;
+}
+
+.title__sections {
+  max-width: 275px;
+  margin: 0 auto 10px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.title__base {
+  color: #4abcec;
+}
+
 .line {
   position: absolute;
   width: 100%;
@@ -90,4 +112,27 @@ a {
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+
+.btn {
+  display: block;
+  max-width: 175px;
+  min-height: 30px;
+  margin: 0 auto;
+
+  background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13cdc2 100%);
+  box-shadow: 0px 7px 20px -7px #00e0ff;
+  border-radius: 10px;
+  border-style: none;
+  padding: 10px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 1.22;
+  text-align: center;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
