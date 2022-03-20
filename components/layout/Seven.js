@@ -5,8 +5,10 @@ export default function Seven() {
   return (
     <section>
       <div className="container">
-        <h2>
-          <span>7 причин</span> чому саме ми?
+        <div className="page__sections">
+          <h2 className="title__sections">
+            <span className="title__base">7 причин</span> чому саме ми?
+          </h2>
           <ul>
             <li>Ти станеш впевненим водієм</li>
             <li>Прокладатимеш свої маршрути на своєму авто</li>
@@ -19,7 +21,7 @@ export default function Seven() {
               практичний іспит в ДАІ без проблем
             </li>
           </ul>
-        </h2>
+        </div>
       </div>
     </section>
   );

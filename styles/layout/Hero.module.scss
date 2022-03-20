@@ -14,7 +14,7 @@
 .bg__img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 10px;
   width: 150px;
   height: 113px;
 
@@ -48,7 +48,11 @@
     background-clip: text;
   }
 
-  &__lessons {
+  &__section {
+    width: 175px;
+  }
+
+  &__text {
     margin-bottom: 20px;
     width: 155px;
     font-style: normal;
@@ -59,25 +63,6 @@
 
     color: #ffffff;
   }
-}
-
-.btn {
-  width: 150px;
-  background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13cdc2 100%);
-  box-shadow: 0px 7px 20px -7px #00e0ff;
-  border-radius: 10px;
-  border-style: none;
-  padding: 5px 10px;
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 9px;
-  line-height: 1.22;
-  text-align: center;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-
-  color: #ffffff;
 }
 
 .hero__soc {
@@ -91,7 +76,7 @@
 .guarantee {
   display: flex;
   justify-content: center;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .guarantee__border {

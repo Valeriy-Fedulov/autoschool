@@ -5,9 +5,11 @@ export default function Gallery() {
   return (
     <section>
       <div className="container">
-        <h2>
-          <span>Фотографії</span> автошколи
-        </h2>
+        <div className="page__sections">
+          <h2 className="title__sections">
+            <span className="title__base">Фотографії</span> автошколи
+          </h2>
+        </div>
       </div>
     </section>
   );

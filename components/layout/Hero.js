@@ -24,10 +24,12 @@ export default function Hero() {
           </div>
           <p className={s.title__course}>Ласкаво просимо на курси</p>
           <h1 className={s.title__hero}>Автошкола</h1>
-          <p className={s.title__lessons}>
-            Пройди теоретичні та практичні заняття та отримай водійські права
-          </p>
-          <button className={s.btn}>Записатися онлайн на навчання</button>
+          <div className={s.title__section}>
+            <p className={s.title__text}>
+              Пройди теоретичні та практичні заняття та отримай водійські права
+            </p>
+            <button className="btn">Записатися онлайн на навчання</button>
+          </div>
           <div className={s.hero__soc}>
             <Social />
           </div>
