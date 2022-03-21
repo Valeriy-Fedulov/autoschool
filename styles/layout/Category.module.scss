@@ -8,13 +8,20 @@
   border-radius: 20px;
 }
 
+// s.card__z_index {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
 .card__category {
+  position: absolute;
+  left: 100px;
+
   font-family: "Spartan", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 64px;
   line-height: 1;
-  text-align: center;
 
   text-transform: uppercase;
 
@@ -22,7 +29,7 @@
 }
 
 .card__subcategory {
-  //   font-family: "Spartan", sans-serif;
+  font-family: "Spartan", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 72px;

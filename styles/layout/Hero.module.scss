@@ -38,14 +38,15 @@
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    line-height: 44px;
+    line-height: 1.22;
 
     text-align: center;
 
-    background: linear-gradient(180deg, #ffffff 31.75%, #1a3031 100%);
+    background: linear-gradient(180deg, #ffffff 100%, #1a3031 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-shadow: 0px 4px 4px #000000;
   }
 
   &__section {

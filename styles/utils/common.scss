@@ -8,6 +8,7 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+  text-shadow: 0px 2px 2px #000000;
 }
 
 body {
@@ -89,6 +90,10 @@ ul {
   // list-style: none;
   padding: 0;
   margin-left: 10px;
+}
+
+li {
+  text-shadow: 0px 4px 4px #000000;
 }
 
 img {

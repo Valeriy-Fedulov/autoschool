@@ -11,8 +11,9 @@ export default function Category() {
             саме зараз
           </h2>
           <div className={s.card}>
-            <h3 className={s.card__category}>
-              A<span className={s.card__subcategory}>1</span>
+            <h3 className={s.card__z_index}>
+              <span className={s.card__category}>A</span>
+              <span className={s.card__subcategory}>1</span>
             </h3>
             <h4 className={s.card__title}>Категорія “А1” - мопед</h4>
             <p className={s.card__text}>

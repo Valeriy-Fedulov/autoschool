@@ -14,8 +14,8 @@ export default function Logo() {
         ></Image>
       </div>
       <div className={s.title}>
-        <span className={s.title__organization}>УМОУСЦ ТСО України</span>
-        <span className={s.title__courses}>Курси водіїв</span>
+        <p className={s.title__organization}>УМОУСЦ ТСО України</p>
+        <p className={s.title__courses}>Курси водіїв</p>
         <div className={s.location}>
           <div className={s.location__icon}>
             <Image
@@ -26,8 +26,10 @@ export default function Logo() {
               placeholder="bluer"
             ></Image>
           </div>
-          <span className={s.location__city}>м. Ужгород</span>
-          <span className={s.location__street}>вул. Підгірна, 28</span>
+          <p className={s.location__city}>
+            м. Ужгород
+            <span className={s.location__street}> вул. Підгірна, 28</span>
+          </p>
         </div>
       </div>
     </div>
