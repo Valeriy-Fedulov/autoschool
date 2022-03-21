@@ -8,6 +8,10 @@
   border-radius: 20px;
 }
 
+.card__section {
+  position: relative;
+}
+
 .card__category {
   position: relative;
   font-family: "Spartan", sans-serif;
@@ -36,6 +40,15 @@
   text-transform: uppercase;
 
   color: #4abcec;
+}
+
+.card__img {
+  position: absolute;
+  left: 80px;
+  top: 10px;
+  width: 70px;
+  height: 70px;
+  mix-blend-mode: luminosity;
 }
 
 .card__title {

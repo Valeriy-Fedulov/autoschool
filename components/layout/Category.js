@@ -11,9 +11,20 @@ export default function Category() {
             саме зараз
           </h2>
           <div className={s.card}>
-            <h3 className={s.card__category}>
-              <span className={s.card__subcategory}>A</span>1
-            </h3>
+            <div className={s.card__section}>
+              <h3 className={s.card__category}>
+                <span className={s.card__subcategory}>A</span>1
+              </h3>
+              <div className={s.card__img}>
+                <Image
+                  src="/category/A1.png"
+                  width={70}
+                  height={70}
+                  alt="Іконка головне меню"
+                  placeholder="bluer"
+                ></Image>
+              </div>
+            </div>
             <h4 className={s.card__title}>Категорія “А1” - мопед</h4>
             <p className={s.card__text}>
               Навчання з <span className={s.card__subtext}>16 років</span>{" "}
