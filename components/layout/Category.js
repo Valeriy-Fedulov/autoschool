@@ -11,9 +11,8 @@ export default function Category() {
             саме зараз
           </h2>
           <div className={s.card}>
-            <h3 className={s.card__z_index}>
-              <span className={s.card__category}>A</span>
-              <span className={s.card__subcategory}>1</span>
+            <h3 className={s.card__category}>
+              <span className={s.card__subcategory}>A</span>1
             </h3>
             <h4 className={s.card__title}>Категорія “А1” - мопед</h4>
             <p className={s.card__text}>
@@ -29,9 +28,13 @@ export default function Category() {
               <li>Медична довідка</li>
               <li>3 фотографії</li>
             </ul>
-            <p>
-              <span>2500</span>грн за 2 / місяці
-            </p>
+            <div className={s.price}>
+              <p className={s.price__course}>2500</p>
+              <p className={s.price__text}>
+                грн
+                <br /> за 2 / місяці
+              </p>
+            </div>
             <button className="btn">Записатися</button>
           </div>
         </div>
