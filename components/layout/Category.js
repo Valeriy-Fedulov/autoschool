@@ -3,18 +3,15 @@ import s from "../../styles/layout/Category.module.scss";
 
 export default function Category() {
   return (
-    <section>
+    <section className={s.category__section}>
       <div className="container">
         <div className={s.category__bg}>
           <Image
             alt="Mountains"
             src="/images/background/BG-category.png"
-            layout="fixed"
-            height="100%"
-            width="100%"
-
-            // objectFit="cover"
-            // quality={100}
+            layout="fill"
+            objectFit="cover"
+            quality={100}
           />
         </div>
         <div className="page__sections">

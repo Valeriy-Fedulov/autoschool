@@ -1,4 +1,17 @@
+.category__section {
+  position: relative;
+}
+
 .category__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 480px;
+  width: 320px;
+  overflow: hidden;
+  z-index: 0;
+
+  mix-blend-mode: screen;
 }
 
 .section__arrow {
