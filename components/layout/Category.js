@@ -10,6 +10,17 @@ export default function Category() {
             Вибери <span className="title__base">категорію</span>, яку ти хочеш
             саме зараз
           </h2>
+          <button className={s.btn__card}>
+            <div className={s.btn__arrow}>
+              <Image
+                src="/arrow-left.svg"
+                width={14}
+                height={14}
+                alt="Стрілка вліво"
+                placeholder="bluer"
+              ></Image>
+            </div>
+          </button>
           <div className={s.card}>
             <div className={s.card__section}>
               <h3 className={s.card__category}>
@@ -20,7 +31,7 @@ export default function Category() {
                   src="/category/A1.png"
                   width={70}
                   height={70}
-                  alt="Іконка головне меню"
+                  alt="Мопед"
                   placeholder="bluer"
                 ></Image>
               </div>
@@ -48,6 +59,17 @@ export default function Category() {
             </div>
             <button className="btn">Записатися</button>
           </div>
+          <button className={s.btn__card}>
+            <div className={s.btn__arrow}>
+              <Image
+                src="/arrow-right.svg"
+                width={14}
+                height={14}
+                alt="Стрілка вліво"
+                placeholder="bluer"
+              ></Image>
+            </div>
+          </button>
         </div>
       </div>
     </section>
