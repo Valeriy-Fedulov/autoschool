@@ -142,3 +142,19 @@ a {
 
   color: #ffffff;
 }
+
+hr {
+  height: 1px;
+  border: 0 solid;
+
+  background: linear-gradient(
+    270deg,
+    rgba(74, 207, 236, 0.21) 0%,
+    #32abc3 53.12%,
+    rgba(74, 197, 236, 0.23) 100%
+  );
+
+  box-shadow: 0px 3px 15px rgba(0, 224, 255, 0.93), 0px 4px 15px #4ad9ec,
+    0px 0px 24px #00e0ff;
+  filter: blur(1px);
+}
