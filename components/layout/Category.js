@@ -9,9 +9,10 @@ export default function Category() {
           <Image
             alt="Mountains"
             src="/images/background/BG-category.png"
-            // layout="fill"
-            width={100}
-            height={100}
+            layout="fixed"
+            height="100%"
+            width="100%"
+
             // objectFit="cover"
             // quality={100}
           />
