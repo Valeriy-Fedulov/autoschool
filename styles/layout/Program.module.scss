@@ -1,1 +1,46 @@
+.program__bg {
+  //   height: 100%;
+  width: 100%;
+  z-index: 1;
 
+  //   mix-blend-mode: luminosity;
+  opacity: 0.7;
+}
+
+.program__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.program__list {
+  padding: 0;
+  list-style: none;
+}
+
+.program__item {
+  position: relative;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.58;
+  text-indent: 5px;
+  color: #ffffff;
+
+  background: rgba(98, 159, 178, 0.7);
+  border-radius: 0px 10px 10px 10px;
+}
+
+.program__img {
+  position: absolute;
+  top: -15px;
+  left: -20px;
+}
