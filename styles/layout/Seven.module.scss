@@ -1,1 +1,48 @@
+.seven__bg {
+  height: 100%;
+  width: 100%;
+  z-index: 100;
 
+  mix-blend-mode: luminosity;
+  opacity: 0.25;
+}
+
+.seven__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  margin: 0;
+  list-style: none;
+}
+
+.seven__item {
+  width: 125px;
+  height: 100px;
+  margin: 10px 0;
+  padding: 2px;
+  opacity: 0.7;
+
+  border-radius: 20px;
+  background: radial-gradient(
+    47.54% 111.62% at 50% 50%,
+    #49b9e8 0%,
+    rgba(31, 77, 96, 0.43) 100%
+  );
+}
+
+.seven__itemText {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #ffffff;
+
+  background: linear-gradient(180deg, #0c373d 0%, rgba(0, 224, 255, 0.49) 100%);
+  border-radius: 20px;
+}
