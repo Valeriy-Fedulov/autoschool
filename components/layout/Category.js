@@ -3,7 +3,7 @@ import s from "../../styles/layout/Category.module.scss";
 
 export default function Category() {
   return (
-    <section className={s.category__section}>
+    <section>
       <div className="container">
         <div className={s.category__bg}>
           <Image
@@ -12,6 +12,8 @@ export default function Category() {
             layout="fill"
             objectFit="cover"
             quality={100}
+            placeholder="bluer"
+            priority
           />
         </div>
         <div className="page__sections">
@@ -24,8 +26,8 @@ export default function Category() {
               <div className={s.btn__arrow}>
                 <Image
                   src="/arrow-left.svg"
-                  width={14}
-                  height={14}
+                  width={15}
+                  height={15}
                   alt="Стрілка вліво"
                   placeholder="bluer"
                 ></Image>
@@ -74,8 +76,8 @@ export default function Category() {
               <div className={s.btn__arrow}>
                 <Image
                   src="/arrow-right.svg"
-                  width={14}
-                  height={14}
+                  width={15}
+                  height={15}
                   alt="Стрілка вліво"
                   placeholder="bluer"
                 ></Image>

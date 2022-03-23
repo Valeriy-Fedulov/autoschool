@@ -8,6 +8,7 @@ export default function LogoCar() {
         src="/images/logo/logo-car.png"
         width={80}
         height={35}
+        quality={100}
         alt="Логотип автомобіля"
         placeholder="bluer"
       ></Image>

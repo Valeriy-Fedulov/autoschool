@@ -18,6 +18,7 @@ export default function Hero() {
               src="/images/background/header-background320.png"
               width={150}
               height={113}
+              quality={100}
               alt="Фон автомобіль"
               placeholder="bluer"
             ></Image>

@@ -9,6 +9,7 @@ export default function Logo() {
           src="/images/logo/logo.png"
           width={45}
           height={63}
+          quality={100}
           alt="Логотип ТСО України"
           placeholder="bluer"
         ></Image>
