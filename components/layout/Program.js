@@ -10,8 +10,8 @@ export default function Program() {
             alt="Mountains"
             src="/images/background/BG-program.jpg"
             layout="fill"
-            width={320}
-            height={688}
+            // width={320}
+            // height={688}
             objectFit="cover"
             quality={100}
             placeholder="bluer"

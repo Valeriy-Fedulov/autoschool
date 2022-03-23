@@ -10,8 +10,8 @@ export default function Education() {
             <span className="title__base">Навчання в автошколі</span> - це
             круто?
           </h2>
-          <ul>
-            <li>
+          <ul className={s.education__list}>
+            <li className={s.education__item}>
               Теоретичний курс по Правилам дорожнього руху, основ безпеки
               дорожнього руху, будова та експлуатація транспортного засобу
             </li>
