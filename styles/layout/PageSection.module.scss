@@ -1,1 +1,49 @@
+.page_section__list {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.75;
 
+  color: #ffffff;
+}
+
+.page_section__item {
+  padding: 5px 15px;
+
+  text-indent: -10px;
+
+  background: linear-gradient(286.41deg, #073447 3.63%, #08262b 90.98%);
+  border-radius: 6px;
+}
+
+.page_section__bull {
+  font-size: 18px;
+  line-height: 1;
+  color: #4abcec;
+}
+
+.page_section__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.91;
+
+  color: #08b1b9;
+}
+
+.page_section__subbull {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: auto;
+
+  border-radius: 50%;
+  background: #4abcec;
+}
+
+.page_section__subitem {
+  color: #4abcec;
+}
