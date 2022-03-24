@@ -5,6 +5,17 @@ export default function Course() {
   return (
     <section>
       <div className="container">
+        <div className={s.course__bg}>
+          <Image
+            alt="Mountains"
+            src="/images/background/BG-course.jpg"
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+            placeholder="bluer"
+            priority
+          />
+        </div>
         <div className="page__sections">
           <h2 className="title__sections">
             Чому наш курс? <span className="title__base">Все просто!</span>
