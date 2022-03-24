@@ -7,30 +7,52 @@ export default function Contacts() {
       <div className="container">
         <div className="page__sections">
           <h2 className="title__sections">Контакти</h2>
-          <p>
-            <span>Залишились питання?</span> Зв’яжіться з нами і ми відповімо на
-            всі ваші запитання
+          <p className={s.contacts__title}>Залишились питання?</p>
+          <p className={s.contacts__text}>
+            Зв’яжіться з нами і ми відповімо на всі ваші запитання
           </p>
-          <ul>
-            <li>
-              <span>Телефони</span> + 38 (099)-318-3873 + 38 (066)-088-6500 + 38
-              (099)-151-7035
-            </li>
-            <li>
-              <span>Електронна пошта</span> jaroslavafedulova@gmail.com
-            </li>
-            <li>
-              <span>Адреса</span> м. Ужгород, вул. Підгірна, 28
-            </li>
-            <li>
-              <span>Час роботи</span> Пн-Пт 10:00 - 18:00
-            </li>
-          </ul>
-          <button className="btn">Зв’язатися з нами</button>
-          <p>
-            <span>Федулова Ярослава Іванівна</span> Директор
-            <span>Суддя Михайло Федорович</span> Заступник директора
-          </p>
+          <div className={s.contacts__list}>
+            <ul>
+              <li>
+                <p className={s.contacts__item}>Телефони</p>
+                <p className={s.contacts__shedule}>
+                  + 38 (099)-318-3873 + 38 (066)-088-6500 + 38 (099)-151-7035
+                </p>
+              </li>
+              <li>
+                <p className={s.contacts__item}>Електронна пошта</p>
+                <p>jaroslavafedulova@gmail.com</p>
+              </li>
+              <li>
+                <p className={s.contacts__item}>Адреса</p>
+                <p>м. Ужгород, вул. Підгірна, 28</p>
+              </li>
+              <li>
+                <p className={s.contacts__item}>Час роботи</p>
+                <p>Пн-Пт 10:00 - 18:00</p>
+              </li>
+            </ul>
+            <div className={s.contacts__btn}>
+              <button className="btn">Зв’язатися з нами</button>
+            </div>
+          </div>
+        </div>
+        <div className="s.contacts__map">
+          {/* <div className={s.contacts__bg}>
+            <Image
+              alt="Mountains"
+              src="/images/background/BG-map.jpeg"
+              layout="fill"
+              objectFit="cover"
+              quality={100}
+              placeholder="bluer"
+              priority
+            />
+          </div> */}
+          <p className={s.contacts__name}>Федулова Ярослава Іванівна</p>
+          <p className={s.contacts__position}>Директор</p>
+          <p className={s.contacts__name}>Суддя Михайло Федорович</p>
+          <p className={s.contacts__position}>Заступник директора</p>
         </div>
       </div>
     </section>
