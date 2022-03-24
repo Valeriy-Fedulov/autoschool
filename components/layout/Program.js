@@ -26,7 +26,7 @@ export default function Program() {
             Прості етапи як проходить навчання у нашій автошколі до отримання
             посвідчення водія
           </p>
-          <ol className={s.program__list}>
+          <ul className={s.program__list}>
             <li className={s.program__item}>
               ЗАПИС В АВТОШКОЛУ. Записатися в нашу автошколу за телефоном або
               прийти та оформити все на місці
@@ -74,7 +74,7 @@ export default function Program() {
               ОТРИМАННЯ ПОСВІДЧЕННЯ ВОДІЯ. Після успішного складання всіх
               іспитів отримуєте посвідчення водія
             </li>
-          </ol>
+          </ul>
         </div>
       </div>
     </section>
