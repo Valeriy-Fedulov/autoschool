@@ -37,18 +37,22 @@ export default function Contacts() {
             </div>
           </div>
         </div>
-        <div className="s.contacts__map">
-          {/* <div className={s.contacts__bg}>
-            <Image
-              alt="Mountains"
-              src="/images/background/BG-map.jpeg"
-              layout="fill"
-              objectFit="cover"
-              quality={100}
-              placeholder="bluer"
-              priority
-            />
-          </div> */}
+      </div>
+      <div className="container">
+        <div className={s.contacts__shadow1}></div>
+        <div className={s.contacts__shadow2}></div>
+        <div className={s.contacts__bg}>
+          <Image
+            alt="Mountains"
+            src="/images/background/BG-map.jpeg"
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+            placeholder="bluer"
+            priority
+          />
+        </div>
+        <div className={s.contacts__map}>
           <p className={s.contacts__name}>Федулова Ярослава Іванівна</p>
           <p className={s.contacts__position}>Директор</p>
           <p className={s.contacts__name}>Суддя Михайло Федорович</p>
