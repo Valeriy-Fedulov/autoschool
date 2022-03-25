@@ -1,15 +1,8 @@
-// .gallery {
-//   @extend %list;
-//   @include grid();
-//   padding-top: 20px;
-//   padding-bottom: 40px;
+.gallery__item {
+  position: relative;
+  width: 280px;
+  height: 180px;
+  margin: 60px auto;
 
-//   @include respond-above($tablet) {
-//     padding-top: 60px;
-//     padding-bottom: 50px;
-//   }
-
-//   @include respond-above($desktop) {
-//     padding-bottom: 46px;
-//   }
-// }
+  border-radius: 50%;
+}
