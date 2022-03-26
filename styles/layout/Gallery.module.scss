@@ -1,8 +1,65 @@
-.gallery__item {
-  position: relative;
+.category__bg {
+  // height: 100%;
+  // width: 100%;
+  // z-index: 1;
+
+  mix-blend-mode: luminosity;
+  opacity: 75%;
+}
+
+.gallery__border {
   width: 280px;
   height: 180px;
-  margin: 60px auto;
+  padding: 2px;
+  margin: 25px auto;
 
+  border-radius: 20px;
+  background: radial-gradient(
+    47.54% 111.62% at 50% 50%,
+    #49b9e8 0%,
+    rgba(31, 77, 96, 0.43) 100%
+  );
+}
+
+.gallery__item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(3, 225, 255, 0.1),
+  //   rgba(3, 225, 255, 0.1)
+  // );
+}
+
+.gallery__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn__img {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+
+  background: #08262b;
+  opacity: 0.7;
+  border: none;
   border-radius: 50%;
+}
+
+.btn__arrow {
+  width: 17px;
+  height: 17px;
+  margin: auto;
+
+  color: #ffffff;
+}
+
+.gallery__bull {
+  font-size: 32px;
+  line-height: 1;
+  color: #4abcec;
 }
