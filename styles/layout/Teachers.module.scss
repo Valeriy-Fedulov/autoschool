@@ -1,1 +1,56 @@
+.teachers__foto {
+  margin: 20px auto;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  overflow: hidden;
+  mix-blend-mode: screen;
 
+  //   background: #043a41;
+}
+
+.teachers__name {
+  margin-bottom: 20px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.38;
+
+  text-align: center;
+
+  color: #4abcec;
+}
+
+.teachers__position {
+  margin-bottom: 20px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.58;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.teachers__btn {
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 1.22;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  background: rgba(3, 225, 255, 0.5);
+  border: 1px solid #00e0ff;
+  box-sizing: border-box;
+  box-shadow: 0px 7px 20px -7px #00e0ff;
+  border-radius: 50px;
+}
