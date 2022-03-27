@@ -12,7 +12,6 @@ import Category from "../components/layout/Category";
 export default function Home() {
   return (
     <>
-      <div className="hr__shadow"></div>
       <Hero />
       <div className="hr__shadow"></div>
       <Category />
@@ -32,7 +31,6 @@ export default function Home() {
       <Gallery />
       <div className="hr__shadow"></div>
       <Teachers />
-      <div className="hr__shadow"></div>
     </>
   );
 }

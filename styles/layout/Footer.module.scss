@@ -1,4 +1,18 @@
 .footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer__bg {
+  background: linear-gradient(
+    286.41deg,
+    rgba(2, 35, 53, 0.75) 3.63%,
+    rgba(4, 58, 65, 0.75) 90.98%
+  );
+}
+
+.footer__padding {
   padding-top: 20px;
   padding-bottom: 10px;
 }
@@ -53,4 +67,30 @@
 .footer__soc {
   display: flex;
   align-items: center;
+}
+
+.footer__btnshadow {
+  position: absolute;
+  top: -30px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.05);
+
+  border-style: none;
+  border-radius: 50%;
+}
+
+.footer__btnscroll {
+  display: flex;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13cdc2 100%);
+  box-shadow: 0px 7px 20px -7px #00e0ff;
+  border-radius: 50%;
 }
