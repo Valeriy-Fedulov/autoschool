@@ -5,6 +5,7 @@ import Logo from "../Logo";
 export default function Header() {
   return (
     <header className={s.pageHeader}>
+      <div className="hr__shadow"></div>
       <nav className={s.pageHeader__nav}>
         <Logo />
         <div className={s.menuNav}>

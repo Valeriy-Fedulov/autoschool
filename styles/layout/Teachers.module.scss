@@ -1,12 +1,22 @@
-.teachers__foto {
+.teachers__bg {
+  mix-blend-mode: exclusion;
+  opacity: 75%;
+}
+
+.teachers__shadow {
   margin: 20px auto;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  background: #043a41;
+}
+
+.teachers__foto {
   width: 225px;
   height: 225px;
   border-radius: 50%;
   overflow: hidden;
   mix-blend-mode: screen;
-
-  //   background: #043a41;
 }
 
 .teachers__name {
@@ -38,7 +48,7 @@
 .teachers__btn {
   display: block;
   padding: 10px;
-  margin: 0 auto;
+  margin: 0 auto 275px;
   font-style: normal;
   font-weight: 700;
   font-size: 9px;

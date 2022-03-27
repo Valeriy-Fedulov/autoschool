@@ -1,3 +1,4 @@
+import Image from "next/image";
 import s from "../../styles/layout/Footer.module.scss";
 import Logo from "../Logo";
 import LogoCar from "../LogoCar";
@@ -6,9 +7,10 @@ import Social from "../Social";
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="container">
-        <div className={s.footer}>
+    <footer className={s.footer}>
+      <div className="hr__shadow"></div>
+      <div className={`container ${s.footer__bg}`}>
+        <div className={s.footer__padding}>
           <div className={s.footer__logo}>
             <Logo />
           </div>
@@ -28,8 +30,20 @@ export default function Footer() {
           <div className={s.footer__soc}>
             <Social />
           </div>
+          <button className={s.footer__btnshadow}>
+            <div className={s.footer__btnscroll}>
+              <Image
+                src="/scroll-top.svg"
+                width={15}
+                height={15}
+                alt="Прокрутка"
+                placeholder="bluer"
+              ></Image>
+            </div>
+          </button>
         </div>
       </div>
+      <div className="hr__shadow"></div>
     </footer>
   );
 }
