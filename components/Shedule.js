@@ -12,7 +12,7 @@ export default function Shedule() {
             height={10}
             alt="Іконка годинник"
             placeholder="bluer"
-          ></Image>
+          />
         </div>
         <p className={s.shedule__title}>Пн-Пт 10:00 - 18:00</p>
       </div>
@@ -24,7 +24,7 @@ export default function Shedule() {
             height={10}
             alt="Іконка телефон"
             placeholder="bluer"
-          ></Image>
+          />
         </div>
         <div className={s.shedule__item}>
           <div className={s.shedule__title}>
@@ -47,7 +47,7 @@ export default function Shedule() {
             height={10}
             alt="Іконка електронна пошта"
             placeholder="bluer"
-          ></Image>
+          />
         </div>
         <p className={s.shedule__title}>jaroslavafedulova@gmail.com</p>
       </div>

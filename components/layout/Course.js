@@ -29,7 +29,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Тривалість навчання в залежності від категорії від 2 тижнів до 3
               місяців.
@@ -42,7 +42,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Наявність інтенсивної програми.
             </li>
@@ -54,7 +54,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Можливість безкоштовно повторно відвідати любу лекцію.
             </li>
@@ -66,7 +66,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Вибір місця відвідування занять.
             </li>
@@ -78,7 +78,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Вибір графіка відвідування занять.
             </li>
@@ -90,7 +90,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Вибір форми навчання.
             </li>
@@ -102,7 +102,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               При неможливості відвідування якої небуть лекції по ПДР -
               безкоштовне відвідування пропущеної лекції, допомога в складанні
@@ -116,7 +116,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Особливості навчання - примінення сучасних технічних засобів, в
               т.ч. засобів інтерактивного моделювання ситуації.
@@ -129,7 +129,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Навчання із врахуванням жіночої психології.
             </li>
@@ -141,7 +141,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Кількість занять по водінню визначається з врахуванням наявності
               навиків та індивідуальних здібностей.
@@ -154,7 +154,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Водіння в різних районах Ужгорода та Ужгородського району -
               можливість комбінувати, наприклад: водіння поруч з проживанням,
@@ -168,7 +168,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Гарантія на навчання<span className={s.footnote}>*</span>
               <p className={s.footnote__text}>
@@ -185,7 +185,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Обов’язкове проходження викладачами та інструкторами з практичного
               керування автомобіля підвищення кваліфікації
@@ -198,7 +198,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Здача екзаменів в ДАІ - в зручний Вам день та час зразу після
               закінчення курсів.
@@ -211,7 +211,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Безкоштовні консультації з викладачем по ПДР.
             </li>
@@ -223,7 +223,7 @@ export default function Course() {
                   height={20}
                   alt="Пункт"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
               Практичні заняття з інструктором по контрольному маршруту ДАІ.
             </li>

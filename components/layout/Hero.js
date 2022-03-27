@@ -21,7 +21,7 @@ export default function Hero() {
               quality={100}
               alt="Фон автомобіль"
               placeholder="bluer"
-            ></Image>
+            />
           </div>
           <p className={s.title__course}>Ласкаво просимо на курси</p>
           <h1 className={s.title__hero}>Автошкола</h1>
@@ -45,7 +45,7 @@ export default function Hero() {
                   height={20}
                   alt="Email"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
             </div>
           </div>

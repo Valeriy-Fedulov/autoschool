@@ -11,7 +11,7 @@ export default function LogoCar() {
         quality={100}
         alt="Логотип автомобіля"
         placeholder="bluer"
-      ></Image>
+      />
     </div>
   );
 }
