@@ -25,6 +25,28 @@
   border-radius: 6px;
 }
 
+.page_section__shadowBtn {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+
+  background: radial-gradient(
+    47.54% 111.62% at 50% 50%,
+    #49b9e8 0%,
+    rgba(31, 77, 96, 0.43) 100%
+  );
+  border-radius: 6px;
+}
+
+.page_section__icon {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 224, 255, 0.11) 0%,
+    rgba(0, 224, 255, 0.0539) 100%
+  );
+  border-radius: 6px;
+}
+
 .page_section__bull {
   font-size: 18px;
   line-height: 1;

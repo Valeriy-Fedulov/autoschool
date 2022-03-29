@@ -32,7 +32,9 @@ export default function Seven() {
                     placeholder="bluer"
                   />
                 </div>
-                Ти станеш впевненим водієм
+                <div className={s.seven__itemCenter}>
+                  Ти станеш впевненим водієм
+                </div>
               </div>
             </li>
             <li className={s.seven__item}>
@@ -46,7 +48,9 @@ export default function Seven() {
                     placeholder="bluer"
                   />
                 </div>
-                Прокладатимеш свої маршрути на своєму авто
+                <div className={s.seven__itemCenter}>
+                  Прокладатимеш свої маршрути на своєму авто
+                </div>
               </div>
             </li>
             <li className={s.seven__item}>
@@ -60,7 +64,9 @@ export default function Seven() {
                     placeholder="bluer"
                   />
                 </div>
-                Зумієш планувати свій час пересуваючись дорогами
+                <div className={s.seven__itemCenter}>
+                  Зумієш планувати свій час пересуваючись дорогами
+                </div>
               </div>
             </li>
             <li className={s.seven__item}>
@@ -74,7 +80,9 @@ export default function Seven() {
                     placeholder="bluer"
                   />
                 </div>
-                Ми навчаємо тільки тому, що стане в нагоді під час водіння!
+                <div className={s.seven__itemCenter}>
+                  Ми навчаємо тільки тому, що стане в нагоді під час водіння!
+                </div>
               </div>
             </li>
             <li className={s.seven__item}>
@@ -88,7 +96,9 @@ export default function Seven() {
                     placeholder="bluer"
                   />
                 </div>
-                Ти знайдеш друзів, з якими зможеш створювати свої подорожі
+                <div className={s.seven__itemCenter}>
+                  Ти знайдеш друзів, з якими зможеш створювати свої подорожі
+                </div>
               </div>
             </li>
             <li className={s.seven__item}>
@@ -102,7 +112,9 @@ export default function Seven() {
                     placeholder="bluer"
                   />
                 </div>
-                Ми випускаємо професійних учасників дорожнього руху
+                <div className={s.seven__itemCenter}>
+                  Ми випускаємо професійних учасників дорожнього руху
+                </div>
               </div>
             </li>
             <li className={s.seven__item}>
@@ -116,8 +128,10 @@ export default function Seven() {
                     placeholder="bluer"
                   />
                 </div>
-                Після успішного завершення курсу ти складеш теоретичний та
-                практичний іспит в ДАІ без проблем
+                <div className={s.seven__itemCenter}>
+                  Після успішного завершення курсу ти складеш теоретичний та
+                  практичний іспит в ДАІ без проблем
+                </div>
               </div>
             </li>
           </ul>
