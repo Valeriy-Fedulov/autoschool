@@ -31,15 +31,17 @@ export default function PageSection() {
                   руху.
                 </span>
               </p>
-              <div className={s.page_section__shadowBtn}>
-                <div className={s.page_section__icon}>
-                  <Image
-                    src="/list-arrow.svg"
-                    width={10}
-                    height={10}
-                    alt="Email"
-                    placeholder="bluer"
-                  />
+              <div className={s.page_section__border}>
+                <div className={s.page_section__btn}>
+                  <div className={s.page_section__icon}>
+                    <Image
+                      src="/list-arrow.svg"
+                      width={10}
+                      height={10}
+                      alt="List"
+                      placeholder="bluer"
+                    />
+                  </div>
                 </div>
               </div>
               <ul className={s.page_section__sublist}>
