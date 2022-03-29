@@ -23,36 +23,99 @@ export default function Seven() {
           <ul className={s.seven__list}>
             <li className={s.seven__item}>
               <div className={s.seven__itemText}>
+                <div className={s.seven__icon}>
+                  <Image
+                    src="/icons-seven/icons1.svg"
+                    width={15}
+                    height={15}
+                    alt="Стрілка"
+                    placeholder="bluer"
+                  />
+                </div>
                 Ти станеш впевненим водієм
               </div>
             </li>
             <li className={s.seven__item}>
               <div className={s.seven__itemText}>
+                <div className={s.seven__icon}>
+                  <Image
+                    src="/icons-seven/icons2.svg"
+                    width={15}
+                    height={15}
+                    alt="Стрілка"
+                    placeholder="bluer"
+                  />
+                </div>
                 Прокладатимеш свої маршрути на своєму авто
               </div>
             </li>
             <li className={s.seven__item}>
               <div className={s.seven__itemText}>
+                <div className={s.seven__icon}>
+                  <Image
+                    src="/icons-seven/icons3.svg"
+                    width={15}
+                    height={15}
+                    alt="Стрілка"
+                    placeholder="bluer"
+                  />
+                </div>
                 Зумієш планувати свій час пересуваючись дорогами
               </div>
             </li>
             <li className={s.seven__item}>
               <div className={s.seven__itemText}>
+                <div className={s.seven__icon}>
+                  <Image
+                    src="/icons-seven/icons4.svg"
+                    width={15}
+                    height={15}
+                    alt="Стрілка"
+                    placeholder="bluer"
+                  />
+                </div>
                 Ми навчаємо тільки тому, що стане в нагоді під час водіння!
               </div>
             </li>
             <li className={s.seven__item}>
               <div className={s.seven__itemText}>
+                <div className={s.seven__icon}>
+                  <Image
+                    src="/icons-seven/icons5.svg"
+                    width={15}
+                    height={15}
+                    alt="Стрілка"
+                    placeholder="bluer"
+                  />
+                </div>
                 Ти знайдеш друзів, з якими зможеш створювати свої подорожі
               </div>
             </li>
             <li className={s.seven__item}>
               <div className={s.seven__itemText}>
+                <div className={s.seven__icon}>
+                  <Image
+                    src="/icons-seven/icons6.svg"
+                    width={15}
+                    height={15}
+                    alt="Стрілка"
+                    placeholder="bluer"
+                  />
+                </div>
                 Ми випускаємо професійних учасників дорожнього руху
               </div>
             </li>
             <li className={s.seven__item}>
               <div className={s.seven__itemText}>
+                <div className={s.seven__icon}>
+                  <Image
+                    src="/icons-seven/icons7.svg"
+                    width={15}
+                    height={15}
+                    alt="Стрілка"
+                    placeholder="bluer"
+                  />
+                </div>
                 Після успішного завершення курсу ти складеш теоретичний та
                 практичний іспит в ДАІ без проблем
               </div>
