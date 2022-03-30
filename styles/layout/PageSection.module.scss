@@ -17,7 +17,8 @@
 }
 
 .page_section__item {
-  padding: 5px 15px;
+  position: relative;
+  padding: 5px 30px 5px 15px;
 
   text-indent: -10px;
 
@@ -26,6 +27,9 @@
 }
 
 .page_section__border {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
   width: 20px;
   height: 20px;
   padding: 2px;
@@ -39,17 +43,21 @@
 }
 
 .page_section__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 16px;
   height: 16px;
-  padding: 5px;
+  padding-right: 1px;
 
   border-radius: 6px;
   background: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
 }
 
 .page_section__icon {
-  width: 5px;
-  height: 5px;
+  display: flex;
+  width: 11px;
+  height: 11px;
 }
 
 .page_section__bull {

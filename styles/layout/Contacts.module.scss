@@ -41,6 +41,19 @@
   border-radius: 20px;
 }
 
+.contacts__itemIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts__icon {
+  margin-right: 5px;
+
+  width: 15px;
+  height: 15px;
+}
+
 .contacts__item {
   margin: 10px 0;
   font-style: normal;

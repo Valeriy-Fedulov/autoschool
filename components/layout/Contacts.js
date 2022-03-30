@@ -14,21 +14,65 @@ export default function Contacts() {
           <div className={s.contacts__list}>
             <ul>
               <li>
-                <p className={s.contacts__item}>Телефони</p>
+                <div className={s.contacts__itemIcon}>
+                  <div className={s.contacts__icon}>
+                    <Image
+                      src="/phone.svg"
+                      width={15}
+                      height={15}
+                      alt="Іконка телефон"
+                      placeholder="bluer"
+                    />
+                  </div>
+                  <p className={s.contacts__item}>Телефони</p>
+                </div>
                 <p className={s.contacts__shedule}>
                   + 38 (099)-318-3873 + 38 (066)-088-6500 + 38 (099)-151-7035
                 </p>
               </li>
               <li>
-                <p className={s.contacts__item}>Електронна пошта</p>
+                <div className={s.contacts__itemIcon}>
+                  <div className={s.contacts__icon}>
+                    <Image
+                      src="/email.svg"
+                      width={15}
+                      height={15}
+                      alt="Іконка електронна пошта"
+                      placeholder="bluer"
+                    />
+                  </div>
+                  <p className={s.contacts__item}>Електронна пошта</p>
+                </div>
                 <p>jaroslavafedulova@gmail.com</p>
               </li>
               <li>
-                <p className={s.contacts__item}>Адреса</p>
+                <div className={s.contacts__itemIcon}>
+                  <div className={s.contacts__icon}>
+                    <Image
+                      src="/location.svg"
+                      width={15}
+                      height={15}
+                      alt="Іконка локація"
+                      placeholder="bluer"
+                    />
+                  </div>
+                  <p className={s.contacts__item}>Адреса</p>
+                </div>
                 <p>м. Ужгород, вул. Підгірна, 28</p>
               </li>
               <li>
-                <p className={s.contacts__item}>Час роботи</p>
+                <div className={s.contacts__itemIcon}>
+                  <div className={s.contacts__icon}>
+                    <Image
+                      src="/time.svg"
+                      width={15}
+                      height={15}
+                      alt="Іконка годинник"
+                      placeholder="bluer"
+                    />
+                  </div>
+                  <p className={s.contacts__item}>Час роботи</p>
+                </div>
                 <p>Пн-Пт 10:00 - 18:00</p>
               </li>
             </ul>
