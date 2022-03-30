@@ -1,13 +1,15 @@
 import Image from "next/image";
 import s from "../../styles/layout/Header.module.scss";
-import Logo from "../Logo";
+import LogoImg from "../LogoImg";
+import LogoTitle from "../LogoTitle";
 
 export default function Header() {
   return (
     <header className={s.pageHeader}>
       <div className="hr__shadow"></div>
       <nav className={s.pageHeader__nav}>
-        <Logo />
+        <LogoImg />
+        <LogoTitle />
         <div className={s.menuNav}>
           <div className={s.menuNav__icon}>
             <Image
@@ -16,7 +18,7 @@ export default function Header() {
               height={25}
               alt="Іконка головне меню"
               placeholder="bluer"
-            ></Image>
+            />
           </div>
           <div className={s.menuNav__icon}>
             <Image
@@ -25,7 +27,7 @@ export default function Header() {
               height={25}
               alt="Іконка теми"
               placeholder="bluer"
-            ></Image>
+            />
           </div>
         </div>
       </nav>

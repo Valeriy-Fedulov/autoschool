@@ -28,7 +28,7 @@ export default function Teachers() {
                 height={225}
                 alt="Викладач"
                 placeholder="bluer"
-              ></Image>
+              />
             </div>
           </div>
           <h3 className={s.teachers__name}>Дмитрій Іванов</h3>

@@ -30,6 +30,19 @@ export default function PageSection() {
                   Але почувають себе невпевнено в умовах інтенсивного міського
                   руху.
                 </span>
+                <div className={s.page_section__border}>
+                  <div className={s.page_section__btn}>
+                    <div className={s.page_section__icon}>
+                      <Image
+                        src="/list-arrow.svg"
+                        width={11}
+                        height={11}
+                        alt="List"
+                        placeholder="bluer"
+                      />
+                    </div>
+                  </div>
+                </div>
               </p>
               <ul className={s.page_section__sublist}>
                 <li className={s.page_section__subtext}>
@@ -101,6 +114,19 @@ export default function PageSection() {
                 <span className={s.page_section__text}>
                   Але не мають практики водіння в зимовий час.
                 </span>
+                <div className={s.page_section__border}>
+                  <div className={s.page_section__btn}>
+                    <div className={s.page_section__icon}>
+                      <Image
+                        src="/list-arrow.svg"
+                        width={11}
+                        height={11}
+                        alt="List"
+                        placeholder="bluer"
+                      />
+                    </div>
+                  </div>
+                </div>
               </p>
               <ul className={s.page_section__sublist}>
                 <li className={s.page_section__subtext}>
@@ -149,6 +175,19 @@ export default function PageSection() {
                 <span className={s.page_section__text}>
                   При керуванні автомобілем у міському потоці.
                 </span>
+                <div className={s.page_section__border}>
+                  <div className={s.page_section__btn}>
+                    <div className={s.page_section__icon}>
+                      <Image
+                        src="/list-arrow.svg"
+                        width={11}
+                        height={11}
+                        alt="List"
+                        placeholder="bluer"
+                      />
+                    </div>
+                  </div>
+                </div>
               </p>
               <ul className={s.page_section__sublist}>
                 <li className={s.page_section__subtext}>

@@ -41,6 +41,19 @@
   border-radius: 20px;
 }
 
+.contacts__itemIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts__icon {
+  margin-right: 5px;
+
+  width: 15px;
+  height: 15px;
+}
+
 .contacts__item {
   margin: 10px 0;
   font-style: normal;
@@ -60,9 +73,37 @@
 
 .contacts__btn {
   position: absolute;
+  display: flex;
+  align-items: center;
+  z-index: 1;
 
-  left: 30px;
-  bottom: -15px;
+  bottom: -25px;
+  min-width: 200px;
+  padding: 5px;
+}
+
+.contacts__btnIconShadow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  width: 38px;
+  margin-right: 10px;
+
+  background: rgba(7, 52, 71, 0.05);
+
+  border-radius: 50%;
+}
+
+.contacts__btnIcon {
+  display: flex;
+  justify-content: center;
+  width: 27px;
+  height: 27px;
+
+  background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #073447 100%);
+  box-shadow: 0px 7px 20px -7px #00e0ff;
+  border-radius: 50%;
 }
 
 .contacts__name {
@@ -79,7 +120,8 @@
   //   width: 100%;
   // z-index: 1;
 
-  mix-blend-mode: multiply;
+  // mix-blend-mode: multiply;
+  box-shadow: inset 500px 0px 250px #000000;
 }
 
 .contacts__position {
@@ -92,7 +134,13 @@
 }
 
 .contacts__map {
-  padding: 350px 0 20px;
+  position: relative;
+  height: 470px;
+}
+
+.contacts__director {
+  position: absolute;
+  bottom: 20px;
 }
 
 .contacts__shadow1 {

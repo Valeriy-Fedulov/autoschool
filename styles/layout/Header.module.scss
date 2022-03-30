@@ -6,14 +6,17 @@
 
 .pageHeader__nav {
   display: flex;
-  justify-content: space-between;
-  padding: 10px 10px 0 10px;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 15px 10px 0 10px;
 }
 
 .menuNav {
   display: flex;
   flex-direction: column;
+  flex: 1;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menuNav__icon {

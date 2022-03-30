@@ -1,8 +1,8 @@
 .shedule__contacts {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 105px;
   padding-bottom: 20px;
 }
 
@@ -11,14 +11,9 @@
   margin-bottom: 20px;
 }
 
-.bg__img {
-  position: absolute;
-  right: 0;
-  bottom: 10px;
-  width: 150px;
-  height: 113px;
-
-  mix-blend-mode: lighten;
+.hero__title {
+  display: flex;
+  align-items: center;
 }
 
 .title {
@@ -49,13 +44,9 @@
     text-shadow: 0px 4px 4px #000000;
   }
 
-  &__section {
-    width: 175px;
-  }
-
   &__text {
     margin-bottom: 20px;
-    width: 155px;
+    // width: 155px;
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
@@ -66,10 +57,21 @@
   }
 }
 
+.bg__img {
+  // position: absolute;
+  // right: 0;
+  // bottom: 10px;
+  display: flex;
+  min-width: 125px;
+  min-height: 95px;
+
+  mix-blend-mode: lighten;
+}
+
 .hero__soc {
+  position: absolute;
   display: flex;
   flex-direction: column;
-  position: absolute;
   right: 0;
   bottom: 0;
 }

@@ -17,12 +17,47 @@
 }
 
 .page_section__item {
-  padding: 5px 15px;
+  position: relative;
+  padding: 5px 30px 5px 15px;
 
   text-indent: -10px;
 
   background: linear-gradient(286.41deg, #073447 3.63%, #08262b 90.98%);
   border-radius: 6px;
+}
+
+.page_section__border {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+
+  border-radius: 6px;
+  background: radial-gradient(
+    47.54% 111.62% at 50% 50%,
+    #49b9e8 0%,
+    rgba(31, 77, 96, 0.43) 100%
+  );
+}
+
+.page_section__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  padding-right: 1px;
+
+  border-radius: 6px;
+  background: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
+}
+
+.page_section__icon {
+  display: flex;
+  width: 11px;
+  height: 11px;
 }
 
 .page_section__bull {

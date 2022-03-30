@@ -11,7 +11,7 @@ export default function Social() {
           height={15}
           alt="Viber"
           placeholder="bluer"
-        ></Image>
+        />
       </div>
       <div className={s.soc__icon}>
         <Image
@@ -20,7 +20,7 @@ export default function Social() {
           height={15}
           alt="Facebook"
           placeholder="bluer"
-        ></Image>
+        />
       </div>
       <div className={s.soc__icon}>
         <Image
@@ -29,7 +29,7 @@ export default function Social() {
           height={15}
           alt="Email"
           placeholder="bluer"
-        ></Image>
+        />
       </div>
     </>
   );

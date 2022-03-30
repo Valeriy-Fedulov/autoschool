@@ -13,24 +13,29 @@ export default function Hero() {
           <Shedule />
         </div>
         <div className={s.section__autoschool}>
-          <div className={s.bg__img}>
-            <Image
-              src="/images/background/header-background320.png"
-              width={150}
-              height={113}
-              quality={100}
-              alt="Фон автомобіль"
-              placeholder="bluer"
-            ></Image>
-          </div>
           <p className={s.title__course}>Ласкаво просимо на курси</p>
           <h1 className={s.title__hero}>Автошкола</h1>
-          <div className={s.title__section}>
-            <p className={s.title__text}>
-              Пройди теоретичні та практичні заняття та отримай водійські права
-            </p>
-            <button className="btn">Записатися онлайн на навчання</button>
+
+          <div className={s.hero__title}>
+            <div>
+              <p className={s.title__text}>
+                Пройди теоретичні та практичні заняття та отримай водійські
+                права
+              </p>
+              <button className="btn">Записатися онлайн на навчання</button>
+            </div>
+            <div className={s.bg__img}>
+              <Image
+                src="/images/background/header-background320.png"
+                width={150}
+                height={113}
+                quality={100}
+                alt="Фон автомобіль"
+                placeholder="bluer"
+              />
+            </div>
           </div>
+
           <div className={s.hero__soc}>
             <Social />
           </div>
@@ -45,7 +50,7 @@ export default function Hero() {
                   height={20}
                   alt="Email"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
             </div>
           </div>

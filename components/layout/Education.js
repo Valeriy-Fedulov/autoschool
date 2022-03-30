@@ -18,8 +18,8 @@ export default function Education() {
         </div>
         <div className="page__sections">
           <h2 className="title__sections">
-            <span className="title__base">Навчання в автошколі</span> - це
-            круто?
+            <span className="title__base">Навчання в автошколі</span>
+            <br />- це круто?
           </h2>
           <ul className={s.education__list}>
             <li className={s.education__item}>

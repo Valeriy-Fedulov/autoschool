@@ -6,11 +6,11 @@
 
   background: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
 
-  @include respond-above($mobile) {
-    max-width: $mobile;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  // @include respond-above($mobile) {
+  //   max-width: $mobile;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  // }
 
   @include respond-above($mob-tab) {
     max-width: $mob-tab;

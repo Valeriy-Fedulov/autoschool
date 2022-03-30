@@ -30,7 +30,7 @@ export default function Category() {
                   height={15}
                   alt="Стрілка вліво"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
             </button>
             <div className={s.card}>
@@ -45,7 +45,7 @@ export default function Category() {
                     height={70}
                     alt="Мопед"
                     placeholder="bluer"
-                  ></Image>
+                  />
                 </div>
               </div>
               <h4 className={s.card__title}>Категорія “А1” - мопед</h4>
@@ -80,7 +80,7 @@ export default function Category() {
                   height={15}
                   alt="Стрілка вліво"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
             </button>
           </div>

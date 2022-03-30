@@ -12,6 +12,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.57;
+  margin-bottom: 20px;
 
   text-align: center;
 
@@ -24,23 +25,24 @@
 }
 
 .program__item {
-  position: relative;
-  padding: 5px 10px;
+  padding: 5px 10px 5px 25px;
   margin-bottom: 20px;
 
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.58;
-  text-indent: 5px;
+  text-indent: -15px;
   color: #ffffff;
 
   background: rgba(98, 159, 178, 0.7);
   border-radius: 0px 10px 10px 10px;
 }
 
-.program__img {
-  position: absolute;
-  top: -15px;
-  left: -20px;
+.program__num {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.58;
+  color: #4abcec;
 }

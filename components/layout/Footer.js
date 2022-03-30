@@ -1,6 +1,7 @@
 import Image from "next/image";
 import s from "../../styles/layout/Footer.module.scss";
-import Logo from "../Logo";
+import LogoImg from "../LogoImg";
+import LogoTitle from "../LogoTitle";
 import LogoCar from "../LogoCar";
 import Shedule from "../Shedule";
 import Social from "../Social";
@@ -12,7 +13,8 @@ export default function Footer() {
       <div className={`container ${s.footer__bg}`}>
         <div className={s.footer__padding}>
           <div className={s.footer__logo}>
-            <Logo />
+            <LogoImg />
+            <LogoTitle />
           </div>
           <div className={s.footer__shedule}>
             <Shedule />
@@ -38,7 +40,7 @@ export default function Footer() {
                 height={15}
                 alt="Прокрутка"
                 placeholder="bluer"
-              ></Image>
+              />
             </div>
           </button>
         </div>

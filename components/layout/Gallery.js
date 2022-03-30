@@ -41,7 +41,7 @@ export default function Gallery() {
                   height={17}
                   alt="Стрілка вліво"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
             </button>
             <p className={s.gallery__bull}>&bull; &bull; &bull;</p>
@@ -53,7 +53,7 @@ export default function Gallery() {
                   height={17}
                   alt="Стрілка вліво"
                   placeholder="bluer"
-                ></Image>
+                />
               </div>
             </button>
           </div>
