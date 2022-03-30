@@ -108,12 +108,12 @@ export default function Contacts() {
               priority
             />
           </div>
-          {/* <div className={s.contacts__map}>
-          <p className={s.contacts__name}>Федулова Ярослава Іванівна</p>
-          <p className={s.contacts__position}>Директор</p>
-          <p className={s.contacts__name}>Суддя Михайло Федорович</p>
-          <p className={s.contacts__position}>Заступник директора</p>
-        </div> */}
+          <div className={s.contacts__director}>
+            <p className={s.contacts__name}>Федулова Ярослава Іванівна</p>
+            <p className={s.contacts__position}>Директор</p>
+            <p className={s.contacts__name}>Суддя Михайло Федорович</p>
+            <p className={s.contacts__position}>Заступник директора</p>
+          </div>
         </div>
       </div>
     </section>
