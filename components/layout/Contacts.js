@@ -76,31 +76,44 @@ export default function Contacts() {
                 <p>Пн-Пт 10:00 - 18:00</p>
               </li>
             </ul>
-            <div className={s.contacts__btn}>
-              <button className="btn">Зв’язатися з нами</button>
-            </div>
+            <button className={`btn ${s.contacts__btn}`}>
+              <div className={s.contacts__btnIconShadow}>
+                <div className={s.contacts__btnIcon}>
+                  <Image
+                    src="/phone.svg"
+                    width={11}
+                    height={11}
+                    alt="Іконка телефон"
+                    placeholder="bluer"
+                  />
+                </div>
+              </div>
+              <p>Зв’язатися з нами</p>
+            </button>
           </div>
         </div>
-      </div>
-      <div className="container">
-        <div className={s.contacts__shadow1}></div>
-        <div className={s.contacts__shadow2}></div>
-        <div className={s.contacts__bg}>
-          <Image
-            alt="Mountains"
-            src="/images/background/BG-map.jpeg"
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-            placeholder="bluer"
-            priority
-          />
-        </div>
+
         <div className={s.contacts__map}>
+          {/* <div className={s.contacts__shadow1}></div>
+        <div className={s.contacts__shadow2}></div> */}
+          <div className={s.contacts__bg}>
+            <Image
+              className={s.contacts__bg}
+              alt="Mountains"
+              src="/images/background/BG-contacts.jpg"
+              layout="fill"
+              objectFit="cover"
+              quality={100}
+              placeholder="bluer"
+              priority
+            />
+          </div>
+          {/* <div className={s.contacts__map}>
           <p className={s.contacts__name}>Федулова Ярослава Іванівна</p>
           <p className={s.contacts__position}>Директор</p>
           <p className={s.contacts__name}>Суддя Михайло Федорович</p>
           <p className={s.contacts__position}>Заступник директора</p>
+        </div> */}
         </div>
       </div>
     </section>
