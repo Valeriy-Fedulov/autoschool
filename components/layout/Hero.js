@@ -1,6 +1,7 @@
 import Image from "next/image";
 import s from "../../styles/layout/Hero.module.scss";
 import LogoCar from "../LogoCar";
+import LogoImg from "../LogoImg";
 import Shedule from "../Shedule";
 import Social from "../Social";
 
@@ -63,6 +64,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      <LogoImg />
     </section>
   );
 }

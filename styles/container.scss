@@ -12,19 +12,19 @@
   //   margin-right: auto;
   // }
 
-  @include respond-above($mob-tab) {
-    max-width: $mob-tab;
-  }
+  // @include respond-above($mob-tab) {
+  //   max-width: $mob-tab;
+  // }
 
   @include respond-above($tablet) {
-    max-width: $tablet;
+    // max-width: $tablet;
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  @include respond-above($desktop) {
-    max-width: $desktop;
-  }
+  // @include respond-above($desktop) {
+  //   max-width: $desktop;
+  // }
 
   @include respond-above($big-desktop) {
     max-width: $big-desktop;

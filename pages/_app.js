@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import "modern-normalize/modern-normalize.css";
 import Head from "next/head";
 import "../styles/main.scss";
+import LogoImg from "../components/LogoImg";
 
 export default function MyApp({ Component, pageProps }) {
   return (
