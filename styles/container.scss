@@ -12,22 +12,22 @@
   //   margin-right: auto;
   // }
 
-  @include respond-above($mob-tab) {
-    max-width: $mob-tab;
-  }
+  // @include respond-above(480px) {
+    // max-width: $mob-tab;
+  // }
 
-  @include respond-above($tablet) {
-    max-width: $tablet;
+  @include respond-above(768px) {
+    // max-width: $tablet;
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  @include respond-above($desktop) {
-    max-width: $desktop;
-  }
+  // @include respond-above($desktop) {
+    // max-width: $desktop;
+  // }
 
-  @include respond-above($big-desktop) {
-    max-width: $big-desktop;
+  @include respond-above(1920px) {
+    max-width: 1920px;
     padding-left: 20px;
     padding-right: 20px;
   }
