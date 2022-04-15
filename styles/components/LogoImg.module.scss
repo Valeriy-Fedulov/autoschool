@@ -1,15 +1,16 @@
 .logo__img {
   display: flex;
-  flex: 1;
+  // flex: 1;
   justify-content: center;
   width: 45px;
-  // height: 63px;
+  height: 63px;
   margin-right: 10px;
 }
 
 @media screen and (min-width: 480px) {
-.logo__img {
-  //   width: 200px;
-  // height: 184px;
-}
+  .logo__img {
+    width: 60px;
+    height: 84px;
+    margin-right: 35px;
+  }
 }

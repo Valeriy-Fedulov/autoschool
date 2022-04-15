@@ -64,7 +64,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <LogoImg />
     </section>
   );
 }

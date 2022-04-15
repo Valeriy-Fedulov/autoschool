@@ -127,3 +127,37 @@
 
   color: #00e0ff;
 }
+
+// 480px ---------------------------------
+
+@media screen and (min-width: 480px) {
+  .shedule__contacts {
+    justify-content: flex-end;
+
+    padding-top: 120px;
+    padding-bottom: 10px;
+  }
+
+  .title {
+    &__course {
+      font-size: 12px;
+      line-height: 1.25;
+      margin-right: 230px;
+    }
+
+    &__hero {
+      margin-bottom: 5px;
+
+      font-size: 64px;
+      line-height: 1.22;
+    }
+
+    &__text {
+      // width: 155px;
+
+      font-size: 12px;
+      line-height: 1.25;
+      text-align: start;
+    }
+  }
+}

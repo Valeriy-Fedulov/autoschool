@@ -40,3 +40,22 @@
     letter-spacing: 1.9px;
   }
 }
+
+// 480px ---------------------------------
+
+@media screen and (min-width: 480px) {
+  .shedule {
+    align-items: flex-end;
+
+    &__icon {
+      width: 15px;
+      height: 15px;
+      margin-right: 10px;
+    }
+
+    &__title {
+      font-size: 12px;
+      line-height: 1.25;
+    }
+  }
+}
