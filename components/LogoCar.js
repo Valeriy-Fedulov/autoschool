@@ -6,8 +6,8 @@ export default function LogoCar() {
     <div className={s.logo__car}>
       <Image
         src="/images/logo/logo-car.png"
-        width={80}
-        height={35}
+        width={105}
+        height={45}
         quality={100}
         alt="Логотип автомобіля"
         placeholder="bluer"

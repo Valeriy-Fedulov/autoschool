@@ -7,28 +7,26 @@
   background: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
 
   // @include respond-above($mobile) {
-  //   max-width: $mobile;
-  //   margin-left: auto;
-  //   margin-right: auto;
   // }
 
-  // @include respond-above(480px) {
-    // max-width: $mob-tab;
-  // }
-
-  @include respond-above(768px) {
-    // max-width: $tablet;
+  @include respond-above($mob-tab) {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  // @include respond-above($desktop) {
-    // max-width: $desktop;
-  // }
-
-  @include respond-above(1920px) {
-    max-width: 1920px;
+  @include respond-above($tablet) {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  @include respond-above($desktop) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  @include respond-above($big-desktop) {
+    max-width: $big-desktop;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
