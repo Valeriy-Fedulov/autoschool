@@ -1,6 +1,7 @@
 import Image from "next/image";
 import s from "../../styles/layout/Footer.module.scss";
 import LogoImg from "../LogoImg";
+import LogoTitle from "../LogoTitle";
 import LogoCar from "../LogoCar";
 import Shedule from "../Shedule";
 import Social from "../Social";
@@ -13,6 +14,7 @@ export default function Footer() {
         <div className={s.footer__padding}>
           <div className={s.footer__logo}>
             <LogoImg />
+            <LogoTitle />
           </div>
           <div className={s.footer__shedule}>
             <Shedule />
