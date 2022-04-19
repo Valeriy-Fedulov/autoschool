@@ -23,7 +23,7 @@ export default function PageSection() {
           </h2>
           <ul className={s.page_section__list}>
             <li>
-              <p className={s.page_section__item}>
+              <div className={s.page_section__item}>
                 <span className={s.page_section__bull}>&bull;</span> ПРОГРАМА
                 НАВЧАННЯ ДЛЯ ОСІБ - що отримали водійські посвідчення.{" "}
                 <span className={s.page_section__text}>
@@ -43,7 +43,7 @@ export default function PageSection() {
                     </div>
                   </div>
                 </div>
-              </p>
+              </div>
               <ul className={s.page_section__sublist}>
                 <li className={s.page_section__subtext}>
                   <div className={s.page_section__subbull}>1</div>
@@ -108,7 +108,7 @@ export default function PageSection() {
               </ul>
             </li>
             <li>
-              <p className={s.page_section__item}>
+              <div className={s.page_section__item}>
                 <span className={s.page_section__bull}>&bull;</span> ПРОГРАМА
                 НАВЧАННЯ ДЛЯ ОСІБ - що мають навики водіння автомобіля літом.{" "}
                 <span className={s.page_section__text}>
@@ -127,7 +127,7 @@ export default function PageSection() {
                     </div>
                   </div>
                 </div>
-              </p>
+              </div>
               <ul className={s.page_section__sublist}>
                 <li className={s.page_section__subtext}>
                   <div className={s.page_section__subbull}>1</div>
@@ -169,7 +169,7 @@ export default function PageSection() {
               </ul>
             </li>
             <li>
-              <p className={s.page_section__item}>
+              <div className={s.page_section__item}>
                 <span className={s.page_section__bull}>&bull;</span> ПРОГРАМА
                 НАВЧАННЯ ДЛЯ ОСІБ - що мають психологічні труднощі.{" "}
                 <span className={s.page_section__text}>
@@ -188,7 +188,7 @@ export default function PageSection() {
                     </div>
                   </div>
                 </div>
-              </p>
+              </div>
               <ul className={s.page_section__sublist}>
                 <li className={s.page_section__subtext}>
                   <div className={s.page_section__subbull}>1</div>

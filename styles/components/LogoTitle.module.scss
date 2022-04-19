@@ -20,11 +20,6 @@
   line-height: 1.21;
 
   color: #00e0ff;
-
-  @include respond-below(480px) {
-    font-size: 18px;
-    line-height: 22px;
-  }
 }
 
 .title__courses {
