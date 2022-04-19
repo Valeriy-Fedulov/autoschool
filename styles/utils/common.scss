@@ -165,3 +165,13 @@ hr {
     0px 0px 24px #00e0ff;
   filter: blur(1px);
 }
+
+// 480px -----------------------------------------------------
+
+@media screen and (min-width: 480px) {
+  .btn {
+    max-width: 270px;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+}

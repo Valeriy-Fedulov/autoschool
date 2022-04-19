@@ -7,8 +7,8 @@ export default function Social() {
       <div className={s.soc__icon}>
         <Image
           src="/viber.svg"
-          width={15}
-          height={15}
+          width={20}
+          height={20}
           alt="Viber"
           placeholder="bluer"
         />
@@ -16,8 +16,8 @@ export default function Social() {
       <div className={s.soc__icon}>
         <Image
           src="/facebook.svg"
-          width={15}
-          height={15}
+          width={20}
+          height={20}
           alt="Facebook"
           placeholder="bluer"
         />
@@ -25,8 +25,8 @@ export default function Social() {
       <div className={s.soc__icon}>
         <Image
           src="/email.svg"
-          width={15}
-          height={15}
+          width={20}
+          height={20}
           alt="Email"
           placeholder="bluer"
         />

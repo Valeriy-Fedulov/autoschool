@@ -22,30 +22,32 @@ export default function Hero() {
               Пройди теоретичні та практичні заняття та отримай водійські права
             </p>
           </div>
-          <button className={`btn ${s.btn__margin}`}>
-            Записатися онлайн на навчання
-          </button>
-          <div className={s.guarantee}>
-            <div className={s.guarantee__border}>
-              <div className={s.guarantee__btn}>
-                <div className={s.guarantee__icon}>
-                  <Image
-                    src="/header-title.svg"
-                    width={20}
-                    height={20}
-                    alt="Email"
-                    placeholder="bluer"
-                  />
+          <div className={s.guarantee__wrapper}>
+            <div className={s.guarantee}>
+              <div className={s.guarantee__border}>
+                <div className={s.guarantee__btn}>
+                  <div className={s.guarantee__icon}>
+                    <Image
+                      src="/header-title.svg"
+                      width={25}
+                      height={25}
+                      alt="Email"
+                      placeholder="bluer"
+                    />
+                  </div>
                 </div>
               </div>
+              <div>
+                <h3 className={s.guarantee__title}>Ми навчаємо з гарантією!</h3>
+                <p className={s.guarantee__text}>
+                  Теоретичні заняття стаціонарно та онлайн. Практичні заняття -
+                  індивідуально з кожним. Онлайн тести на сайті pdr.auto-tso.com
+                </p>
+              </div>
             </div>
-            <div>
-              <h3 className={s.guarantee__title}>Ми навчаємо з гарантією!</h3>
-              <p className={s.guarantee__text}>
-                Теоретичні заняття стаціонарно та онлайн. Практичні заняття -
-                індивідуально з кожним. Онлайн тести на сайті pdr.auto-tso.com
-              </p>
-            </div>
+            <button className={`btn ${s.btn__margin}`}>
+              Записатися онлайн на навчання
+            </button>
           </div>
         </div>
         <div className={s.bg}>
