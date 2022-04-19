@@ -14,8 +14,8 @@ export default function Header() {
           <div className={s.menuNav__icon}>
             <Image
               src="/menu.svg"
-              width={25}
-              height={25}
+              width={30}
+              height={30}
               alt="Іконка головне меню"
               placeholder="bluer"
             />
@@ -23,8 +23,8 @@ export default function Header() {
           <div className={s.menuNav__icon}>
             <Image
               src="/theme.svg"
-              width={25}
-              height={25}
+              width={30}
+              height={30}
               alt="Іконка теми"
               placeholder="bluer"
             />

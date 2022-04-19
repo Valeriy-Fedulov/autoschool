@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-around;
   align-items: stretch;
-  padding: 15px 10px 0 10px;
+  padding: 15px 10px 0;
 }
 
 .menuNav {
@@ -16,10 +16,47 @@
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .menuNav__icon {
   width: 25px;
   height: 25px;
+}
+
+// 480px ---------------------------------
+
+@media screen and (min-width: 480px) {
+  .pageHeader__nav {
+    padding: 20px 15px 0;
+  }
+
+  .menuNav__icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+// 768px ---------------------------------
+
+@media screen and (min-width: 768px) {
+  .pageHeader__nav {
+    padding: 20px 20px 0;
+  }
+}
+
+// 1024px ---------------------------------
+
+@media screen and (min-width: 1024px) {
+  .pageHeader__nav {
+    padding: 20px 25px 0;
+  }
+}
+
+// 1920px ---------------------------------
+
+@media screen and (min-width: 1920px) {
+  .pageHeader__nav {
+    padding: 20px 30px 0;
+  }
 }

@@ -8,8 +8,8 @@ export default function Shedule() {
         <div className={s.shedule__icon}>
           <Image
             src="/time.svg"
-            width={10}
-            height={10}
+            width={15}
+            height={15}
             alt="Іконка годинник"
             placeholder="bluer"
           />
@@ -20,8 +20,8 @@ export default function Shedule() {
         <div className={s.shedule__icon}>
           <Image
             src="/phone.svg"
-            width={10}
-            height={10}
+            width={15}
+            height={15}
             alt="Іконка телефон"
             placeholder="bluer"
           />
@@ -43,8 +43,8 @@ export default function Shedule() {
         <div className={s.shedule__icon}>
           <Image
             src="/email.svg"
-            width={10}
-            height={10}
+            width={15}
+            height={15}
             alt="Іконка електронна пошта"
             placeholder="bluer"
           />
