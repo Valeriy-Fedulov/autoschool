@@ -31,6 +31,8 @@
 
 .course__icon {
   position: absolute;
+  width: 20px;
+  height: 20px;
   top: 3px;
   left: -25px;
 }
@@ -51,4 +53,31 @@
   line-height: 2.55;
 
   color: #ffffff;
+}
+
+// 480px ----------------------------------------------
+
+@media screen and (min-width: 480px) {
+  .course__item {
+    margin: 0 0 10px 33px;
+
+    font-size: 13px;
+    line-height: 1.77;
+  }
+
+  .course__icon {
+    width: 25px;
+    height: 25px;
+    left: -30px;
+  }
+
+  .footnote {
+    font-size: 13px;
+    line-height: 1.77;
+  }
+
+  .footnote__text {
+    font-size: 10px;
+    line-height: 2.3;
+  }
 }
