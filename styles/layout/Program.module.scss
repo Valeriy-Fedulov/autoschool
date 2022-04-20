@@ -46,3 +46,25 @@
   line-height: 1.58;
   color: #4abcec;
 }
+
+// 480px -----------------------------------------------------
+
+@media screen and (min-width: 480px) {
+  .program__text {
+    font-size: 18px;
+    line-height: 1.61;
+    margin-bottom: 30px;
+  }
+
+  .program__item {
+    padding: 5px 10px 10px 30px;
+    font-size: 13px;
+    line-height: 1.61;
+    text-indent: -20px;
+  }
+
+  .program__num {
+    font-size: 20px;
+    line-height: 1.61;
+  }
+}
