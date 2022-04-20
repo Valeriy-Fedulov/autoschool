@@ -26,8 +26,8 @@ export default function Seven() {
                 <div className={s.seven__icon}>
                   <Image
                     src="/icons-seven/icons1.svg"
-                    width={15}
-                    height={15}
+                    width={20}
+                    height={20}
                     alt="Стрілка"
                     placeholder="bluer"
                   />
@@ -42,8 +42,8 @@ export default function Seven() {
                 <div className={s.seven__icon}>
                   <Image
                     src="/icons-seven/icons2.svg"
-                    width={15}
-                    height={15}
+                    width={20}
+                    height={20}
                     alt="Стрілка"
                     placeholder="bluer"
                   />
@@ -58,8 +58,8 @@ export default function Seven() {
                 <div className={s.seven__icon}>
                   <Image
                     src="/icons-seven/icons3.svg"
-                    width={15}
-                    height={15}
+                    width={20}
+                    height={20}
                     alt="Стрілка"
                     placeholder="bluer"
                   />
@@ -74,8 +74,8 @@ export default function Seven() {
                 <div className={s.seven__icon}>
                   <Image
                     src="/icons-seven/icons4.svg"
-                    width={15}
-                    height={15}
+                    width={20}
+                    height={20}
                     alt="Стрілка"
                     placeholder="bluer"
                   />
@@ -90,8 +90,8 @@ export default function Seven() {
                 <div className={s.seven__icon}>
                   <Image
                     src="/icons-seven/icons5.svg"
-                    width={15}
-                    height={15}
+                    width={20}
+                    height={20}
                     alt="Стрілка"
                     placeholder="bluer"
                   />
@@ -106,8 +106,8 @@ export default function Seven() {
                 <div className={s.seven__icon}>
                   <Image
                     src="/icons-seven/icons6.svg"
-                    width={15}
-                    height={15}
+                    width={20}
+                    height={20}
                     alt="Стрілка"
                     placeholder="bluer"
                   />
@@ -122,8 +122,8 @@ export default function Seven() {
                 <div className={s.seven__icon}>
                   <Image
                     src="/icons-seven/icons7.svg"
-                    width={15}
-                    height={15}
+                    width={20}
+                    height={20}
                     alt="Стрілка"
                     placeholder="bluer"
                   />

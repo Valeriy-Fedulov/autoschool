@@ -45,7 +45,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
-  line-height: 12px;
+  line-height: 1.2;
 
   color: #ffffff;
 
@@ -54,6 +54,8 @@
 }
 
 .seven__icon {
+  width: 15px;
+  height: 15px;
   margin-left: 5px;
 }
 
@@ -61,8 +63,29 @@
   flex: 1;
   display: flex;
   align-items: center;
+}
 
-  // display: flex;
-  // align-items: center;
-  // height: 100%;
+// 480px -----------------------------------------------------
+
+@media screen and (min-width: 480px) {
+  .seven__item {
+    width: 165px;
+    height: 125px;
+    margin: 5px 0;
+
+    &:last-child {
+      width: 220px;
+    }
+  }
+
+  .seven__itemText {
+    font-size: 11px;
+    line-height: 1.18;
+  }
+
+  .seven__icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
 }
