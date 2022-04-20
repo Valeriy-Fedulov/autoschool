@@ -102,6 +102,9 @@
 }
 
 .card__items {
+  list-style: disc;
+  margin-left: 10px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -151,9 +154,104 @@
 }
 
 .btn__arrow {
-  width: 17px;
-  height: 17px;
+  width: 15px;
+  height: 15px;
   margin: auto;
 
   color: #ffffff;
+}
+
+// 480px -----------------------------------------------------
+
+@media screen and (min-width: 480px) {
+  .section__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 210px;
+    margin-bottom: 15px;
+  }
+
+  .card__category {
+    font-size: 96px;
+    line-height: 1.23;
+  }
+
+  .card__subcategory {
+    top: 35px;
+
+    font-size: 72px;
+  }
+
+  .card__img {
+    left: 90px;
+    top: 20px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .card__title {
+    font-size: 14px;
+    line-height: 1.43;
+  }
+
+  .card__text {
+    font-size: 11px;
+    line-height: 1.54;
+  }
+
+  .card__subtext {
+    font-size: 11px;
+    line-height: 1.54;
+  }
+
+  .card__items {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.58;
+  }
+
+  .price__course {
+    font-size: 24px;
+    line-height: 1.42;
+  }
+
+  .price__text {
+    font-size: 12px;
+    line-height: 1.25;
+
+    letter-spacing: 0.1px;
+  }
+
+  .btn__card {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+
+    bottom: 25px;
+  }
+
+  .btn__card:first-child {
+    left: 20%;
+  }
+
+  .btn__card:last-child {
+    right: 20%;
+  }
+
+  .btn__arrow {
+    width: 18px;
+    height: 18px;
+  }
+
+  .nav__bull {
+    text-align: center;
+    font-size: 48px;
+    line-height: 1;
+    color: #4abcec;
+  }
 }
