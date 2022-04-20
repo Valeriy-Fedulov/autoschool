@@ -18,8 +18,8 @@ export default function Contacts() {
                   <div className={s.contacts__icon}>
                     <Image
                       src="/phone.svg"
-                      width={15}
-                      height={15}
+                      width={20}
+                      height={20}
                       alt="Іконка телефон"
                       placeholder="bluer"
                     />
@@ -35,8 +35,8 @@ export default function Contacts() {
                   <div className={s.contacts__icon}>
                     <Image
                       src="/email.svg"
-                      width={15}
-                      height={15}
+                      width={20}
+                      height={20}
                       alt="Іконка електронна пошта"
                       placeholder="bluer"
                     />
@@ -50,8 +50,8 @@ export default function Contacts() {
                   <div className={s.contacts__icon}>
                     <Image
                       src="/location.svg"
-                      width={15}
-                      height={15}
+                      width={20}
+                      height={20}
                       alt="Іконка локація"
                       placeholder="bluer"
                     />
@@ -65,8 +65,8 @@ export default function Contacts() {
                   <div className={s.contacts__icon}>
                     <Image
                       src="/time.svg"
-                      width={15}
-                      height={15}
+                      width={20}
+                      height={20}
                       alt="Іконка годинник"
                       placeholder="bluer"
                     />
