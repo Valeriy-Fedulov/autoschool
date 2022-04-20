@@ -30,3 +30,15 @@
 
   background: linear-gradient(90deg, #1f3f4d 0%, rgba(31, 75, 94, 0) 100%);
 }
+
+// 480px --------------------------------------------------------------------------------
+
+@media screen and (min-width: 480px) {
+  .education__item {
+    padding: 15px 0 15px 35px;
+
+    font-size: 13px;
+    line-height: 1.23;
+    text-indent: -25px;
+  }
+}
