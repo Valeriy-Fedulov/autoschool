@@ -106,3 +106,35 @@
 .page_section__sublist {
   margin-bottom: 10px;
 }
+
+// 480px -----------------------------------------------------
+
+@media screen and (min-width: 480px) {
+  .page_section__list {
+    font-size: 13px;
+    line-height: 1.61;
+  }
+
+  .page_section__item {
+    padding: 5px 30px 5px 15px;
+
+    text-indent: -10px;
+  }
+
+  .page_section__bull {
+    font-size: 20px;
+  }
+
+  .page_section__text {
+    font-size: 12px;
+    line-height: 1.75;
+  }
+
+  .page_section__subbull {
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+
+    font-size: 12px;
+  }
+}
