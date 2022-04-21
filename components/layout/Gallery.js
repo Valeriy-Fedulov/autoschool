@@ -37,8 +37,8 @@ export default function Gallery() {
               <div className={s.btn__arrow}>
                 <Image
                   src="/arrow-left.svg"
-                  width={17}
-                  height={17}
+                  width={20}
+                  height={20}
                   alt="Стрілка вліво"
                   placeholder="bluer"
                 />
