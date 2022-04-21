@@ -8,8 +8,10 @@ export default function Header() {
     <header className={s.pageHeader}>
       <div className="hr__shadow"></div>
       <nav className={s.pageHeader__nav}>
-        <LogoImg />
-        <LogoTitle />
+        <div className={s.nav__wrapper}>
+          <LogoImg />
+          <LogoTitle />
+        </div>
         <div className={s.menuNav}>
           <div className={s.menuNav__icon}>
             <Image
