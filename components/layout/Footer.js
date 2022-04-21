@@ -4,6 +4,8 @@ import LogoImg from "../LogoImg";
 import LogoTitle from "../LogoTitle";
 import LogoCar from "../LogoCar";
 import Shedule from "../Shedule";
+import Phone from "../Phone";
+import Email from "../Email";
 import Social from "../Social";
 
 export default function Footer() {
@@ -16,12 +18,20 @@ export default function Footer() {
             <LogoImg />
             <LogoTitle />
           </div>
-          <div className={s.footer__shedule}>
-            <Shedule />
+
+          <div className={s.footer__wrapper}>
+            <div className={s.shedule__order}>
+              <Shedule />
+            </div>
+            <div className={s.phone__order}>
+              <Phone />
+            </div>
+            <div className={s.footer__subWrapper}>
+              <Email />
+              <LogoCar />
+            </div>
           </div>
-          <div className={s.footer__car}>
-            <LogoCar />
-          </div>
+
           <div className={s.copyright}>
             <div className={s.copyright__line}></div>
             <p className={s.copyright__title}>
@@ -34,13 +44,15 @@ export default function Footer() {
           </div>
           <button className={s.footer__btnshadow}>
             <div className={s.footer__btnscroll}>
-              <Image
-                src="/scroll-top.svg"
-                width={15}
-                height={15}
-                alt="Прокрутка"
-                placeholder="bluer"
-              />
+              <div className={s.footer__btnicon}>
+                <Image
+                  src="/scroll-top.svg"
+                  width={20}
+                  height={20}
+                  alt="Прокрутка"
+                  placeholder="bluer"
+                />
+              </div>
             </div>
           </button>
         </div>
