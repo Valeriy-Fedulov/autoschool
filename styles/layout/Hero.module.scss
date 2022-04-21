@@ -6,6 +6,12 @@
   padding-bottom: 20px;
 }
 
+.shedule__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .section__autoschool {
   position: relative;
   padding-bottom: 15px;
@@ -148,10 +154,12 @@
 
 @media screen and (min-width: 480px) {
   .shedule__contacts {
-    // justify-content: flex-end;
-
     padding-top: 120px;
     padding-bottom: 10px;
+  }
+
+  .shedule__wrapper {
+    justify-content: flex-end;
   }
 
   .title {

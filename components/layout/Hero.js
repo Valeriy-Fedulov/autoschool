@@ -3,6 +3,8 @@ import s from "../../styles/layout/Hero.module.scss";
 import LogoCar from "../LogoCar";
 import LogoImg from "../LogoImg";
 import Shedule from "../Shedule";
+import Phone from "../Phone";
+import Email from "../Email";
 import Social from "../Social";
 
 export default function Hero() {
@@ -11,7 +13,11 @@ export default function Hero() {
       <div className="container">
         <div className={s.shedule__contacts}>
           <LogoCar />
-          <Shedule />
+          <div className={s.shedule__wrapper}>
+            <Shedule />
+            <Phone />
+            <Email />
+          </div>
         </div>
         <div className={s.section__autoschool}>
           <p className={s.title__course}>Ласкаво просимо на курси</p>
