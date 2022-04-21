@@ -66,10 +66,15 @@
 // 480px -------------------------------------------------
 
 @media screen and (min-width: 480px) {
+  .gallery__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .gallery__border {
-    width: 200px;
-    height: 125px;
-    margin: 25px auto;
+    width: 25vh;
+    height: 15vh;
+    margin: 25px 0;
   }
 
   .btn__img {
