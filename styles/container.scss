@@ -1,8 +1,8 @@
 .container {
   position: relative;
   width: 100%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 10px;
+  padding-right: 10px;
 
   background: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
 
@@ -10,23 +10,26 @@
   // }
 
   @include respond-above($mob-tab) {
-    padding-left: 4%;
-    padding-right: 4%;
+    width: $mob-tab;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   @include respond-above($tablet) {
-    padding-left: 5%;
-    padding-right: 5%;
+    width: $tablet;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   @include respond-above($desktop) {
-    padding-left: 6%;
-    padding-right: 6%;
+    width: $desktop;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   @include respond-above($big-desktop) {
-    max-width: $big-desktop;
-    padding-left: 7%;
-    padding-right: 7%;
+    width: $big-desktop;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }

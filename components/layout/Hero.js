@@ -12,7 +12,9 @@ export default function Hero() {
     <section>
       <div className="container">
         <div className={s.shedule__contacts}>
-          <LogoCar />
+          <div className={s.logocar__wrapper}>
+            <LogoCar />
+          </div>
           <div className={s.shedule__wrapper}>
             <Shedule />
             <Phone />

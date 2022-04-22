@@ -1,9 +1,14 @@
 .shedule__contacts {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding-top: 105px;
   padding-bottom: 20px;
+}
+
+.logocar__wrapper {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .shedule__wrapper {

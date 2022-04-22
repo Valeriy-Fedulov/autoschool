@@ -28,7 +28,9 @@ export default function Footer() {
             </div>
             <div className={s.footer__subWrapper}>
               <Email />
-              <LogoCar />
+              <div className={s.logocar__wrapper}>
+                <LogoCar />
+              </div>
             </div>
           </div>
 
