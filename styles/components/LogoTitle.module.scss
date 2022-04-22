@@ -1,11 +1,5 @@
 @import "../utils/mixins.scss";
 
-// .title__nav {
-//   display: flex;
-//   flex: 2;
-//   min-width: 183px;
-// }
-
 .title {
   display: flex;
   flex-direction: column;
@@ -88,5 +82,34 @@
   .location__street {
     font-size: 12px;
     line-height: 1.25;
+  }
+}
+
+// 768px ---------------------------------
+
+@media screen and (min-width: 768px) {
+  .title__organization {
+    font-size: 24px;
+  }
+
+  .title__courses {
+    font-size: 12px;
+    line-height: 1.25;
+  }
+
+  .location__icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+
+  .location__city {
+    font-size: 13px;
+    line-height: 1.23;
+  }
+
+  .location__street {
+    font-size: 13px;
+    line-height: 1.23;
   }
 }

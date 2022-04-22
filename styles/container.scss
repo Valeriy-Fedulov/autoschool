@@ -10,21 +10,16 @@
   // }
 
   @include respond-above($mob-tab) {
-    width: $mob-tab;
-    margin-left: auto;
-    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
   }
 
   @include respond-above($tablet) {
-    width: $tablet;
     padding-left: 20px;
     padding-right: 20px;
   }
 
   @include respond-above($desktop) {
-    width: $desktop;
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -34,4 +29,8 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+}
+
+header .container {
+  background: transparent;
 }

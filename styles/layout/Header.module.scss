@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  padding: 15px 10px 0;
+  padding-top: 10px;
 }
 
 .nav__wrapper {
@@ -32,7 +32,7 @@
 
 @media screen and (min-width: 480px) {
   .pageHeader__nav {
-    padding: 20px 15px 0;
+    padding-top: 15px;
   }
 
   .menuNav__icon {
@@ -45,7 +45,22 @@
 
 @media screen and (min-width: 768px) {
   .pageHeader__nav {
-    padding: 20px 20px 0;
+    padding-top: 20px;
+  }
+
+  .menuNav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menuNav__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menuNav__icon:first-child {
+    margin-right: 50px;
   }
 }
 
@@ -53,7 +68,7 @@
 
 @media screen and (min-width: 1024px) {
   .pageHeader__nav {
-    padding: 20px 25px 0;
+    padding-top: 25px;
   }
 }
 
@@ -61,6 +76,6 @@
 
 @media screen and (min-width: 1920px) {
   .pageHeader__nav {
-    padding: 20px 30px 0;
+    padding-top: 30px;
   }
 }

@@ -3,7 +3,6 @@ import s from "../styles/components/LogoTitle.module.scss";
 
 export default function LogoTitle() {
   return (
-    // <div className={s.title__nav}>
     <div className={s.title}>
       <p className={s.title__organization}>УМОУСЦ ТСО України</p>
       <p className={s.title__courses}>Курси водіїв</p>
@@ -11,8 +10,8 @@ export default function LogoTitle() {
         <div className={s.location__icon}>
           <Image
             src="/location.svg"
-            width={10}
-            height={10}
+            width={15}
+            height={15}
             alt="Іконка локація"
             placeholder="bluer"
           />
@@ -23,6 +22,5 @@ export default function LogoTitle() {
         </p>
       </div>
     </div>
-    // </div>
   );
 }
