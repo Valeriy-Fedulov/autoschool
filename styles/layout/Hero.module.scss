@@ -242,3 +242,81 @@
     right: 15px;
   }
 }
+
+// 768px -----------------------------------------------------
+
+@media screen and (min-width: 768px) {
+  .shedule__contacts {
+    padding-top: 175px;
+    padding-bottom: 25px;
+  }
+
+  .section__autoschool {
+    padding-bottom: 30px;
+  }
+
+  .title {
+    &__course {
+      font-size: 14px;
+      line-height: 1.21;
+    }
+
+    &__hero {
+      font-size: 96px;
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height: 1.21;
+    }
+  }
+
+  .guarantee {
+    flex-direction: column;
+    margin-bottom: 95px;
+  }
+
+  .guarantee__border {
+    margin-bottom: 10px;
+
+    width: 55px;
+    height: 55px;
+  }
+
+  .guarantee__btn {
+    width: 51px;
+    height: 51px;
+    padding: 10px;
+  }
+
+  .guarantee__icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .guarantee__title {
+    font-size: 14px;
+    line-height: 2.21;
+  }
+
+  .guarantee__text {
+    width: 195px;
+
+    font-size: 14px;
+    line-height: 2.21;
+  }
+
+  .btn__margin {
+    margin: 0 auto 50px 0;
+  }
+
+  .bg {
+    position: absolute;
+    width: 75%;
+    top: 540px;
+  }
+
+  .hero__soc {
+    right: 20px;
+  }
+}

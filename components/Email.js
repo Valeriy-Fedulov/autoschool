@@ -7,8 +7,8 @@ export default function Email() {
       <div className={s.email__icon}>
         <Image
           src="/email.svg"
-          width={15}
-          height={15}
+          width={25}
+          height={25}
           alt="Іконка електронна пошта"
           placeholder="bluer"
         />

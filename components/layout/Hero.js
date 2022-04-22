@@ -37,8 +37,8 @@ export default function Hero() {
                   <div className={s.guarantee__icon}>
                     <Image
                       src="/header-title.svg"
-                      width={25}
-                      height={25}
+                      width={40}
+                      height={40}
                       alt="Email"
                       placeholder="bluer"
                     />
