@@ -42,8 +42,8 @@ export default function Category() {
                 <div className={s.card__img}>
                   <Image
                     src="/category/A1.png"
-                    width={90}
-                    height={90}
+                    width={110}
+                    height={110}
                     alt="Мопед"
                     placeholder="bluer"
                   />
@@ -82,8 +82,8 @@ export default function Category() {
                 <div className={s.card__img}>
                   <Image
                     src="/category/A1.png"
-                    width={90}
-                    height={90}
+                    width={110}
+                    height={110}
                     alt="Мопед"
                     placeholder="bluer"
                   />
