@@ -1,5 +1,6 @@
 import Image from "next/image";
 import s from "../../styles/layout/Category.module.scss";
+import Button from "../Button";
 
 export default function Category() {
   return (
@@ -112,6 +113,7 @@ export default function Category() {
                 </p>
               </div>
               <button className="btn">Записатися</button>
+              <Button />
             </div>
 
             <button className={s.btn__card}>

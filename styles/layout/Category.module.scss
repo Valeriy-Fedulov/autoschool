@@ -288,99 +288,53 @@
   }
 
   .card__title {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 1.38;
-
-    text-align: center;
-
-    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.39;
   }
 
   .card__text {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 1.5;
-
-    text-align: center;
-
-    color: #4abcec;
+    font-size: 14px;
+    line-height: 1.43;
   }
 
   .card__subtext {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 1.5;
-
-    text-align: center;
-
-    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.43;
   }
 
   .card__items {
     list-style: disc;
     margin-left: 10px;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 1.5;
-
-    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.57;
   }
 
   .price {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
 
   .price__course {
     margin-right: 5px;
 
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.39;
-
-    color: #4abcec;
+    font-size: 36px;
   }
 
   .price__text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 1.36;
-
-    letter-spacing: 0.1px;
-
-    color: #ffffff;
+    font-size: 14px;
   }
 
   .btn__card {
-    width: 25px;
-    height: 25px;
-    padding: 0;
-
-    background: rgba(8, 38, 43, 0.7);
-
-    border: none;
-    border-radius: 50%;
+    width: 45px;
+    height: 45px;
   }
 
   .btn__arrow {
-    width: 15px;
-    height: 15px;
-    margin: auto;
-
-    color: #ffffff;
+    width: 20px;
+    height: 20px;
   }
 }

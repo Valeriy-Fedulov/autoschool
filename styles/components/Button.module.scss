@@ -1,0 +1,31 @@
+.btn {
+  display: block;
+  max-width: 175px;
+  min-height: 30px;
+  margin: 0 auto;
+  padding: 0;
+
+  background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13cdc2 100%);
+  box-shadow: 0px 7px 20px -7px #00e0ff;
+  border-radius: 10px;
+  border-style: none;
+  padding: 10px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 1.22;
+  text-align: center;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+@media screen and (min-width: 480px) {
+  .btn {
+    max-width: 270px;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+}
