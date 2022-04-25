@@ -113,7 +113,6 @@ export default function Category() {
                 </p>
               </div>
               <button className="btn">Записатися</button>
-              <Button />
             </div>
 
             <button className={s.btn__card}>

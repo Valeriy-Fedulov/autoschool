@@ -169,6 +169,10 @@ hr {
 // 480px -----------------------------------------------------
 
 @media screen and (min-width: 480px) {
+  .page__sections {
+    padding: 30px 0;
+  }
+
   .btn {
     max-width: 270px;
     font-size: 10px;
@@ -181,5 +185,29 @@ hr {
 
     font-size: 24px;
     line-height: 1.21;
+  }
+}
+
+// 768px ----------------------------------------------------------
+
+@media screen and (min-width: 768px) {
+  .page__sections {
+    padding: 40px 0;
+  }
+}
+
+// 1024px ----------------------------------------------------------
+
+@media screen and (min-width: 1024px) {
+  .page__sections {
+    padding: 50px 0;
+  }
+}
+
+// 1920px ----------------------------------------------------------
+
+@media screen and (min-width: 1920px) {
+  .page__sections {
+    padding: 60px 0;
   }
 }
