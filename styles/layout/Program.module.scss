@@ -71,3 +71,25 @@
     line-height: 1.61;
   }
 }
+
+// 768px -----------------------------------------------------
+
+@media screen and (min-width: 768px) {
+  .program__text {
+    font-size: 24px;
+    line-height: 1.58;
+    margin-bottom: 35px;
+  }
+
+  .program__item {
+    padding: 5px 10px 5px 30px;
+
+    font-size: 14px;
+    line-height: 1.57;
+    text-indent: -20px;
+  }
+
+  .program__num {
+    font-size: 20px;
+  }
+}
