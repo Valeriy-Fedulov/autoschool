@@ -190,8 +190,6 @@
   }
 
   .contacts__icon {
-    margin-right: 5px;
-
     width: 20px;
     height: 20px;
   }
@@ -221,5 +219,78 @@
   .contacts__position {
     font-size: 12px;
     line-height: 1.67;
+  }
+}
+
+// 768px -----------------------------------------------------------
+
+@media screen and (min-width: 768px) {
+  .contacts__title {
+    font-size: 24px;
+    line-height: 1.92;
+  }
+
+  .contacts__text {
+    width: 250px;
+    margin: 0 auto;
+
+    font-size: 14px;
+    line-height: 1.86;
+  }
+
+  .contacts__list {
+    position: relative;
+    width: 300px;
+    margin: 10px auto 0;
+    padding: 10px 20px 50px;
+
+    font-size: 13px;
+    line-height: 1.23;
+  }
+
+  .contacts__icon {
+    margin-right: 10px;
+
+    width: 20px;
+    height: 20px;
+  }
+
+  .contacts__item {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+
+  .contacts__shedule {
+    width: 135px;
+  }
+
+  .contacts__btn {
+    bottom: -30px;
+    width: 260px;
+  }
+
+  .contacts__btnIconShadow {
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+  }
+
+  .contacts__btnIcon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .contacts__name {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+
+  .contacts__position {
+    font-size: 13px;
+    line-height: 1.54;
+  }
+
+  .contacts__director {
+    bottom: 40px;
   }
 }

@@ -81,8 +81,8 @@ export default function Contacts() {
                 <div className={s.contacts__btnIcon}>
                   <Image
                     src="/phone.svg"
-                    width={11}
-                    height={11}
+                    width={15}
+                    height={15}
                     alt="Іконка телефон"
                     placeholder="bluer"
                   />
