@@ -42,3 +42,16 @@
     text-indent: -25px;
   }
 }
+
+// 768px --------------------------------------------------------------------------------
+
+@media screen and (min-width: 768px) {
+  .education__item {
+    padding: 20px 0 20px 35px;
+    margin-bottom: 30px;
+
+    font-size: 14px;
+    line-height: 1.5;
+    text-indent: -25px;
+  }
+}
