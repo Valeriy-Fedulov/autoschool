@@ -26,7 +26,6 @@
 
 .program__item {
   padding: 5px 10px 5px 25px;
-  margin-bottom: 20px;
 
   font-style: normal;
   font-weight: 400;
@@ -37,6 +36,10 @@
 
   background: rgba(98, 159, 178, 0.7);
   border-radius: 0px 10px 10px 10px;
+}
+
+.program__item:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .program__num {

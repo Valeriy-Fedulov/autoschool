@@ -172,7 +172,6 @@
 
   .card {
     width: 210px;
-    margin-bottom: 15px;
   }
 
   .card__category {
@@ -236,7 +235,7 @@
     width: 35px;
     height: 35px;
 
-    bottom: 25px;
+    bottom: 35px;
   }
 
   .btn__card:first-child {
@@ -253,6 +252,8 @@
   }
 
   .nav__bull {
+    margin-top: 10px;
+
     text-align: center;
     font-size: 48px;
     line-height: 1;
