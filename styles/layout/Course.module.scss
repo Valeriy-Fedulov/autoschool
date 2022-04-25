@@ -81,3 +81,32 @@
     line-height: 2.3;
   }
 }
+
+// 768px ----------------------------------------------
+
+@media screen and (min-width: 768px) {
+  .course__item {
+    position: relative;
+    margin: 0 0 20px 60px;
+
+    font-size: 14px;
+    line-height: 1.64;
+  }
+
+  .course__icon {
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: -50px;
+  }
+
+  .footnote {
+    font-size: 14px;
+    line-height: 1.64;
+  }
+
+  .footnote__text {
+    font-size: 11px;
+    line-height: 2.09;
+  }
+}
