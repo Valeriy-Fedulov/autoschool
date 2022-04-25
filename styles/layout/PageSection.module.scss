@@ -138,3 +138,59 @@
     font-size: 12px;
   }
 }
+
+// 768px -----------------------------------------------------
+
+@media screen and (min-width: 768px) {
+  .page_section__list {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .page_section__item {
+    padding: 10px 30px 10px 25px;
+
+    text-indent: -15px;
+  }
+
+  .page_section__border {
+    right: 10px;
+    bottom: 10px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .page_section__btn {
+    width: 21px;
+    height: 21px;
+  }
+
+  .page_section__icon {
+    display: flex;
+    width: 13px;
+    height: 13px;
+  }
+
+  .page_section__bull {
+    font-size: 32px;
+  }
+
+  .page_section__text {
+    font-size: 13px;
+    line-height: 1.61;
+  }
+
+  .page_section__subbull {
+    width: 25px;
+    height: 25px;
+
+    margin-top: 3px;
+    margin-right: 20px;
+
+    font-size: 13px;
+  }
+
+  .page_section__sublist {
+    margin-bottom: 20px;
+  }
+}

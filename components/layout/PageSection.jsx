@@ -35,8 +35,8 @@ export default function PageSection() {
                     <div className={s.page_section__icon}>
                       <Image
                         src="/list-arrow.svg"
-                        width={11}
-                        height={11}
+                        width={13}
+                        height={13}
                         alt="List"
                         placeholder="bluer"
                       />
@@ -119,8 +119,8 @@ export default function PageSection() {
                     <div className={s.page_section__icon}>
                       <Image
                         src="/list-arrow.svg"
-                        width={11}
-                        height={11}
+                        width={13}
+                        height={13}
                         alt="List"
                         placeholder="bluer"
                       />
@@ -180,8 +180,8 @@ export default function PageSection() {
                     <div className={s.page_section__icon}>
                       <Image
                         src="/list-arrow.svg"
-                        width={11}
-                        height={11}
+                        width={13}
+                        height={13}
                         alt="List"
                         placeholder="bluer"
                       />
