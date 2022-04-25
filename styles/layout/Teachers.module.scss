@@ -105,3 +105,41 @@
     line-height: 1.2;
   }
 }
+
+// 768px --------------------------------------------------------------
+
+@media screen and (min-width: 768px) {
+  .teachers__shadow {
+    margin: 20px auto;
+    width: 23vh;
+    height: 23vh;
+  }
+
+  .teachers__foto {
+    width: 23vh;
+    height: 23vh;
+  }
+
+  .teachers__name {
+    margin-bottom: 25px;
+
+    font-size: 18px;
+    line-height: 1.39;
+  }
+
+  .teachers__position {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 1.57;
+  }
+
+  .teachers__btn {
+    display: block;
+    padding: 15px 25px;
+    margin: 0 auto 450px;
+
+    font-size: 11px;
+    line-height: 1.18;
+  }
+}
