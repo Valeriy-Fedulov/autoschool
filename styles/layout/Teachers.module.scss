@@ -5,15 +5,15 @@
 
 .teachers__shadow {
   margin: 20px auto;
-  width: 225px;
-  height: 225px;
+  width: 50vw;
+  height: 50vw;
   border-radius: 50%;
   background: #043a41;
 }
 
 .teachers__foto {
-  width: 225px;
-  height: 225px;
+  width: 50vw;
+  height: 50vw;
   border-radius: 50%;
   overflow: hidden;
   mix-blend-mode: screen;
@@ -75,13 +75,13 @@
 
   .teachers__shadow {
     margin: 30px auto;
-    width: 20vh;
-    height: 20vh;
+    width: 30vw;
+    height: 30vw;
   }
 
   .teachers__foto {
-    width: 20vh;
-    height: 20vh;
+    width: 30vw;
+    height: 30vw;
   }
 
   .teachers__name {
@@ -111,13 +111,13 @@
 @media screen and (min-width: 768px) {
   .teachers__shadow {
     margin: 20px auto;
-    width: 23vh;
-    height: 23vh;
+    width: 20vw;
+    height: 20vw;
   }
 
   .teachers__foto {
-    width: 23vh;
-    height: 23vh;
+    width: 20vw;
+    height: 20vw;
   }
 
   .teachers__name {
