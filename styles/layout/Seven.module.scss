@@ -116,3 +116,19 @@
     margin-left: 5px;
   }
 }
+
+// 1024px -----------------------------------------------------
+
+@media screen and (min-width: 1024px) {
+  .seven__item {
+    margin: 20px 1%;
+
+    &:last-child {
+      width: 290px;
+    }
+  }
+
+  .seven__item > * {
+    flex: 1 1 800px;
+  }
+}
