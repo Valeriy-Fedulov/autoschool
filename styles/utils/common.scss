@@ -130,7 +130,6 @@ a {
   max-width: 175px;
   min-height: 30px;
   margin: 0 auto;
-  padding: 0;
 
   background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13cdc2 100%);
   box-shadow: 0px 7px 20px -7px #00e0ff;
@@ -201,6 +200,11 @@ hr {
 @media screen and (min-width: 1024px) {
   .page__sections {
     padding: 50px 0;
+  }
+
+  .btn {
+    max-width: 360px;
+    padding: 20px 25px;
   }
 }
 

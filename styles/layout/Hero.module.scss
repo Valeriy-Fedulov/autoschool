@@ -257,6 +257,8 @@
     }
 
     &__text {
+      width: 380px;
+
       font-size: 14px;
       line-height: 1.21;
     }
@@ -305,5 +307,44 @@
 
   .hero__soc {
     bottom: 15px;
+  }
+}
+
+// 1024px -----------------------------------------------------
+
+@media screen and (min-width: 1024px) {
+  .shedule__contacts {
+    padding-top: 115px;
+    padding-bottom: 0;
+  }
+
+  .guarantee {
+    flex-direction: row;
+    margin-bottom: 65px;
+  }
+
+  .guarantee__border {
+    margin-right: 50px;
+  }
+
+  .guarantee__text {
+    width: 365px;
+  }
+
+  .bg {
+    width: 50%;
+    top: 355px;
+  }
+
+  .bg__img {
+    mix-blend-mode: lighten;
+  }
+
+  .hero__soc {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    bottom: 0;
   }
 }
