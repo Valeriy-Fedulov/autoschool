@@ -74,6 +74,8 @@ export default function Gallery() {
               </div>
             </button>
           </div>
+
+          <button className="btn">всі фоторгафії</button>
         </div>
       </div>
     </section>
