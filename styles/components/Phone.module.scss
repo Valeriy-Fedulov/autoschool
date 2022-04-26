@@ -67,3 +67,19 @@
     }
   }
 }
+
+// 1920px -----------------------------------------------
+
+@media screen and (min-width: 1920px) {
+  .phone {
+    &__icon {
+      width: 25px;
+      height: 25px;
+    }
+
+    &__title {
+      font-size: 18px;
+      line-height: 1.22;
+    }
+  }
+}

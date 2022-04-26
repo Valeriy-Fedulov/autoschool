@@ -26,3 +26,13 @@
     margin-right: 60px;
   }
 }
+
+// 1920px -----------------------------------------------
+
+@media screen and (min-width: 1920px) {
+  .logo__img {
+    width: 95px;
+    height: 130px;
+    margin-right: 20px;
+  }
+}

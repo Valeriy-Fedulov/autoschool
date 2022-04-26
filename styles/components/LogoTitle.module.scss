@@ -113,3 +113,26 @@
     line-height: 1.23;
   }
 }
+
+// 1920px ---------------------------------
+
+@media screen and (min-width: 1920px) {
+  .title__organization {
+    font-size: 36px;
+  }
+
+  .title__courses {
+    font-size: 13px;
+    line-height: 1.23;
+  }
+
+  .location__city {
+    font-size: 14px;
+    line-height: 1.21;
+  }
+
+  .location__street {
+    font-size: 14px;
+    line-height: 1.21;
+  }
+}

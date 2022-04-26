@@ -21,3 +21,12 @@
     height: 60px;
   }
 }
+
+// 1920px ---------------------------------
+
+@media screen and (min-width: 1920px) {
+  .logo__car {
+    width: 235px;
+    height: 100px;
+  }
+}
