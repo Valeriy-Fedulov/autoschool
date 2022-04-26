@@ -49,8 +49,8 @@ export default function Footer() {
               <div className={s.footer__btnicon}>
                 <Image
                   src="/scroll-top.svg"
-                  width={20}
-                  height={20}
+                  width={30}
+                  height={30}
                   alt="Прокрутка"
                   placeholder="bluer"
                 />

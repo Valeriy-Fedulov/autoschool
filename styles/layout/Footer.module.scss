@@ -111,7 +111,7 @@
   }
 
   .footer__wrapper {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .footer__subWrapper {
@@ -130,6 +130,7 @@
   }
 
   .copyright__title {
+    margin: 0 5px;
     font-size: 13px;
     line-height: 1.61;
   }
@@ -150,5 +151,38 @@
   .footer__btnicon {
     width: 20px;
     height: 20px;
+  }
+}
+
+// 768px ----------------------------------------------------------------------------------
+
+@media screen and (min-width: 768px) {
+  .footer__padding {
+    padding-bottom: 20px;
+  }
+
+  .copyright__title {
+    margin: 0 10px;
+
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .footer__btnshadow {
+    top: -52px;
+    right: 20px;
+
+    width: 105px;
+    height: 105px;
+  }
+
+  .footer__btnscroll {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer__btnicon {
+    width: 25px;
+    height: 25px;
   }
 }
