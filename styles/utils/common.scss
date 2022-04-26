@@ -24,7 +24,7 @@ body {
 }
 
 .title__sections {
-  max-width: 275px;
+  width: 275px;
   margin: 0 auto 10px;
 
   font-style: normal;
@@ -179,8 +179,8 @@ hr {
   }
 
   .title__sections {
-    max-width: 425px;
-    margin: 0 auto 20px;
+    width: 425px;
+    margin: 0 auto 30px;
 
     font-size: 24px;
     line-height: 1.21;
@@ -192,6 +192,14 @@ hr {
 @media screen and (min-width: 768px) {
   .page__sections {
     padding: 40px 0;
+  }
+
+  .title__sections {
+    width: 635px;
+    margin: 0 auto 40px;
+
+    font-size: 36px;
+    line-height: 1.22;
   }
 }
 
@@ -206,6 +214,11 @@ hr {
     max-width: 360px;
     padding: 20px 25px;
   }
+
+  .title__sections {
+    width: 790px;
+    margin: 0 auto 50px;
+  }
 }
 
 // 1920px ----------------------------------------------------------
@@ -213,5 +226,12 @@ hr {
 @media screen and (min-width: 1920px) {
   .page__sections {
     padding: 60px 0;
+  }
+
+  .title__sections {
+    margin: 0 auto 60px;
+
+    font-size: 48px;
+    line-height: 1.23;
   }
 }
