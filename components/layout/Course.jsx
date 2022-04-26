@@ -21,7 +21,7 @@ export default function Course() {
             Чому наш курс? <span className="title__base">Все просто!</span>
           </h2>
           <ul className={s.course__list}>
-            <div>
+            <div className={s.course__sublist}>
               <li className={s.course__item}>
                 <div className={s.course__icon}>
                   <Image
@@ -135,7 +135,7 @@ export default function Course() {
                 Навчання із врахуванням жіночої психології.
               </li>
             </div>
-            <div>
+            <div className={s.course__sublist}>
               <li className={s.course__item}>
                 <div className={s.course__icon}>
                   <Image

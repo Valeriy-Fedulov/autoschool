@@ -116,5 +116,14 @@
 @media screen and (min-width: 1024px) {
   .course__list {
     display: flex;
+    justify-content: space-between;
+  }
+
+  .course__sublist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 49%;
   }
 }
