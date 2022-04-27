@@ -352,14 +352,39 @@
 // 1920px -----------------------------------------------------
 
 @media screen and (min-width: 1920px) {
+  .shedule__contacts {
+    padding-top: 0;
+    margin-bottom: 90px;
+  }
+
+  .section__wrapper {
+    flex: 1;
+  }
+
+  .logocar__wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .shedule__wrapper {
+    flex: 1;
+    align-items: flex-start;
+  }
+
   .title {
     &__course {
       font-size: 18px;
       line-height: 1.22;
+
+      margin-bottom: 30px;
     }
 
     &__hero {
+      display: block;
       font-size: 120px;
+
+      margin-bottom: 10px;
     }
 
     &__text {
@@ -367,7 +392,13 @@
 
       font-size: 18px;
       line-height: 1.22;
+
+      margin-bottom: 85px;
     }
+  }
+
+  .guarantee {
+    margin-bottom: 75px;
   }
 
   .guarantee__border {
@@ -395,6 +426,45 @@
     width: 470px;
 
     font-size: 18px;
-    line-height: 1.22;
+  }
+
+  .btn__margin {
+    margin-bottom: 115px;
+  }
+
+  .consult__btnShadow {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.05);
+
+    border-style: none;
+    border-radius: 50%;
+  }
+
+  .consult__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(
+      180deg,
+      rgba(3, 225, 255, 0.66) 0%,
+      #13cdc2 100%
+    );
+    box-shadow: 0px 7px 20px -7px #00e0ff;
+    border-radius: 50%;
+  }
+
+  .consult__btnIcon {
+    width: 15px;
+    height: 15px;
   }
 }

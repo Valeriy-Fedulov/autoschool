@@ -14,6 +14,7 @@ export default function Hero() {
       <div className="container">
         <div className="page__sections">
           <div className={s.shedule__contacts}>
+            <dir className={s.section__wrapper}></dir>
             <div className={s.logocar__wrapper}>
               <LogoCar />
             </div>
@@ -80,6 +81,20 @@ export default function Hero() {
             </div>
           </div>
         </div>
+
+        <button className={s.consult__btnShadow}>
+          <div className={s.consult__btn}>
+            <div className={s.consult__btnIcon}>
+              <Image
+                src="/scroll-top.svg"
+                width={40}
+                height={40}
+                alt="Консультація"
+                placeholder="bluer"
+              />
+            </div>
+          </div>
+        </button>
       </div>
     </section>
   );
