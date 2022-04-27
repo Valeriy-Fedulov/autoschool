@@ -108,3 +108,12 @@
     height: 50px;
   }
 }
+
+// 1024px -------------------------------------------------
+
+@media screen and (min-width: 1024px) {
+  .gallery__border {
+    width: 30vw;
+    height: 20vw;
+  }
+}

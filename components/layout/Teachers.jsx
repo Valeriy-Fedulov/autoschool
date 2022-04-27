@@ -27,8 +27,8 @@ export default function Teachers() {
                 <div className={s.teachers__foto}>
                   <Image
                     src="/foto/teacher.jpeg"
-                    width={350}
-                    height={350}
+                    width={385}
+                    height={385}
                     alt="Викладач"
                     placeholder="bluer"
                   />
@@ -44,8 +44,8 @@ export default function Teachers() {
                 <div className={s.teachers__foto}>
                   <Image
                     src="/foto/teacher.jpeg"
-                    width={350}
-                    height={350}
+                    width={385}
+                    height={385}
                     alt="Викладач"
                     placeholder="bluer"
                   />
@@ -61,8 +61,8 @@ export default function Teachers() {
                 <div className={s.teachers__foto}>
                   <Image
                     src="/foto/teacher.jpeg"
-                    width={350}
-                    height={350}
+                    width={385}
+                    height={385}
                     alt="Викладач"
                     placeholder="bluer"
                   />

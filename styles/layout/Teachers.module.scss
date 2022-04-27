@@ -143,3 +143,17 @@
     line-height: 1.18;
   }
 }
+
+// 1024px --------------------------------------------------------------
+
+@media screen and (min-width: 1024px) {
+  .teachers__shadow {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .teachers__foto {
+    width: 15vw;
+    height: 15vw;
+  }
+}
