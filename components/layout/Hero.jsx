@@ -42,7 +42,7 @@ export default function Hero() {
                         src="/header-title.svg"
                         width={40}
                         height={40}
-                        alt="Email"
+                        alt="Guarantee"
                         placeholder="bluer"
                       />
                     </div>

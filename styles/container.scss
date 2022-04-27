@@ -24,11 +24,11 @@
   //   padding-right: 25px;
   // }
 
-  // @include respond-above($big-desktop) {
-  //   width: $big-desktop;
-  //   padding-left: 30px;
-  //   padding-right: 30px;
-  // }
+  @include respond-above($big-desktop) {
+    width: $big-desktop;
+    // padding-left: 30px;
+    // padding-right: 30px;
+  }
 }
 
 header .container {
