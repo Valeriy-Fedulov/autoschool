@@ -372,6 +372,10 @@
     align-items: flex-start;
   }
 
+  .section__autoschool {
+    margin-left: 200px;
+  }
+
   .title {
     &__course {
       font-size: 18px;
@@ -432,16 +436,24 @@
     margin-bottom: 115px;
   }
 
-  .consult__btnShadow {
+  .consult__wrapper {
     position: absolute;
-    top: 30px;
+    top: 130px;
     left: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .consult__btnShadow {
+    margin-bottom: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    width: 60px;
-    height: 60px;
+    width: 140px;
+    height: 140px;
     background: rgba(255, 255, 255, 0.05);
 
     border-style: none;
@@ -452,8 +464,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35px;
-    height: 35px;
+    width: 100px;
+    height: 100px;
     background: linear-gradient(
       180deg,
       rgba(3, 225, 255, 0.66) 0%,
@@ -464,7 +476,22 @@
   }
 
   .consult__btnIcon {
-    width: 15px;
-    height: 15px;
+    color: #ffffff;
+    fill: #ffffff;
+    width: 40px;
+    height: 40px;
+  }
+
+  .consult__text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 1.2px;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+
+    color: #00e0ff;
+
+    transform: rotate(-90deg);
   }
 }

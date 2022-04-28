@@ -82,19 +82,22 @@ export default function Hero() {
           </div>
         </div>
 
-        <button className={s.consult__btnShadow}>
-          <div className={s.consult__btn}>
-            <div className={s.consult__btnIcon}>
-              <Image
-                src="/scroll-top.svg"
-                width={40}
-                height={40}
-                alt="Консультація"
-                placeholder="bluer"
-              />
+        <div className={s.consult__wrapper}>
+          <button className={s.consult__btnShadow}>
+            <div className={s.consult__btn}>
+              <div className={s.consult__btnIcon}>
+                <Image
+                  src="/consult.svg"
+                  width={40}
+                  height={40}
+                  alt="Консультація"
+                  placeholder="bluer"
+                />
+              </div>
             </div>
-          </div>
-        </button>
+          </button>
+          <p className={s.consult__text}>безкоштовна консультація</p>
+        </div>
       </div>
     </section>
   );
