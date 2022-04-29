@@ -347,3 +347,73 @@
     justify-content: space-between;
   }
 }
+
+// 1920px -----------------------------------------------------
+
+@media screen and (min-width: 1920px) {
+  .card {
+    width: 365px;
+    padding: 40px 20px;
+  }
+
+  .card__category {
+    font-size: 144px;
+  }
+
+  .card__subcategory {
+    top: 20px;
+    left: 55px;
+
+    font-size: 120px;
+    line-height: 1.23;
+  }
+
+  .card__img {
+    left: 165px;
+    top: 25px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .card__title {
+    font-size: 24px;
+    line-height: 1.42;
+  }
+
+  .card__text {
+    font-size: 18px;
+    line-height: 1.39;
+  }
+
+  .card__subtext {
+    font-size: 18px;
+    line-height: 1.39;
+  }
+
+  .card__items {
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.61;
+  }
+
+  .price__course {
+    font-size: 48px;
+    line-height: 1.39;
+  }
+
+  .price__text {
+    font-size: 18px;
+    line-height: 1.05;
+  }
+
+  .btn__card {
+    width: 60px;
+    height: 60px;
+  }
+
+  .btn__arrow {
+    width: 25px;
+    height: 25px;
+  }
+}

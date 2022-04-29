@@ -28,8 +28,8 @@ export default function Category() {
               <div className={s.btn__arrow}>
                 <Image
                   src="/arrow-left.svg"
-                  width={18}
-                  height={18}
+                  width={25}
+                  height={25}
                   alt="Стрілка вліво"
                   placeholder="bluer"
                 />
@@ -44,8 +44,8 @@ export default function Category() {
                 <div className={s.card__img}>
                   <Image
                     src="/category/A1.png"
-                    width={110}
-                    height={110}
+                    width={150}
+                    height={150}
                     alt="Мопед"
                     placeholder="bluer"
                   />
@@ -84,8 +84,8 @@ export default function Category() {
                 <div className={s.card__img}>
                   <Image
                     src="/category/A1.png"
-                    width={110}
-                    height={110}
+                    width={150}
+                    height={150}
                     alt="Мопед"
                     placeholder="bluer"
                   />
@@ -124,8 +124,8 @@ export default function Category() {
                 <div className={s.card__img}>
                   <Image
                     src="/category/A1.png"
-                    width={110}
-                    height={110}
+                    width={150}
+                    height={150}
                     alt="Мопед"
                     placeholder="bluer"
                   />
@@ -160,8 +160,8 @@ export default function Category() {
               <div className={s.btn__arrow}>
                 <Image
                   src="/arrow-right.svg"
-                  width={18}
-                  height={18}
+                  width={25}
+                  height={25}
                   alt="Стрілка вліво"
                   placeholder="bluer"
                 />
