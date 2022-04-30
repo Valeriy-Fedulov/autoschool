@@ -27,7 +27,7 @@
   text-indent: -20px;
 
   color: #ffffff;
-
+  border-radius: 10px;
   background: linear-gradient(90deg, #1f3f4d 0%, rgba(31, 75, 94, 0) 100%);
 }
 
@@ -63,5 +63,23 @@
     width: 560px;
     padding: 15px 0 15px 35px;
     margin-bottom: 8px;
+  }
+}
+
+// 1920px --------------------------------------------------------------------------------
+
+@media screen and (min-width: 1920px) {
+  .education__list {
+    margin-left: 300px;
+    margin-bottom: 70px;
+  }
+
+  .education__item {
+    padding: 20px 0 20px 40px;
+    margin-bottom: 30px;
+
+    width: 640px;
+    font-size: 16px;
+    line-height: 1.25;
   }
 }

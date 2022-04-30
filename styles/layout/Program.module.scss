@@ -103,3 +103,13 @@
     margin-right: auto;
   }
 }
+
+// 1920px -----------------------------------------------------
+
+@media screen and (min-width: 1920px) {
+  .program__text {
+    width: 1150px;
+    font-size: 36px;
+    line-height: 1.61;
+  }
+}
