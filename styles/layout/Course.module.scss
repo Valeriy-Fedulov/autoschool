@@ -127,3 +127,35 @@
     width: 49%;
   }
 }
+
+// 1920px ----------------------------------------------
+
+@media screen and (min-width: 1920px) {
+  .course__list {
+    margin-bottom: 50px;
+  }
+
+  .course__item {
+    margin: 0 0 40px 60px;
+
+    font-size: 18px;
+    line-height: 1.28;
+  }
+
+  .course__icon {
+    width: 35px;
+    height: 35px;
+
+    top: -5px;
+  }
+
+  .footnote {
+    font-size: 18px;
+    line-height: 1.28;
+  }
+
+  .footnote__text {
+    font-size: 12px;
+    line-height: 1.92;
+  }
+}
