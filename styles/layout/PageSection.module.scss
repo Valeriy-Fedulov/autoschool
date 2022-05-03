@@ -199,102 +199,54 @@
 
 @media screen and (min-width: 1920px) {
   .page_section__list {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 1.75;
-
-    color: #ffffff;
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    line-height: 1.17;
   }
 
   .page_section__item {
-    position: relative;
-    padding: 5px 30px 5px 15px;
+    padding: 15px 60px 15px 45px;
 
-    text-indent: -10px;
-
-    background: linear-gradient(286.41deg, #073447 3.63%, #08262b 90.98%);
-    border-radius: 6px;
+    text-indent: -15px;
   }
 
   .page_section__border {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    width: 20px;
-    height: 20px;
-    padding: 2px;
-
-    border-radius: 6px;
-    background: radial-gradient(
-      47.54% 111.62% at 50% 50%,
-      #49b9e8 0%,
-      rgba(31, 77, 96, 0.43) 100%
-    );
+    right: 15px;
+    bottom: 15px;
+    width: 30px;
+    height: 30px;
   }
 
   .page_section__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 16px;
-    height: 16px;
-    padding-right: 1px;
-
-    border-radius: 6px;
-    background: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
+    width: 26px;
+    height: 26px;
   }
 
   .page_section__icon {
     display: flex;
-    width: 11px;
-    height: 11px;
+    width: 15px;
+    height: 15px;
   }
 
   .page_section__bull {
-    font-size: 18px;
-    line-height: 1;
-    color: #4abcec;
+    font-size: 32px;
   }
 
   .page_section__text {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 1.91;
-
-    color: #08b1b9;
+    font-size: 14px;
+    line-height: 1.5;
   }
 
   .page_section__subbull {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
 
-    margin-top: 3px;
-    margin-right: 5px;
-
-    font-size: 10px;
-    border-radius: 50%;
-    background: #4abcec;
-  }
-
-  .page_section__subitem {
-    color: #4abcec;
+    font-size: 14px;
   }
 
   .page_section__subtext {
-    display: flex;
-    margin-top: 10px;
-  }
-
-  .page_section__subp {
-    width: 100%;
-  }
-
-  .page_section__sublist {
-    margin-bottom: 10px;
+    margin-top: 20px;
   }
 }
