@@ -5,7 +5,7 @@ export default function Contacts() {
   return (
     <section>
       <div className="container">
-        <div className="page__sections">
+        <div className={`page__sections ${s.page__sectionsFlex}`}>
           <h2 className="title__sections">Контакти</h2>
           <p className={s.contacts__title}>Залишились питання?</p>
           <p className={s.contacts__text}>
