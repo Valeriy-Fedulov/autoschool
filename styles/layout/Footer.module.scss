@@ -186,3 +186,20 @@
     height: 25px;
   }
 }
+
+// 1920px ----------------------------------------------------------------------------------
+
+@media screen and (min-width: 1920px) {
+  .footer__btnshadow {
+    top: -70px;
+    right: 30px;
+
+    width: 140px;
+    height: 140px;
+  }
+
+  .footer__btnscroll {
+    width: 80px;
+    height: 80px;
+  }
+}

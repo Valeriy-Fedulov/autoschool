@@ -4,7 +4,7 @@
   padding-left: 4%;
   padding-right: 4%;
 
-  background: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
+  // background: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
 
   // @include respond-above($mobile) {
   // }
@@ -26,6 +26,8 @@
 
   @include respond-above($big-desktop) {
     width: $big-desktop;
+    margin-left: auto;
+    margin-right: auto;
     // padding-left: 30px;
     // padding-right: 30px;
   }
