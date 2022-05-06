@@ -47,6 +47,19 @@ export default function Gallery() {
                 />
               </div>
             </div>
+
+            <div className={s.gallery__border}>
+              <div className={s.gallery__item}>
+                <Image
+                  src="/gallery/img-1.jpeg"
+                  layout="fill"
+                  objectFit="cover"
+                  quality={100}
+                  alt="Фотографія автошколи"
+                  placeholder="bluer"
+                />
+              </div>
+            </div>
           </div>
 
           <div className={s.gallery__nav}>
