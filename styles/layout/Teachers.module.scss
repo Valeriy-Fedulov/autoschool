@@ -157,3 +157,34 @@
     height: 15vw;
   }
 }
+
+// 1920px --------------------------------------------------------------
+
+@media screen and (min-width: 1920px) {
+  .teachers__shadow {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .teachers__foto {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .teachers__name {
+    font-size: 24px;
+    line-height: 1.42;
+  }
+
+  .teachers__position {
+    font-size: 18px;
+    line-height: 1.61;
+  }
+
+  .teachers__btn {
+    margin: 0 auto 500px;
+
+    font-size: 12px;
+    line-height: 1.25;
+  }
+}
