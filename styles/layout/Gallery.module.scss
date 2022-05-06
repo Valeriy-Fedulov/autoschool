@@ -117,3 +117,21 @@
     height: 17vw;
   }
 }
+
+// 1920px -------------------------------------------------
+
+@media screen and (min-width: 1920px) {
+  .btn__img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .btn__arrow {
+    width: 25px;
+    height: 25px;
+  }
+
+  .gallery__bull {
+    font-size: 64px;
+  }
+}
