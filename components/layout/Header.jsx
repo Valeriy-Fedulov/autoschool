@@ -6,7 +6,7 @@ import LogoTitle from "../LogoTitle";
 export default function Header() {
   return (
     <header className={s.pageHeader}>
-      <div className="hr__shadow"></div>
+      <div className={`hr__shadow hr__top`}></div>
       <div className="container">
         <nav className={s.pageHeader__nav}>
           <div className={s.nav__wrapper}>

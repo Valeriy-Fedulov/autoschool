@@ -98,6 +98,7 @@ export default function Hero() {
           </button>
           <p className={s.consult__text}>безкоштовна консультація</p>
         </div>
+        <div className="hr__shadow"></div>
       </div>
     </section>
   );

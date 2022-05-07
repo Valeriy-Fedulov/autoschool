@@ -54,7 +54,9 @@ body {
 }
 
 .hr__shadow {
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 0.1px;
   z-index: 1;
@@ -75,6 +77,10 @@ body {
 
   // background-color: #022335;
   // background: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
+}
+
+.hr__top {
+  top: 0;
 }
 
 .page {

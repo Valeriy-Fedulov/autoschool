@@ -55,6 +55,7 @@ export default function Education() {
           </ul>
           <button className="btn">Записатися онлайн на навчання</button>
         </div>
+        <div className="hr__shadow"></div>
       </div>
     </section>
   );

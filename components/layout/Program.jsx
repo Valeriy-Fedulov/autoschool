@@ -70,6 +70,7 @@ export default function Program() {
             </li>
           </ul>
         </div>
+        <div className="hr__shadow"></div>
       </div>
     </section>
   );

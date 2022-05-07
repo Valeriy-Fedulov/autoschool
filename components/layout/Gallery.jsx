@@ -90,6 +90,7 @@ export default function Gallery() {
 
           <button className="btn">всі фоторгафії</button>
         </div>
+        <div className="hr__shadow"></div>
       </div>
     </section>
   );

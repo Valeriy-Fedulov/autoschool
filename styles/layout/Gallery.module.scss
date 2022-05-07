@@ -121,6 +121,11 @@
 // 1920px -------------------------------------------------
 
 @media screen and (min-width: 1920px) {
+  .gallery__border {
+    width: 515px;
+    height: 325px;
+  }
+
   .btn__img {
     width: 60px;
     height: 60px;

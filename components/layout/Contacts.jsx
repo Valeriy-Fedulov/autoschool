@@ -119,6 +119,7 @@ export default function Contacts() {
             <p className={s.contacts__position}>Заступник директора</p>
           </div>
         </div>
+        <div className="hr__shadow"></div>
       </div>
     </section>
   );

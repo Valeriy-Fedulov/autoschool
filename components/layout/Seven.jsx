@@ -136,6 +136,7 @@ export default function Seven() {
             </li>
           </ul>
         </div>
+        <div className="hr__shadow"></div>
       </div>
     </section>
   );

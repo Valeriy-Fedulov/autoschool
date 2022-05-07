@@ -171,6 +171,7 @@ export default function Category() {
 
           <p className={s.nav__bull}>&bull; &bull; &bull;</p>
         </div>
+        <div className="hr__shadow"></div>
       </div>
     </section>
   );
