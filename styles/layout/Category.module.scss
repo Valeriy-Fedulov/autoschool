@@ -348,6 +348,33 @@
   }
 }
 
+// 1024px - 1919px ------------------------------------------------------
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+  .btn__card {
+    position: absolute;
+
+    bottom: 70px;
+  }
+
+  .btn__card:first-child {
+    left: 20%;
+  }
+
+  .btn__card:last-child {
+    right: 20%;
+  }
+
+  .nav__bull {
+    margin-top: 20px;
+
+    text-align: center;
+    font-size: 64px;
+    line-height: 1;
+    color: #4abcec;
+  }
+}
+
 // 1920px -----------------------------------------------------
 
 @media screen and (min-width: 1920px) {

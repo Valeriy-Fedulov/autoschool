@@ -347,6 +347,64 @@
     right: 0;
     bottom: 0;
   }
+
+  .consult__wrapper {
+    position: absolute;
+    top: 200px;
+    left: 35px;
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+  }
+
+  .consult__btnShadow {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.05);
+
+    border-style: none;
+    border-radius: 50%;
+  }
+
+  .consult__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(
+      180deg,
+      rgba(3, 225, 255, 0.66) 0%,
+      #13cdc2 100%
+    );
+    box-shadow: 0px 7px 20px -7px #00e0ff;
+    border-radius: 50%;
+  }
+
+  .consult__btnIcon {
+    color: #ffffff;
+    fill: #ffffff;
+    width: 20px;
+    height: 20px;
+  }
+
+  .consult__text {
+    width: 100px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 9px;
+    line-height: 1.2px;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+
+    color: #00e0ff;
+  }
 }
 
 // 1920px -----------------------------------------------------

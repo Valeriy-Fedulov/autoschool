@@ -1,7 +1,8 @@
+import { useMediaQuery } from "react-responsive";
+
 import Image from "next/image";
 import s from "../../styles/layout/Hero.module.scss";
 import LogoCar from "../LogoCar";
-import LogoImg from "../LogoImg";
 import Shedule from "../Shedule";
 import Phone from "../Phone";
 import Email from "../Email";
@@ -9,6 +10,8 @@ import Social from "../Social";
 import Button from "../Button";
 
 export default function Hero() {
+  const isDesktop = useMediaQuery({ query: "(min-width: 1024px)" });
+
   return (
     <section>
       <div className="container">
@@ -82,22 +85,24 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className={s.consult__wrapper}>
-          <button className={s.consult__btnShadow}>
-            <div className={s.consult__btn}>
-              <div className={s.consult__btnIcon}>
-                <Image
-                  src="/consult.svg"
-                  width={40}
-                  height={40}
-                  alt="Консультація"
-                  placeholder="bluer"
-                />
+        {isDesktop && (
+          <div className={s.consult__wrapper}>
+            <button className={s.consult__btnShadow}>
+              <div className={s.consult__btn}>
+                <div className={s.consult__btnIcon}>
+                  <Image
+                    src="/consult.svg"
+                    width={40}
+                    height={40}
+                    alt="Консультація"
+                    placeholder="bluer"
+                  />
+                </div>
               </div>
-            </div>
-          </button>
-          <p className={s.consult__text}>безкоштовна консультація</p>
-        </div>
+            </button>
+            <p className={s.consult__text}>безкоштовна консультація</p>
+          </div>
+        )}
         <div className="hr__shadow"></div>
       </div>
     </section>
