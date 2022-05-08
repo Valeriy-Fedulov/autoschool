@@ -6,7 +6,13 @@ import Button from "../Button";
 
 export default function Category() {
   const isBigMobile = useMediaQuery({ query: "(min-width: 480px)" });
+  const isBigMobileToTablet = useMediaQuery({
+    query: "(minWidth: 480px, maxWidth: 767px)",
+  });
   const isDesktop = useMediaQuery({ query: "(min-width: 1024px)" });
+  const isDesktopToBigDesktop = useMediaQuery({
+    query: "(minWidth: 1024px, maxWidth: 1919px)",
+  });
 
   return (
     <section>
@@ -178,7 +184,7 @@ export default function Category() {
             </button>
           </div>
 
-          <p className={s.nav__bull}>&bull; &bull; &bull;</p>
+          {isDesktop && <p className={s.nav__bull}>&bull; &bull; &bull;</p>}
         </div>
         <div className="hr__shadow"></div>
       </div>
