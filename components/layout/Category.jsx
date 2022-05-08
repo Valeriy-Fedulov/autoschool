@@ -5,13 +5,12 @@ import s from "../../styles/layout/Category.module.scss";
 import Button from "../Button";
 
 export default function Category() {
-  const isBigMobile = useMediaQuery({ query: "(min-width: 480px)" });
-  const isBigMobileToTablet = useMediaQuery({
-    query: "(minWidth: 480px, maxWidth: 767px)",
-  });
-  const isDesktop = useMediaQuery({ query: "(min-width: 1024px)" });
+  const isBigMobile = useMediaQuery({ minWidth: 480 });
+  const isBigMobileToTablet = useMediaQuery({ minWidth: 480, maxWidth: 767 });
+  const isDesktop = useMediaQuery({ minWidth: 1024 });
   const isDesktopToBigDesktop = useMediaQuery({
-    query: "(minWidth: 1024px, maxWidth: 1919px)",
+    minWidth: 1024,
+    maxWidth: 1919,
   });
 
   return (
@@ -184,7 +183,9 @@ export default function Category() {
             </button>
           </div>
 
-          {isDesktop && <p className={s.nav__bull}>&bull; &bull; &bull;</p>}
+          {(isBigMobileToTablet || isDesktopToBigDesktop) && (
+            <p className={s.nav__bull}>&bull; &bull; &bull;</p>
+          )}
         </div>
         <div className="hr__shadow"></div>
       </div>

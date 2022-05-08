@@ -10,14 +10,14 @@ import Social from "../Social";
 import Button from "../Button";
 
 export default function Hero() {
-  const isDesktop = useMediaQuery({ query: "(min-width: 1024px)" });
+  const isDesktop = useMediaQuery({ minWidth: 1024 });
 
   return (
     <section>
       <div className="container">
         <div className="page__sections">
           <div className={s.shedule__contacts}>
-            <dir className={s.section__wrapper}></dir>
+            {/* <dir className={s.section__wrapper}></dir> */}
             <div className={s.logocar__wrapper}>
               <LogoCar />
             </div>

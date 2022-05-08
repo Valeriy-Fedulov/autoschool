@@ -1,7 +1,11 @@
+import { useMediaQuery } from "react-responsive";
 import Image from "next/image";
 import s from "../../styles/layout/Teachers.module.scss";
 
 export default function Teachers() {
+  const isBigMobile = useMediaQuery({ minWidth: 480 });
+  const isTablet = useMediaQuery({ minWidth: 768 });
+
   return (
     <section>
       <div className="container">
@@ -39,39 +43,43 @@ export default function Teachers() {
               <button className={s.teachers__btn}>Інструктор</button>
             </div>
 
-            <div>
-              <div className={s.teachers__shadow}>
-                <div className={s.teachers__foto}>
-                  <Image
-                    src="/foto/teacher.jpeg"
-                    width={385}
-                    height={385}
-                    alt="Викладач"
-                    placeholder="bluer"
-                  />
+            {isBigMobile && (
+              <div>
+                <div className={s.teachers__shadow}>
+                  <div className={s.teachers__foto}>
+                    <Image
+                      src="/foto/teacher.jpeg"
+                      width={385}
+                      height={385}
+                      alt="Викладач"
+                      placeholder="bluer"
+                    />
+                  </div>
                 </div>
+                <h3 className={s.teachers__name}>Дмитрій Іванов</h3>
+                <p className={s.teachers__position}>Теоретичні занятя</p>
+                <button className={s.teachers__btn}>Інструктор</button>
               </div>
-              <h3 className={s.teachers__name}>Дмитрій Іванов</h3>
-              <p className={s.teachers__position}>Теоретичні занятя</p>
-              <button className={s.teachers__btn}>Інструктор</button>
-            </div>
+            )}
 
-            <div>
-              <div className={s.teachers__shadow}>
-                <div className={s.teachers__foto}>
-                  <Image
-                    src="/foto/teacher.jpeg"
-                    width={385}
-                    height={385}
-                    alt="Викладач"
-                    placeholder="bluer"
-                  />
+            {isTablet && (
+              <div>
+                <div className={s.teachers__shadow}>
+                  <div className={s.teachers__foto}>
+                    <Image
+                      src="/foto/teacher.jpeg"
+                      width={385}
+                      height={385}
+                      alt="Викладач"
+                      placeholder="bluer"
+                    />
+                  </div>
                 </div>
+                <h3 className={s.teachers__name}>Дмитрій Іванов</h3>
+                <p className={s.teachers__position}>Теоретичні занятя</p>
+                <button className={s.teachers__btn}>Інструктор</button>
               </div>
-              <h3 className={s.teachers__name}>Дмитрій Іванов</h3>
-              <p className={s.teachers__position}>Теоретичні занятя</p>
-              <button className={s.teachers__btn}>Інструктор</button>
-            </div>
+            )}
           </div>
         </div>
       </div>

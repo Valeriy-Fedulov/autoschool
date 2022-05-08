@@ -32,7 +32,7 @@
 .contacts__list {
   position: relative;
   width: 230px;
-  padding: 5px 15px 30px;
+  padding: 5px 15px 40px;
 
   font-style: normal;
   font-weight: 500;
@@ -86,8 +86,8 @@
 
   left: 50%;
   bottom: -25px;
-  margin-left: -90px;
-  width: 200px;
+  margin-left: -100px;
+  min-width: 200px;
   padding: 5px;
 }
 
@@ -97,7 +97,7 @@
   align-items: center;
   height: 38px;
   width: 38px;
-  margin-right: 10px;
+  margin-right: 7px;
 
   background: rgba(7, 52, 71, 0.05);
 

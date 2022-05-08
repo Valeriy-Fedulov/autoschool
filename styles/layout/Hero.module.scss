@@ -351,15 +351,15 @@
   .consult__wrapper {
     position: absolute;
     top: 200px;
-    left: 35px;
+    left: 4%;
 
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
+    display: flex;
+
+    align-items: center;
   }
 
   .consult__btnShadow {
-    margin-bottom: 150px;
+    margin-right: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -395,15 +395,15 @@
   }
 
   .consult__text {
-    width: 100px;
     font-style: normal;
     font-weight: 900;
     font-size: 9px;
-    line-height: 1.2px;
+
     letter-spacing: 0.36em;
     text-transform: uppercase;
 
     color: #00e0ff;
+    width: 200px;
   }
 }
 
@@ -495,61 +495,34 @@
   }
 
   .consult__wrapper {
-    position: absolute;
     top: 135px;
     left: 15px;
 
-    display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .consult__btnShadow {
+    margin-right: 0;
     margin-bottom: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     width: 140px;
     height: 140px;
-    background: rgba(255, 255, 255, 0.05);
-
-    border-style: none;
-    border-radius: 50%;
   }
 
   .consult__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100px;
     height: 100px;
-    background: linear-gradient(
-      180deg,
-      rgba(3, 225, 255, 0.66) 0%,
-      #13cdc2 100%
-    );
-    box-shadow: 0px 7px 20px -7px #00e0ff;
-    border-radius: 50%;
   }
 
   .consult__btnIcon {
-    color: #ffffff;
-    fill: #ffffff;
     width: 40px;
     height: 40px;
   }
 
   .consult__text {
-    font-style: normal;
-    font-weight: 900;
     font-size: 10px;
     line-height: 1.2px;
-    letter-spacing: 0.36em;
-    text-transform: uppercase;
-
-    color: #00e0ff;
-
+    width: auto;
     transform: rotate(-90deg);
   }
 }

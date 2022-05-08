@@ -1,7 +1,11 @@
+import { useMediaQuery } from "react-responsive";
 import Image from "next/image";
 import s from "../../styles/layout/Gallery.module.scss";
 
 export default function Gallery() {
+  const isBigMobile = useMediaQuery({ minWidth: 480 });
+  const isDesktop = useMediaQuery({ minWidth: 1024 });
+
   return (
     <section>
       <div className="container">
@@ -35,31 +39,35 @@ export default function Gallery() {
               </div>
             </div>
 
-            <div className={s.gallery__border}>
-              <div className={s.gallery__item}>
-                <Image
-                  src="/gallery/img-1.jpeg"
-                  layout="fill"
-                  objectFit="cover"
-                  quality={100}
-                  alt="Фотографія автошколи"
-                  placeholder="bluer"
-                />
+            {isBigMobile && (
+              <div className={s.gallery__border}>
+                <div className={s.gallery__item}>
+                  <Image
+                    src="/gallery/img-1.jpeg"
+                    layout="fill"
+                    objectFit="cover"
+                    quality={100}
+                    alt="Фотографія автошколи"
+                    placeholder="bluer"
+                  />
+                </div>
               </div>
-            </div>
+            )}
 
-            <div className={s.gallery__border}>
-              <div className={s.gallery__item}>
-                <Image
-                  src="/gallery/img-1.jpeg"
-                  layout="fill"
-                  objectFit="cover"
-                  quality={100}
-                  alt="Фотографія автошколи"
-                  placeholder="bluer"
-                />
+            {isDesktop && (
+              <div className={s.gallery__border}>
+                <div className={s.gallery__item}>
+                  <Image
+                    src="/gallery/img-1.jpeg"
+                    layout="fill"
+                    objectFit="cover"
+                    quality={100}
+                    alt="Фотографія автошколи"
+                    placeholder="bluer"
+                  />
+                </div>
               </div>
-            </div>
+            )}
           </div>
 
           <div className={s.gallery__nav}>
