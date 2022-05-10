@@ -18,9 +18,9 @@
 
 .page_section__item {
   position: relative;
-  padding: 5px 30px 5px 15px;
+  padding: 5px 25px 5px 20px;
 
-  text-indent: -10px;
+  text-indent: -12px;
 
   background: linear-gradient(286.41deg, #073447 3.63%, #08262b 90.98%);
   border-radius: 6px;
@@ -79,13 +79,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15px;
+  min-width: 15px;
   height: 15px;
 
   margin-top: 3px;
   margin-right: 5px;
 
-  font-size: 10px;
+  font-size: 9px;
   border-radius: 50%;
   background: #4abcec;
 }

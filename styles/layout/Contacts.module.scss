@@ -17,12 +17,12 @@
 
 .contacts__text {
   width: 215px;
-  // margin: 0 40px 10px;
+  margin-bottom: 10px;
 
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 2.17;
+  line-height: 1.5;
 
   text-align: center;
 
@@ -32,7 +32,7 @@
 .contacts__list {
   position: relative;
   width: 230px;
-  padding: 5px 15px 40px;
+  padding-bottom: 40px;
 
   font-style: normal;
   font-weight: 500;
@@ -73,9 +73,9 @@
   color: #4abcec;
 }
 
-.contacts__shedule {
+.contacts__phone {
+  width: 115px;
   margin: 0 auto;
-  width: 112px;
 }
 
 .contacts__btn {
@@ -211,7 +211,7 @@
     line-height: 1.85;
   }
 
-  .contacts__shedule {
+  .contacts__phone {
     width: 123px;
   }
 
@@ -272,7 +272,7 @@
     line-height: 1.71;
   }
 
-  .contacts__shedule {
+  .contacts__phone {
     width: 135px;
   }
 
@@ -349,7 +349,7 @@
     line-height: 1.33;
   }
 
-  .contacts__shedule {
+  .contacts__phone {
     width: 145px;
   }
 

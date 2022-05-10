@@ -1,5 +1,6 @@
 import Image from "next/image";
 import s from "../../styles/layout/Contacts.module.scss";
+import Phone from "../Phone";
 
 export default function Contacts() {
   return (
@@ -27,9 +28,9 @@ export default function Contacts() {
                     </div>
                     <p className={s.contacts__item}>Телефони</p>
                   </div>
-                  <p className={s.contacts__shedule}>
-                    + 38 (099)-318-3873 + 38 (066)-088-6500 + 38 (099)-151-7035
-                  </p>
+                  <div className={s.contacts__phone}>
+                    <Phone img={false} />
+                  </div>
                 </li>
                 <li>
                   <div className={s.contacts__itemIcon}>

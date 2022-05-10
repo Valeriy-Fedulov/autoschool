@@ -24,7 +24,7 @@ export default function PageSection() {
           <ul className={s.page_section__list}>
             <li>
               <div className={s.page_section__item}>
-                <span className={s.page_section__bull}>&bull;</span> ПРОГРАМА
+                <span className={s.page_section__bull}>&bull; </span> ПРОГРАМА
                 НАВЧАННЯ ДЛЯ ОСІБ - що отримали водійські посвідчення.{" "}
                 <span className={s.page_section__text}>
                   Але почувають себе невпевнено в умовах інтенсивного міського
@@ -109,7 +109,7 @@ export default function PageSection() {
             </li>
             <li>
               <div className={s.page_section__item}>
-                <span className={s.page_section__bull}>&bull;</span> ПРОГРАМА
+                <span className={s.page_section__bull}>&bull; </span> ПРОГРАМА
                 НАВЧАННЯ ДЛЯ ОСІБ - що мають навики водіння автомобіля літом.{" "}
                 <span className={s.page_section__text}>
                   Але не мають практики водіння в зимовий час.
@@ -170,7 +170,7 @@ export default function PageSection() {
             </li>
             <li>
               <div className={s.page_section__item}>
-                <span className={s.page_section__bull}>&bull;</span> ПРОГРАМА
+                <span className={s.page_section__bull}>&bull; </span> ПРОГРАМА
                 НАВЧАННЯ ДЛЯ ОСІБ - що мають психологічні труднощі.{" "}
                 <span className={s.page_section__text}>
                   При керуванні автомобілем у міському потоці.
