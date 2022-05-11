@@ -94,21 +94,22 @@ export default function Contacts() {
               </button>
             </div>
           </div>
-        </div>
 
-        <div className={s.contacts__map}>
+          {/* <div className={s.contacts__map}> */}
           {/* <div className={s.contacts__shadow1}></div>
         <div className={s.contacts__shadow2}></div> */}
 
-          <div className={s.contacts__director}>
-            <p className={s.contacts__name}>Федулова Ярослава Іванівна</p>
-            <p className={`${s.contacts__position} ${s.position__margin}`}>
-              Директор
-            </p>
-            <p className={s.contacts__name}>Суддя Михайло Федорович</p>
-            <p className={s.contacts__position}>Заступник директора</p>
-          </div>
+          {/* <div className={s.contacts__director}> */}
+          <p className={s.contacts__name}>Федулова Ярослава Іванівна</p>
+          <p className={`${s.contacts__position} ${s.position__margin}`}>
+            Директор
+          </p>
+          <p className={s.contacts__name}>Суддя Михайло Федорович</p>
+          <p className={s.contacts__position}>Заступник директора</p>
+          {/* </div> */}
+          {/* </div> */}
         </div>
+
         <div className="hr__shadow"></div>
       </div>
 

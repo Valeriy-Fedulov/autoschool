@@ -4,6 +4,7 @@ import s from "../../styles/layout/Gallery.module.scss";
 
 export default function Gallery() {
   const isBigMobile = useMediaQuery({ minWidth: 480 });
+  const isTablet = useMediaQuery({ minWidth: 768 });
   const isDesktop = useMediaQuery({ minWidth: 1024 });
 
   return (
@@ -96,7 +97,9 @@ export default function Gallery() {
             </button>
           </div>
 
-          <button className="btn">всі фоторгафії</button>
+          {isTablet && (
+            <button className={`btn ${s.gallery__btn}`}>всі фоторгафії</button>
+          )}
         </div>
         <div className="hr__shadow"></div>
       </div>
