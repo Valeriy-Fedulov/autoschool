@@ -1,3 +1,7 @@
+.contacts__section {
+  position: relative;
+}
+
 .page__wrapper {
   display: flex;
   flex-direction: column;
@@ -124,15 +128,6 @@
   color: #00e0ff;
 }
 
-.contacts__bg {
-  //   height: 430px;
-  //   width: 100%;
-  // z-index: 1;
-
-  // mix-blend-mode: multiply;
-  box-shadow: inset 500px 0px 250px #000000;
-}
-
 .contacts__position {
   font-style: normal;
   font-weight: 500;
@@ -147,8 +142,7 @@
 }
 
 .contacts__map {
-  position: relative;
-  height: 470px;
+  height: 380px;
 }
 
 .contacts__director {
@@ -179,7 +173,19 @@
   filter: blur(50px);
 }
 
-// 480px -----------------------------------------------------------
+.contacts__bg {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+
+  bottom: 0;
+  z-index: -1;
+
+  // mix-blend-mode: multiply;
+  box-shadow: inset 500px 0px 250px #000000;
+}
+
+// 480px ------------------------------------------------------------------
 
 @media screen and (min-width: 480px) {
   .contacts__title {

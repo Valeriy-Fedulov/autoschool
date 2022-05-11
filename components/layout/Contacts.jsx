@@ -4,7 +4,7 @@ import Phone from "../Phone";
 
 export default function Contacts() {
   return (
-    <section>
+    <section className={s.contacts__section}>
       <div className="container">
         <div className="page__sections">
           <div className={s.page__wrapper}>
@@ -99,18 +99,7 @@ export default function Contacts() {
         <div className={s.contacts__map}>
           {/* <div className={s.contacts__shadow1}></div>
         <div className={s.contacts__shadow2}></div> */}
-          <div className={s.contacts__bg}>
-            <Image
-              className={s.contacts__bg}
-              alt="Mountains"
-              src="/images/background/BG-contacts.jpg"
-              layout="fill"
-              objectFit="cover"
-              quality={100}
-              placeholder="bluer"
-              priority
-            />
-          </div>
+
           <div className={s.contacts__director}>
             <p className={s.contacts__name}>Федулова Ярослава Іванівна</p>
             <p className={`${s.contacts__position} ${s.position__margin}`}>
@@ -121,6 +110,19 @@ export default function Contacts() {
           </div>
         </div>
         <div className="hr__shadow"></div>
+      </div>
+
+      <div className={s.contacts__bg}>
+        <Image
+          className={s.contacts__bg}
+          alt="Mountains"
+          src="/images/background/BG-contacts.jpg"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+          placeholder="bluer"
+          priority
+        />
       </div>
     </section>
   );
