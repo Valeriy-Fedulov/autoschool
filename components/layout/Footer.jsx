@@ -10,9 +10,9 @@ import Social from "../Social";
 
 export default function Footer() {
   return (
-    <footer className={s.footer}>
+    <footer className={`${s.footer} ${s.footer__bg}`}>
       <div className="hr__shadow"></div>
-      <div className={`container ${s.footer__bg}`}>
+      <div className="container">
         <div className={s.footer__padding}>
           <div className={s.footer__logo}>
             <LogoImg />
@@ -34,16 +34,6 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className={s.copyright}>
-            <div className={s.copyright__line}></div>
-            <p className={s.copyright__title}>
-              Copyright © 2022 УМОУСЦ ТСО України. All rights reserved
-            </p>
-            <div className={s.copyright__line}></div>
-          </div>
-          <div className={s.footer__soc}>
-            <Social />
-          </div>
           <button className={s.footer__btnshadow}>
             <div className={s.footer__btnscroll}>
               <div className={s.footer__btnicon}>
@@ -57,6 +47,18 @@ export default function Footer() {
               </div>
             </div>
           </button>
+        </div>
+      </div>
+      <div className={s.copyright}>
+        <div className={s.copyright__line}></div>
+        <p className={s.copyright__title}>
+          Copyright © 2022 УМОУСЦ ТСО України. All rights reserved
+        </p>
+        <div className={s.copyright__line}></div>
+      </div>
+      <div className="container">
+        <div className={s.footer__soc}>
+          <Social />
         </div>
       </div>
       <div className="hr__shadow"></div>
