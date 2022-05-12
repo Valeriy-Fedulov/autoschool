@@ -80,7 +80,6 @@ export default function Teachers() {
                 </div>
                 <h3 className={s.teachers__name}>Дмитрій Іванов</h3>
                 <p className={s.teachers__position}>Теоретичні занятя</p>
-
                 <button className={s.teachers__btn}>Інструктор</button>
               </div>
             )}
