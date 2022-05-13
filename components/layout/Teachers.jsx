@@ -29,8 +29,8 @@ export default function Teachers() {
             <div className={s.teachers__btnFoto}>
               <Image
                 src="/btn_arrow.svg"
-                width={50}
-                height={60}
+                width={40}
+                height={50}
                 alt="Викладач"
               />
             </div>
@@ -95,8 +95,8 @@ export default function Teachers() {
             >
               <Image
                 src="/btn_arrow.svg"
-                width={50}
-                height={60}
+                width={40}
+                height={50}
                 alt="Викладач"
               />
             </div>
