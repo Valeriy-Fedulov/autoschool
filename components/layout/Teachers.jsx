@@ -26,14 +26,15 @@ export default function Teachers() {
           </h2>
 
           <div className={s.teachers__wrapper}>
-            <div className={s.teachers__btnFoto}>
+            <button className={s.teachers__btnArrowLeft}>
               <Image
                 src="/btn_arrow.svg"
                 width={40}
                 height={50}
                 alt="Викладач"
               />
-            </div>
+            </button>
+
             <div>
               <div className={s.teachers__shadow}>
                 <div className={s.teachers__foto}>
@@ -48,7 +49,6 @@ export default function Teachers() {
               </div>
               <h3 className={s.teachers__name}>Дмитрій Іванов</h3>
               <p className={s.teachers__position}>Теоретичні занятя</p>
-
               <button className={s.teachers__btn}>Інструктор</button>
             </div>
 
@@ -90,16 +90,14 @@ export default function Teachers() {
               </div>
             )}
 
-            <div
-              className={`${s.teachers__btnFoto} ${s.teachers__btnFotoRight}`}
-            >
+            <button className={s.teachers__btnArrowRight}>
               <Image
                 src="/btn_arrow.svg"
                 width={40}
                 height={50}
                 alt="Викладач"
               />
-            </div>
+            </button>
           </div>
         </div>
       </div>

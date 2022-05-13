@@ -3,17 +3,50 @@
   opacity: 75%;
 }
 
+.teachers__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 275px;
+}
+
+.teachers__btnArrowLeft {
+  width: 20px;
+  height: 30px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  background: rgba(3, 225, 255, 0.5);
+  border: 1px solid #00e0ff;
+  box-sizing: border-box;
+  box-shadow: 0px 7px 20px -7px #00e0ff;
+
+  border-radius: 50px 10px 10px 50px;
+}
+
+.teachers__btnArrowRight {
+  width: 20px;
+  height: 30px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  transform: rotate(180deg);
+
+  background: rgba(3, 225, 255, 0.5);
+  border: 1px solid #00e0ff;
+  box-sizing: border-box;
+  box-shadow: 0px 7px 20px -7px #00e0ff;
+
+  border-radius: 50px 10px 10px 50px;
+}
+
 .teachers__shadow {
   margin: 20px auto;
   width: 50vw;
   height: 50vw;
   border-radius: 50%;
   background: #043a41;
-}
-
-.teachers__wrapper {
-  display: flex;
-  justify-content: space-between;
 }
 
 .teachers__foto {
@@ -53,7 +86,9 @@
 .teachers__btn {
   display: block;
   padding: 10px;
-  margin: 0 auto 275px;
+  margin-left: auto;
+  margin-right: auto;
+
   font-style: normal;
   font-weight: 500;
   font-size: 9px;
@@ -70,38 +105,32 @@
   border-radius: 50px;
 }
 
-.teachers__btnFoto {
-  width: 20px;
-  height: 30px;
-  margin-top: 25vw;
-  display: flex;
-
-  background: rgba(3, 225, 255, 0.5);
-  border: 1px solid #00e0ff;
-  box-sizing: border-box;
-  box-shadow: 0px 7px 20px -7px #00e0ff;
-
-  border-radius: 50px 10px 10px 50px;
-}
-
-.teachers__btnFotoRight {
-  left: auto;
-  right: 0;
-  transform: rotate(180deg);
-}
-
-// 480px --------------------------------------------------------------
+// // 480px --------------------------------------------------------------
 
 @media screen and (min-width: 480px) {
+  .teachers__wrapper {
+    margin-bottom: 365px;
+  }
+
+  .teachers__btnArrowLeft {
+    width: 25px;
+    height: 35px;
+  }
+
+  .teachers__btnArrowRight {
+    width: 25px;
+    height: 35px;
+  }
+
   .teachers__shadow {
     margin: 30px auto;
-    width: 30vw;
-    height: 30vw;
+    width: 25vw;
+    height: 25vw;
   }
 
   .teachers__foto {
-    width: 30vw;
-    height: 30vw;
+    width: 25vw;
+    height: 25vw;
   }
 
   .teachers__name {
@@ -119,22 +148,28 @@
   }
 
   .teachers__btn {
-    margin: 0 auto 365px;
-
     font-size: 10px;
     line-height: 1.2;
   }
-
-  .teachers__btnFoto {
-    width: 25px;
-    height: 35px;
-    margin-top: 17vw;
-  }
 }
 
-// 768px --------------------------------------------------------------
+// // 768px --------------------------------------------------------------
 
 @media screen and (min-width: 768px) {
+  .teachers__wrapper {
+    margin-bottom: 450px;
+  }
+
+  .teachers__btnArrowLeft {
+    width: 30px;
+    height: 40px;
+  }
+
+  .teachers__btnArrowRight {
+    width: 30px;
+    height: 40px;
+  }
+
   .teachers__shadow {
     margin: 20px auto;
     width: 20vw;
@@ -163,16 +198,9 @@
   .teachers__btn {
     display: block;
     padding: 15px 25px;
-    margin: 0 auto 450px;
 
     font-size: 11px;
     line-height: 1.18;
-  }
-
-  .teachers__btnFoto {
-    width: 30px;
-    height: 40px;
-    margin-top: 10vw;
   }
 }
 
@@ -189,10 +217,14 @@
     height: 15vw;
   }
 
-  .teachers__btnFoto {
+  .teachers__btnArrowLeft {
     width: 35px;
     height: 45px;
-    margin-top: 7vw;
+  }
+
+  .teachers__btnArrowRight {
+    width: 35px;
+    height: 45px;
   }
 }
 
@@ -200,8 +232,18 @@
 
 @media screen and (min-width: 1920px) {
   .teachers__wrapper {
-    display: flex;
     justify-content: space-around;
+    margin-bottom: 500px;
+  }
+
+  .teachers__btnArrowLeft {
+    width: 40px;
+    height: 50px;
+  }
+
+  .teachers__btnArrowRight {
+    width: 40px;
+    height: 50px;
   }
 
   .teachers__shadow {
@@ -225,15 +267,7 @@
   }
 
   .teachers__btn {
-    margin: 0 auto 500px;
-
     font-size: 12px;
     line-height: 1.25;
-  }
-
-  .teachers__btnFoto {
-    width: 40px;
-    height: 50px;
-    margin-top: 90px;
   }
 }
