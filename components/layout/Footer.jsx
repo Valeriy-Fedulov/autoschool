@@ -11,7 +11,7 @@ import Social from "../Social";
 export default function Footer() {
   return (
     <footer className={`${s.footer} ${s.footer__bg}`}>
-      <div className="hr__shadow"></div>
+      <div className="hr__shadow hr__top"></div>
       <div className="container">
         <div className={s.footer__padding}>
           <div className={s.footer__logo}>
