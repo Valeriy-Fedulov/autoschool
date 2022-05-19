@@ -28,26 +28,27 @@ export default function Footer() {
             </div>
             <div className={s.footer__subWrapper}>
               <Email />
-              <div className={s.logocar__wrapper}>
-                <LogoCar />
-              </div>
             </div>
           </div>
 
-          <button className={s.footer__btnshadow}>
-            <div className={s.footer__btnscroll}>
-              <div className={s.footer__btnicon}>
-                <Image
-                  src="/scroll-top.svg"
-                  width={30}
-                  height={30}
-                  alt="Прокрутка"
-                  placeholder="bluer"
-                />
-              </div>
-            </div>
-          </button>
+          <div className={s.logocar__wrapper}>
+            <LogoCar />
+          </div>
         </div>
+
+        <button className={s.footer__btnshadow}>
+          <div className={s.footer__btnscroll}>
+            <div className={s.footer__btnicon}>
+              <Image
+                src="/scroll-top.svg"
+                width={30}
+                height={30}
+                alt="Прокрутка"
+                placeholder="bluer"
+              />
+            </div>
+          </div>
+        </button>
       </div>
       <div className={s.copyright}>
         <div className={s.copyright__line}></div>
