@@ -12,7 +12,7 @@
   );
 }
 
-.footer__grid {
+.footer__wrapper {
   padding-top: 20px;
   padding-bottom: 10px;
 
@@ -22,23 +22,16 @@
 
 .footer__logo {
   display: flex;
-  justify-content: center;
   padding-right: 55px;
   margin-bottom: 10px;
 }
 
-.footer__wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 5px;
-}
-
-.logocar__wrapper {
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+.footer__shedule,
+.footer__phone,
+.footer__email,
+.footer__car {
+  padding-right: 15px;
+  justify-self: center;
 }
 
 .copyright {
@@ -113,27 +106,37 @@
 // 480px ----------------------------------------------------------------------------------
 
 @media screen and (min-width: 480px) {
-  .footer__padding {
-    padding-bottom: 15px;
-  }
-
   .footer__wrapper {
-    margin-bottom: 20px;
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .footer__subWrapper {
-    order: 3;
-    width: 100%;
-    display: flex;
+  .footer__logo {
+    grid-column: 1 / 3;
+    justify-self: center;
+    padding-right: 95px;
   }
 
-  .shedule__order {
-    order: 2;
-    margin-right: auto;
+  .footer__phone {
+    grid-column: 1 / 3;
+    justify-self: center;
+    padding-right: 25px;
   }
 
-  .phone__order {
-    order: 1;
+  .footer__shedule {
+    grid-row: 3;
+    justify-self: start;
+    align-self: center;
+  }
+
+  .footer__email {
+    grid-column: 1;
+    justify-self: start;
+    align-self: center;
+  }
+
+  .footer__car {
+    grid-row: 3 / 5;
+    justify-self: end;
   }
 
   .copyright__title {
@@ -164,8 +167,40 @@
 // 768px ----------------------------------------------------------------------------------
 
 @media screen and (min-width: 768px) {
-  .footer__padding {
-    padding-bottom: 20px;
+  .footer__wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer__logo {
+    padding-right: 0;
+    justify-self: end;
+  }
+
+  .footer__phone {
+    padding-right: 0;
+    grid-column: 3;
+    justify-self: end;
+    align-self: end;
+  }
+
+  .footer__shedule {
+    padding-right: 0;
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: end;
+  }
+
+  .footer__email {
+    padding-right: 0;
+    grid-column: 3;
+    justify-self: end;
+  }
+
+  .footer__car {
+    padding-right: 0;
+    grid-column: 2;
+    grid-row: 2 / 4;
+    justify-self: center;
   }
 
   .copyright__title {
@@ -191,6 +226,26 @@
   .footer__btnicon {
     width: 25px;
     height: 25px;
+  }
+}
+
+// 1024px ----------------------------------------------------------------------------------
+
+@media screen and (min-width: 1024px) {
+  .footer__wrapper {
+    grid-template-columns: 2fr 1fr 2fr;
+  }
+
+  .footer__logo {
+    grid-column: 1;
+    grid-row: 1 / 4;
+
+    justify-self: center;
+  }
+
+  .footer__car {
+    grid-row: 1 / 4;
+    align-self: center;
   }
 }
 
