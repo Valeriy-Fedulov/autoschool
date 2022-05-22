@@ -13,27 +13,27 @@ export default function Footer() {
     <footer className={`${s.footer} ${s.footer__bg}`}>
       <div className="hr__shadow hr__top"></div>
       <div className="container">
-        <div className={s.footer__padding}>
+        <div className={s.footer__grid}>
           <div className={s.footer__logo}>
             <LogoImg />
             <LogoTitle />
           </div>
 
-          <div className={s.footer__wrapper}>
-            <div className={s.shedule__order}>
-              <Shedule />
-            </div>
-            <div className={s.phone__order}>
-              <Phone />
-            </div>
-            <div className={s.footer__subWrapper}>
-              <Email />
-            </div>
-          </div>
+          {/* <div className={s.footer__wrapper}> */}
+          {/* <div className={s.shedule__order}> */}
+          <Shedule />
+          {/* </div> */}
+          {/* <div className={s.phone__order}> */}
+          <Phone />
+          {/* </div> */}
+          {/* <div className={s.footer__subWrapper}> */}
+          <Email />
+          {/* </div> */}
+          {/* </div> */}
 
-          <div className={s.logocar__wrapper}>
-            <LogoCar />
-          </div>
+          {/* <div className={s.logocar__wrapper}> */}
+          <LogoCar />
+          {/* </div> */}
         </div>
 
         <button className={s.footer__btnshadow}>

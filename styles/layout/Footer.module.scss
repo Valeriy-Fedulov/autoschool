@@ -12,9 +12,12 @@
   );
 }
 
-.footer__padding {
+.footer__grid {
   padding-top: 20px;
   padding-bottom: 10px;
+
+  display: grid;
+  justify-content: center;
 }
 
 .footer__logo {
