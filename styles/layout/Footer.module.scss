@@ -233,13 +233,25 @@
 
 @media screen and (min-width: 1024px) {
   .footer__wrapper {
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 1fr 140px 1fr;
   }
 
   .footer__logo {
     grid-column: 1;
     grid-row: 1 / 4;
 
+    justify-self: center;
+  }
+
+  .footer__phone {
+    justify-self: center;
+  }
+
+  .footer__shedule {
+    justify-self: center;
+  }
+
+  .footer__email {
     justify-self: center;
   }
 
@@ -252,6 +264,36 @@
 // 1920px ----------------------------------------------------------------------------------
 
 @media screen and (min-width: 1920px) {
+  .footer__wrapper {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+
+  .footer__logo {
+    grid-row: 1 / 3;
+  }
+
+  .footer__phone {
+    grid-column: 4;
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-self: start;
+    margin-left: 40px;
+  }
+
+  .footer__shedule {
+    align-self: start;
+    justify-self: end;
+  }
+
+  .footer__email {
+    align-self: end;
+    justify-self: end;
+  }
+
+  .footer__car {
+    grid-row: 1 / 3;
+  }
+
   .footer__btnshadow {
     top: -70px;
     right: 30px;
