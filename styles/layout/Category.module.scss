@@ -4,6 +4,7 @@
   z-index: 1;
 
   mix-blend-mode: screen;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .section__arrow {
@@ -62,6 +63,7 @@
   width: 70px;
   height: 70px;
   mix-blend-mode: luminosity;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .card__title {

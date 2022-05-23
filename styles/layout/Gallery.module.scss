@@ -5,6 +5,7 @@
 
   mix-blend-mode: luminosity;
   opacity: 75%;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .gallery__border {
@@ -27,6 +28,7 @@
   height: 100%;
   border-radius: 20px;
   overflow: hidden;
+  image-rendering: -webkit-optimize-contrast;
   // background: linear-gradient(
   //   0deg,
   //   rgba(3, 225, 255, 0.1),

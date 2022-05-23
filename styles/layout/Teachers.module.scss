@@ -1,6 +1,7 @@
 .teachers__bg {
   mix-blend-mode: exclusion;
   opacity: 75%;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .teachers__wrapper {
@@ -55,6 +56,7 @@
   border-radius: 50%;
   overflow: hidden;
   mix-blend-mode: screen;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .teachers__name {

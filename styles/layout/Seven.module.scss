@@ -5,6 +5,7 @@
 
   mix-blend-mode: luminosity;
   opacity: 25%;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .seven__list {
