@@ -8,16 +8,12 @@
   padding-top: 10px;
 
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: auto 1fr auto;
 }
 
 .logoImg__wrapper,
 .logoTitle__wrapper {
   grid-row: 1 / 3;
-}
-
-.logoImg__wrapper {
-  justify-self: end;
 }
 
 .logoTitle__wrapper {
@@ -49,6 +45,12 @@
 @media screen and (min-width: 768px) {
   .pageHeader__nav {
     padding-top: 25px;
+    grid-template-columns: auto 1fr auto auto;
+  }
+
+  .logoImg__wrapper,
+  .logoTitle__wrapper {
+    grid-row: 1 / 2;
   }
 
   .menuNav__icon {
