@@ -1,10 +1,8 @@
 .logo__img {
-  display: flex;
-  // flex: 1;
-  justify-content: center;
   width: 45px;
   height: 63px;
   margin-right: 10px;
+
   image-rendering: -webkit-optimize-contrast;
 }
 
@@ -14,7 +12,6 @@
   .logo__img {
     width: 60px;
     height: 84px;
-    margin-right: 35px;
   }
 }
 
@@ -33,6 +30,5 @@
   .logo__img {
     width: 95px;
     height: 130px;
-    margin-right: 20px;
   }
 }

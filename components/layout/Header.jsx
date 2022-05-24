@@ -9,29 +9,30 @@ export default function Header() {
       <div className={`hr__shadow hr__top`}></div>
       <div className="container">
         <nav className={s.pageHeader__nav}>
-          <div className={s.nav__wrapper}>
+          <div className={s.logoImg__wrapper}>
             <LogoImg />
+          </div>
+          <div className={s.logoTitle__wrapper}>
             <LogoTitle />
           </div>
-          <div className={s.menuNav}>
-            <div className={s.menuNav__icon}>
-              <Image
-                src="/menu.svg"
-                width={40}
-                height={40}
-                alt="Іконка головне меню"
-                placeholder="bluer"
-              />
-            </div>
-            <div className={s.menuNav__icon}>
-              <Image
-                src="/theme.svg"
-                width={40}
-                height={40}
-                alt="Іконка теми"
-                placeholder="bluer"
-              />
-            </div>
+
+          <div className={s.menuNav__icon}>
+            <Image
+              src="/menu.svg"
+              width={40}
+              height={40}
+              alt="Іконка головне меню"
+              placeholder="bluer"
+            />
+          </div>
+          <div className={s.menuNav__icon}>
+            <Image
+              src="/theme.svg"
+              width={40}
+              height={40}
+              alt="Іконка теми"
+              placeholder="bluer"
+            />
           </div>
         </nav>
       </div>
