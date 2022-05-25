@@ -45,7 +45,7 @@
 @media screen and (min-width: 768px) {
   .pageHeader__nav {
     padding-top: 25px;
-    grid-template-columns: auto 1fr auto auto;
+    grid-template-columns: auto 4fr 90px 90px;
   }
 
   .logoImg__wrapper,
@@ -72,5 +72,6 @@
 @media screen and (min-width: 1920px) {
   .pageHeader__nav {
     padding-top: 40px;
+    margin-left: 200px;
   }
 }

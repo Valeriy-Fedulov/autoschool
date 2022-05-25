@@ -1,7 +1,7 @@
 .logo__img {
   width: 45px;
   height: 63px;
-  margin-right: 20px;
+  margin-right: 10px;
   image-rendering: -webkit-optimize-contrast;
 }
 
@@ -11,7 +11,7 @@
   .logo__img {
     width: 60px;
     height: 84px;
-    margin-right: 60px;
+    margin-right: 50px;
   }
 }
 
@@ -21,6 +21,14 @@
   .logo__img {
     width: 75px;
     height: 105px;
+  }
+}
+
+// 1024px -----------------------------------------------
+
+@media screen and (min-width: 1024px) {
+  .logo__img {
+    margin-right: 30px;
   }
 }
 
