@@ -2,7 +2,6 @@
   &__item {
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
   }
 
   &__icon {
@@ -10,7 +9,6 @@
     width: 10px;
     height: 10px;
     margin-right: 5px;
-    // image-rendering: -webkit-optimize-contrast;
   }
 
   &__title {
@@ -44,10 +42,6 @@
 
 @media screen and (min-width: 768px) {
   .email {
-    &__item {
-      margin-bottom: 10px;
-    }
-
     &__icon {
       width: 20px;
       height: 20px;

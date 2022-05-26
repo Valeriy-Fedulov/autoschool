@@ -1,6 +1,5 @@
 .logo__img {
   width: 45px;
-  height: 63px;
   margin-right: 10px;
   image-rendering: -webkit-optimize-contrast;
 }
@@ -10,7 +9,6 @@
 @media screen and (min-width: 480px) {
   .logo__img {
     width: 60px;
-    height: 84px;
     margin-right: 50px;
   }
 }
@@ -20,7 +18,6 @@
 @media screen and (min-width: 768px) {
   .logo__img {
     width: 75px;
-    height: 105px;
   }
 }
 
@@ -37,6 +34,5 @@
 @media screen and (min-width: 1920px) {
   .logo__img {
     width: 95px;
-    height: 130px;
   }
 }
