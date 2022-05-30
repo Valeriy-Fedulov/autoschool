@@ -23,12 +23,12 @@
 
 .hero__wrapper {
   display: grid;
-  grid-template-columns: 30px repeat(2, auto) 1fr 1fr;
+  grid-template-columns: repeat(2, auto) 1fr;
 }
 
 .title {
   &__course {
-    grid-column: 1/7;
+    grid-column: 1/4;
 
     text-align: center;
 
@@ -41,7 +41,7 @@
   }
 
   &__hero {
-    grid-column: 1/7;
+    grid-column: 1/4;
 
     text-align: center;
 
@@ -58,7 +58,7 @@
   }
 
   &__text {
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 3/4;
     // align-self: center;
     width: 150px;
@@ -73,7 +73,7 @@
 }
 
 .bg__img {
-  grid-column: 4/7;
+  grid-column: 2/4;
   grid-row: 3/5;
   justify-self: end;
   max-width: 89%;
@@ -83,7 +83,7 @@
 }
 
 .btn__wrapper {
-  grid-column: 1/6;
+  grid-column: 1/4;
   grid-row: 4;
 
   align-self: end;
@@ -91,14 +91,14 @@
 }
 
 .hero__soc {
-  grid-column: 6;
+  grid-column: 3;
   grid-row: 3/5;
-
+  justify-self: end;
   align-self: end;
 }
 
 .guarantee__border {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 5;
   justify-self: center;
   margin-top: 25px;
@@ -129,7 +129,7 @@
 }
 
 .guarantee {
-  grid-column: 3/6;
+  grid-column: 2/4;
   margin-top: 25px;
   margin-left: 10px;
 }
