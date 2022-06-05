@@ -58,26 +58,28 @@ export default function Hero() {
               <Social />
             </div>
 
-            <div className={s.guarantee__border}>
-              <div className={s.guarantee__btn}>
-                <div className={s.guarantee__icon}>
-                  <Image
-                    src="/header-title.svg"
-                    width={40}
-                    height={40}
-                    alt="Guarantee"
-                    placeholder="bluer"
-                  />
+            <div className={s.guarantee__wrapper}>
+              <div className={s.guarantee__border}>
+                <div className={s.guarantee__btn}>
+                  <div className={s.guarantee__icon}>
+                    <Image
+                      src="/header-title.svg"
+                      width={40}
+                      height={40}
+                      alt="Guarantee"
+                      placeholder="bluer"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className={s.guarantee}>
-              <h3 className={s.guarantee__title}>Ми навчаємо з гарантією!</h3>
-              <p className={s.guarantee__text}>
-                Теоретичні заняття стаціонарно та онлайн. Практичні заняття -
-                індивідуально з кожним. Онлайн тести на сайті pdr.auto-tso.com
-              </p>
+              <div className={s.guarantee}>
+                <h3 className={s.guarantee__title}>Ми навчаємо з гарантією!</h3>
+                <p className={s.guarantee__text}>
+                  Теоретичні заняття стаціонарно та онлайн. Практичні заняття -
+                  індивідуально з кожним. Онлайн тести на сайті pdr.auto-tso.com
+                </p>
+              </div>
             </div>
           </div>
         </div>
