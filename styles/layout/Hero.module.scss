@@ -373,17 +373,35 @@
 
 @media screen and (min-width: 768px) {
   .heroContact__wrapper {
-    padding-top: 175px;
+    padding-top: 125px;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 30px 60px 65px;
+  }
+
+  .logocar__wrapper {
+    grid-column: 2;
+    justify-self: center;
+  }
+
+  .shedule__wrapper,
+  .phone__wrapper,
+  .email__wrapper {
+    grid-column: 3;
+  }
+
+  .hero__wrapper {
+    grid-template-columns: 1fr 3fr;
   }
 
   .title {
     &__course {
+      justify-self: start;
       font-size: 14px;
       line-height: 1.21;
     }
 
     &__hero {
+      justify-self: start;
       font-size: 96px;
     }
 
@@ -391,6 +409,14 @@
       font-size: 14px;
       line-height: 1.21;
     }
+  }
+
+  .bg__img {
+    margin: 0;
+  }
+
+  .guarantee__wrapper {
+    flex-direction: column;
   }
 
   .guarantee__border {
