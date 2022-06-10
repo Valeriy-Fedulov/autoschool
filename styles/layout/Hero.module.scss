@@ -185,10 +185,7 @@
 @media screen and (min-width: 480px) {
   .heroContact__wrapper {
     padding-top: 120px;
-  }
-
-  .hero__wrapper {
-    grid-template-columns: 1fr 100%;
+    grid-template-rows: 20px 50px 35px;
   }
 
   .title {
@@ -267,9 +264,119 @@
   }
 }
 
+@media screen and (min-width: 480px) {
+  .hero__wrapper {
+    grid-template-columns: 1.1fr 1.6fr;
+  }
+}
+@media screen and (min-width: 504px) {
+  .hero__wrapper {
+    grid-template-columns: 1fr 1.6fr;
+  }
+
+  .bg__img {
+    margin: 3px 0;
+  }
+}
+@media screen and (min-width: 528px) {
+  .hero__wrapper {
+    grid-template-columns: 0.9fr 1.6fr;
+  }
+
+  .bg__img {
+    margin: 6px 0;
+  }
+}
+@media screen and (min-width: 552px) {
+  .hero__wrapper {
+    grid-template-columns: 0.8fr 1.6fr;
+  }
+
+  .bg__img {
+    margin: 9px 0;
+  }
+}
+@media screen and (min-width: 576px) {
+  .hero__wrapper {
+    grid-template-columns: 0.7fr 1.6fr;
+  }
+
+  .bg__img {
+    margin: 12px 0;
+  }
+}
+@media screen and (min-width: 600px) {
+  .hero__wrapper {
+    grid-template-columns: 0.6fr 1.6fr;
+  }
+
+  .bg__img {
+    margin: 15px 0;
+  }
+}
+@media screen and (min-width: 624px) {
+  .hero__wrapper {
+    grid-template-columns: 0.5fr 1.6fr;
+  }
+
+  .bg__img {
+    margin: 18px 0;
+  }
+}
+@media screen and (min-width: 648px) {
+  .hero__wrapper {
+    grid-template-columns: 0.4fr 1.6fr;
+  }
+
+  .bg__img {
+    margin: 21px 0;
+  }
+}
+@media screen and (min-width: 672px) {
+  .hero__wrapper {
+    grid-template-columns: 0.3fr 1.6fr;
+  }
+
+  .bg__img {
+    margin: 24px 0;
+  }
+}
+@media screen and (min-width: 696px) {
+  .hero__wrapper {
+    grid-template-columns: 0.2fr 1.6fr;
+  }
+
+  .bg__img {
+    margin: 27px 0;
+  }
+}
+@media screen and (min-width: 720px) {
+  .hero__wrapper {
+    grid-template-columns: 0.1fr 1.6fr;
+  }
+
+  .bg__img {
+    margin: 30px 0;
+  }
+}
+@media screen and (min-width: 744px) {
+  .hero__wrapper {
+    grid-template-columns: 0fr 1.6fr;
+  }
+
+  .bg__img {
+    margin: 33px 0;
+  }
+}
+
 // 768px -----------------------------------------------------
 
 @media screen and (min-width: 768px) {
+  .heroContact__wrapper {
+    padding-top: 175px;
+    grid-template-rows: 30px 60px 65px;
+  }
+
   .title {
     &__course {
       font-size: 14px;
@@ -366,6 +473,10 @@
 // 1920px -----------------------------------------------------
 
 @media screen and (min-width: 1920px) {
+  .heroContact__wrapper {
+    grid-template-rows: 30px 70px 65px;
+  }
+
   .title {
     &__course {
       font-size: 18px;
