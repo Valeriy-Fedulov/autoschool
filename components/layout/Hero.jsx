@@ -17,6 +17,25 @@ export default function Hero() {
       <div className="container">
         <div className="page__sections">
           <div className={s.heroContact__wrapper}>
+            {isDesktop && (
+              <div className={s.consult__wrapper}>
+                <button className={s.consult__btnShadow}>
+                  <div className={s.consult__btn}>
+                    <div className={s.consult__btnIcon}>
+                      <Image
+                        src="/consult.svg"
+                        width={40}
+                        height={40}
+                        alt="Консультація"
+                        placeholder="bluer"
+                      />
+                    </div>
+                  </div>
+                </button>
+                <p className={s.consult__text}>безкоштовна консультація</p>
+              </div>
+            )}
+
             <div className={s.logocar__wrapper}>
               <LogoCar />
             </div>
@@ -84,24 +103,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {isDesktop && (
-          <div className={s.consult__wrapper}>
-            <button className={s.consult__btnShadow}>
-              <div className={s.consult__btn}>
-                <div className={s.consult__btnIcon}>
-                  <Image
-                    src="/consult.svg"
-                    width={40}
-                    height={40}
-                    alt="Консультація"
-                    placeholder="bluer"
-                  />
-                </div>
-              </div>
-            </button>
-            <p className={s.consult__text}>безкоштовна консультація</p>
-          </div>
-        )}
         <div className="hr__shadow"></div>
       </div>
     </section>
