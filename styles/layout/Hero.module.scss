@@ -537,7 +537,7 @@
   }
 
   .hero__wrapper {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
   }
 
   .title {
@@ -547,15 +547,18 @@
     }
 
     &__text {
+      grid-column: 1;
       margin: 0;
+      width: auto;
       // margin-top: 20px;
     }
   }
 
   .guarantee__wrapper {
+    grid-column: 1;
     align-self: center;
     flex-direction: row;
-    max-width: 430px;
+    max-width: 100%;
   }
 
   .bg__img {
