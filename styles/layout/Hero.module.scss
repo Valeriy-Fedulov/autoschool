@@ -582,23 +582,23 @@
 
 @media screen and (min-width: 1024px) {
   .hero__wrapper {
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1.06fr 1fr;
     grid-template-rows: 0fr 1fr repeat(2, auto) 5.6fr auto;
   }
 }
 @media screen and (min-width: 1100px) {
   .hero__wrapper {
-    grid-template-columns: 1.4fr 1fr;
+    grid-template-columns: 1.06fr 1fr;
   }
 }
 @media screen and (min-width: 1382px) {
   .hero__wrapper {
-    grid-template-columns: 1.3fr 1fr;
+    grid-template-columns: 1.06fr 1fr;
   }
 }
 @media screen and (min-width: 1561px) {
   .hero__wrapper {
-    grid-template-columns: 1.2fr 1fr;
+    grid-template-columns: 1.06fr 1fr;
   }
 }
 @media screen and (min-width: 1740px) {
