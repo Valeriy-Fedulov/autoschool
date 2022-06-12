@@ -17,6 +17,19 @@ export default function Hero() {
       <div className="container">
         <div className="page__sections">
           <div className={s.heroContact__wrapper}>
+            <div className={s.logocar__wrapper}>
+              <LogoCar />
+            </div>
+            <div className={s.shedule__wrapper}>
+              <Shedule />
+            </div>
+            <div className={s.phone__wrapper}>
+              <Phone />
+            </div>
+            <div className={s.email__wrapper}>
+              <Email />
+            </div>
+
             {isDesktop && (
               <div className={s.consult__wrapper}>
                 <button className={s.consult__btnShadow}>
@@ -35,19 +48,6 @@ export default function Hero() {
                 <p className={s.consult__text}>безкоштовна консультація</p>
               </div>
             )}
-
-            <div className={s.logocar__wrapper}>
-              <LogoCar />
-            </div>
-            <div className={s.shedule__wrapper}>
-              <Shedule />
-            </div>
-            <div className={s.phone__wrapper}>
-              <Phone />
-            </div>
-            <div className={s.email__wrapper}>
-              <Email />
-            </div>
           </div>
 
           <div className={s.hero__wrapper}>

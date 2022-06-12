@@ -20,14 +20,15 @@
   // }
 
   // @include respond-above($desktop) {
-  //   padding-left: 25px;
-  //   padding-right: 25px;
+  //   width: $desktop;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   // padding-left: 25px;
+  //   // padding-right: 25px;
   // }
 
   @include respond-above($big-desktop) {
     width: $big-desktop;
-    margin-left: auto;
-    margin-right: auto;
     // padding-left: 30px;
     // padding-right: 30px;
   }
