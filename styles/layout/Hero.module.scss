@@ -595,11 +595,11 @@
     margin-top: 30px;
   }
 }
-// @media screen and (min-width: 1382px) {
-//   .hero__wrapper {
-//     grid-template-columns: 1.06fr 1fr;
-//   }
-// }
+@media screen and (min-width: 1280px) {
+  .hero__wrapper {
+    grid-template-columns: 1fr 55%;
+  }
+}
 // @media screen and (min-width: 1561px) {
 //   .hero__wrapper {
 //     grid-template-columns: 1fr 53%;
