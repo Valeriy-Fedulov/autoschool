@@ -597,7 +597,10 @@
 }
 @media screen and (min-width: 1280px) {
   .hero__wrapper {
-    grid-template-columns: 1fr 55%;
+    grid-template-columns: 1fr 60%;
+  }
+  .bg__img {
+    margin-top: 55px;
   }
 }
 // @media screen and (min-width: 1561px) {
