@@ -603,22 +603,96 @@
     margin-top: 55px;
   }
 }
-// @media screen and (min-width: 1561px) {
-//   .hero__wrapper {
-//     grid-template-columns: 1fr 53%;
-//   }
-// }
-// @media screen and (min-width: 1740px) {
-//   .hero__wrapper {
-//     grid-template-columns: 1fr 53%;
-//   }
-// }
+@media screen and (min-width: 1360px) {
+  .hero__wrapper {
+    grid-template-columns: 1fr 30%;
+  }
+  .bg__img {
+    margin-top: 55px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .hero__wrapper {
+    grid-template-columns: 1fr 60%;
+  }
+  .bg__img {
+    margin-top: 55px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__wrapper {
+    grid-template-columns: 1fr 45%;
+  }
+  .bg__img {
+    margin-top: 55px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .hero__wrapper {
+    grid-template-columns: 1fr 40%;
+  }
+}
+@media screen and (min-width: 1680px) {
+  .hero__wrapper {
+    grid-template-columns: 1fr 50%;
+  }
+}
 
 // 1920px -----------------------------------------------------
 
 @media screen and (min-width: 1920px) {
   .heroContact__wrapper {
-    grid-template-rows: 30px 70px 65px;
+    grid-template-rows: 30px 70px auto;
+  }
+
+  .logocar__wrapper {
+    grid-row: 1/3;
+    align-self: start;
+  }
+
+  .shedule__wrapper {
+    grid-row: 1;
+  }
+
+  .phone__wrapper {
+    grid-row: 2;
+  }
+
+  .email__wrapper {
+    grid-row: 3;
+  }
+
+  .consult__wrapper {
+    grid-column: 1;
+    grid-row: 3;
+
+    justify-self: start;
+    flex-direction: column;
+    align-items: center;
+    align-self: start;
+    justify-self: center;
+  }
+
+  .consult__btnShadow {
+    width: 140px;
+    height: 140px;
+  }
+
+  .consult__btn {
+    width: 100px;
+    height: 100px;
+  }
+
+  .consult__btnIcon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .consult__text {
+    font-size: 10px;
+    line-height: 1.2px;
+
+    transform: rotate(-90deg);
   }
 
   .title {
@@ -660,27 +734,5 @@
 
   .guarantee__text {
     font-size: 18px;
-  }
-
-  .consult__btnShadow {
-    width: 140px;
-    height: 140px;
-  }
-
-  .consult__btn {
-    width: 100px;
-    height: 100px;
-  }
-
-  .consult__btnIcon {
-    width: 40px;
-    height: 40px;
-  }
-
-  .consult__text {
-    font-size: 10px;
-    line-height: 1.2px;
-
-    transform: rotate(-90deg);
   }
 }
