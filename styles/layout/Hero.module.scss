@@ -663,19 +663,19 @@
   }
 
   .consult__wrapper {
-    grid-column: 1;
-    grid-row: 3;
+    position: absolute;
+    top: 180px;
+    width: 140px;
+    height: 280px;
 
-    justify-self: start;
     flex-direction: column;
-    align-items: center;
-    align-self: start;
-    justify-self: center;
+    justify-content: space-between;
   }
 
   .consult__btnShadow {
     width: 140px;
     height: 140px;
+    margin-right: 0;
   }
 
   .consult__btn {
@@ -689,10 +689,15 @@
   }
 
   .consult__text {
+    width: 265px;
     font-size: 10px;
     line-height: 1.2px;
 
     transform: rotate(-90deg);
+  }
+
+  .hero__wrapper {
+    margin-left: 200px;
   }
 
   .title {
@@ -706,9 +711,18 @@
     }
 
     &__text {
+      width: 390px;
       font-size: 18px;
       line-height: 1.22;
     }
+  }
+
+  .hero__wrapper {
+    grid-template-columns: 1fr 55%;
+  }
+
+  .guarantee__wrapper {
+    max-width: 570px;
   }
 
   .guarantee__border {
@@ -725,6 +739,10 @@
   .guarantee__icon {
     width: 40px;
     height: 40px;
+  }
+
+  .guarantee {
+    padding-left: 30px;
   }
 
   .guarantee__title {
