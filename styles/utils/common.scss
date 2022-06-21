@@ -204,9 +204,8 @@ hr {
 
   .title__sections {
     width: 635px;
-    margin: 0 auto 40px;
 
-    font-size: 36px;
+    font-size: 35px;
     line-height: 1.22;
   }
 }
@@ -214,9 +213,9 @@ hr {
 // 1024px ----------------------------------------------------------
 
 @media screen and (min-width: 1024px) {
-  .page__sections {
-    padding: 60px 0;
-  }
+  // .page__sections {
+  //   padding: 60px 0;
+  // }
 
   .btn {
     max-width: 360px;
@@ -224,8 +223,7 @@ hr {
   }
 
   .title__sections {
-    width: 790px;
-    margin: 0 auto 50px;
+    width: 940px;
   }
 }
 
