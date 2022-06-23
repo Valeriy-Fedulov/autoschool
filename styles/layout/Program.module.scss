@@ -115,7 +115,7 @@
   .program__tree {
     position: absolute;
     top: 225px;
-    left: 50.8%;
+    left: 49.9%;
     width: 6px;
     height: 485px;
     background: linear-gradient(0.25turn, #00e0ff 9.51%, #0c373d 90.23%);
@@ -160,9 +160,9 @@
   }
 
   .program__list {
-    max-width: 1405px;
+    max-width: 1425px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50%;
     grid-template-rows: 22px repeat(7, 60px) 22px;
     margin: 21px auto;
   }
@@ -223,17 +223,42 @@
   }
 
   .program__tree {
-    top: 340px;
-    left: 50.6%;
+    top: 345px;
+    left: 49.9%;
 
-    height: 485px;
+    height: 570px;
+  }
+
+  .item__line:nth-child(1) {
+    top: 40px;
+  }
+  .item__line:nth-child(2) {
+    top: 110px;
+  }
+  .item__line:nth-child(3) {
+    top: 180px;
+  }
+  .item__line:nth-child(4) {
+    top: 250px;
+  }
+  .item__line:nth-child(5) {
+    top: 320px;
+  }
+  .item__line:nth-child(6) {
+    top: 390px;
+  }
+  .item__line:nth-child(7) {
+    top: 460px;
+  }
+  .item__line:nth-child(8) {
+    top: 530px;
   }
 
   .program__list {
-    max-width: 1405px;
+    max-width: 1430px;
 
     grid-template-rows: 30px repeat(7, 70px) 30px;
-    margin: 0 auto;
+    margin: 40px auto;
   }
 
   .program__item {
