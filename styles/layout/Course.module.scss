@@ -20,21 +20,25 @@
 
 .course__item {
   position: relative;
-  margin: 0 0 10px 30px;
+  padding: 0 5px;
+  margin: 0 0 5px 25px;
 
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.92;
+  line-height: 1.69;
 
   color: #ffffff;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  border-radius: 5px;
 }
 
 .course__icon {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 3px;
+
   left: -25px;
 }
 
@@ -60,10 +64,10 @@
 
 @media screen and (min-width: 480px) {
   .course__item {
-    margin: 0 0 10px 33px;
+    margin: 0 0 10px 30px;
 
     font-size: 13px;
-    line-height: 1.77;
+    line-height: 1.67;
   }
 
   .course__icon {
@@ -88,17 +92,16 @@
 @media screen and (min-width: 768px) {
   .course__item {
     position: relative;
-    margin: 0 0 20px 60px;
+    margin: 0 0 15px 40px;
 
     font-size: 14px;
-    line-height: 1.64;
+    line-height: 1.69;
   }
 
   .course__icon {
     width: 30px;
     height: 30px;
-    top: 0;
-    left: -50px;
+    left: -40px;
   }
 
   .footnote {
@@ -118,6 +121,14 @@
   .course__list {
     display: flex;
     justify-content: space-between;
+  }
+
+  .course__item {
+    padding: 0 0 0 10px;
+    margin: 0 0 18px 40px;
+
+    border-right: none;
+    border-radius: 10px;
   }
 
   .course__sublist {
