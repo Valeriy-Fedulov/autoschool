@@ -73,6 +73,8 @@
   .course__icon {
     width: 25px;
     height: 25px;
+
+    top: -2px;
     left: -30px;
   }
 
@@ -101,6 +103,8 @@
   .course__icon {
     width: 30px;
     height: 30px;
+
+    top: -3px;
     left: -40px;
   }
 
@@ -121,6 +125,8 @@
   .course__list {
     display: flex;
     justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
   }
 
   .course__item {
@@ -144,21 +150,23 @@
 
 @media screen and (min-width: 1920px) {
   .course__list {
-    margin-bottom: 50px;
+    width: 1390px;
+    margin-bottom: 40px;
   }
 
   .course__item {
-    margin: 0 0 40px 60px;
+    margin: 0 0 40px 45px;
 
     font-size: 18px;
-    line-height: 1.28;
+    line-height: 1.5;
   }
 
   .course__icon {
     width: 35px;
     height: 35px;
 
-    top: -5px;
+    top: -6px;
+    left: -45px;
   }
 
   .footnote {
