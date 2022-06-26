@@ -29,8 +29,10 @@
 
   @include respond-above($big-desktop) {
     max-width: $big-desktop;
-    // padding-left: 30px;
-    // padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 75px;
+    padding-right: 75px;
   }
 }
 
