@@ -354,12 +354,17 @@
   .contacts__title {
     font-size: 36px;
     line-height: 1.28;
+    margin-bottom: 8px;
   }
 
   .contacts__text {
     width: 320px;
     font-size: 18px;
     line-height: 1.44;
+  }
+
+  .page__wrapper {
+    width: 465px;
   }
 
   .contacts__list {

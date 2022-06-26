@@ -40,7 +40,7 @@ export default function Gallery() {
               </div>
             </div>
 
-            {isBigMobile && (
+            {/* {isBigMobile && (
               <div className={s.gallery__border}>
                 <div className={s.gallery__item}>
                   <Image
@@ -53,7 +53,7 @@ export default function Gallery() {
                   />
                 </div>
               </div>
-            )}
+            )} */}
 
             {isDesktop && (
               <div className={s.gallery__border}>
