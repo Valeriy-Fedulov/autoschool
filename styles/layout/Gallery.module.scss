@@ -138,13 +138,13 @@
 
 @media screen and (min-width: 1024px) {
   .gallery__border {
-    width: 30vw;
-    height: 20vw;
-    margin: 90px auto 55px;
+    width: 29vw;
+    height: 19vw;
+    margin: 90px auto 60px;
   }
 
   .gallery__nav {
-    margin-bottom: 60px;
+    margin-bottom: 65px;
   }
 
   .gallery__btn {
@@ -156,8 +156,17 @@
 
 @media screen and (min-width: 1920px) {
   .gallery__border {
-    width: 515px;
-    height: 325px;
+    width: 540px;
+    height: 350px;
+    margin: 100px auto 70px;
+  }
+
+  .gallery__nav {
+    margin-bottom: 70px;
+  }
+
+  .gallery__btn {
+    margin-bottom: 100px;
   }
 
   .btn__img {
