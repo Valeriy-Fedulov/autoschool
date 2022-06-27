@@ -183,7 +183,7 @@ export default function Category() {
             </button>
           </div>
 
-          {(isBigMobileToTablet || isDesktopToBigDesktop) && (
+          {isBigMobileToTablet && (
             <p className={s.nav__bull}>&bull; &bull; &bull;</p>
           )}
         </div>
